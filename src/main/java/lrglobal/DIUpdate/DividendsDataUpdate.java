@@ -13,6 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -20,8 +21,10 @@ import java.util.Scanner;
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONObject;
 
+import com.mysql.fabric.xmlrpc.base.Array;
+
 public class DividendsDataUpdate {
-	
+	public static final ArrayList<String> groupName=new ArrayList<String>();
 	private static Connection connectkkrProd() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = (Connection) DriverManager
@@ -40,7 +43,7 @@ public class DividendsDataUpdate {
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
+		InsertGroupNamesinList();
 		Scanner in = new Scanner(System.in);
 		System.out.println("Insert desired date with format YYYY-mm-DD to find all the data for the groups: ");
 		String d_date = in.nextLine();
@@ -53,11 +56,11 @@ public class DividendsDataUpdate {
 			String SQL_QUERY = "select exgroup from zsenia_exchange_groups";
 			ResultSet rs = sCon.executeQuery(SQL_QUERY);
 			int i = 1;
-			while (rs.next()) {
+			for (int g=0;g<groupName.size();g++) {
 				System.out.println("looping: " + i++);
 
-				String groupName = rs.getString(1);
-				JSONObject jsonObject = getResultsFromQM(groupName, d_date);
+				String group = groupName.get(g);
+				JSONObject jsonObject = getResultsFromQM(group, d_date);
 				// System.out.println(jsonObject);
 
 				JSONObject json1 = (JSONObject) jsonObject.get("results");
@@ -128,6 +131,24 @@ public class DividendsDataUpdate {
 
 	}
 	
+	private static void InsertGroupNamesinList() {
+		// TODO Auto-generated method stub
+		groupName.add("DOW");
+		groupName.add("DJHF");
+		groupName.add("CBO");
+		groupName.add("RUS");
+		groupName.add("BATS");
+		groupName.add("BZX");
+		groupName.add("EDGX");
+		groupName.add("NSD");
+		groupName.add("NMF");
+		groupName.add("OTC");
+		groupName.add("OTO");
+		groupName.add("NYE");
+		groupName.add("AMX");
+
+	}
+
 	public static JSONObject getResultsFromQM(String exchangeGroup, String desired_date) throws IOException {
 		// http://app.quotemedia.com/data/getDividendsByExchange.json?exgroup=NYE&webmasterId=102417&date=2018-04-12
 		System.out.println("http://app.quotemedia.com/data/getDividendsByExchange.json?exgroup=" + exchangeGroup
