@@ -197,8 +197,9 @@ public class CompanyMissingInfoInsert {
 				 */
 				String sql_query = null;
 				String business_desc = shortdescription + " " +longdescription;
+				String business_desFi=business_desc.replace("'", "\\'");
 				System.out.println("Going to save the following for ticker::" + ticker + "::" + ceo + "::" + sector
-						+ "::" + industry + "::" + shortdescription + "::" + longdescription + "::" + instrumenttype);
+						+ "::" + industry + "::" + shortdescription + "::" + longdescription + "::" + instrumenttype+ ":bb:" + business_desFi);
 				// Statement psLocal=cLocal.createStatement();
 				if (!instrumenttype.equals("")) {
 					sql_query = "UPDATE kkrdb.kkr_company a SET a.type = '" + instrumenttype
@@ -210,8 +211,8 @@ public class CompanyMissingInfoInsert {
 							+ "' WHERE a.kkr_company_id = " + cId + "";
 					Statement update_statement = cLocal.createStatement();
 					update_statement.executeUpdate(sql_query);
-				} if (!shortdescription.equals("")) {
-					sql_query = "UPDATE kkrdb.kkr_company a SET a.business_description = '" + business_desc
+				} if (!business_desFi.equals("")) {
+					sql_query = "UPDATE kkrdb.kkr_company a SET a.business_description = '" + business_desFi
 							+ "' WHERE a.kkr_company_id = " + cId + "";
 					Statement update_statement = cLocal.createStatement();
 					update_statement.executeUpdate(sql_query);
