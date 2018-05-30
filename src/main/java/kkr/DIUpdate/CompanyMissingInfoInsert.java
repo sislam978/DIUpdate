@@ -1,4 +1,4 @@
-package lrglobal.DIUpdate;
+package kkr.DIUpdate;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,27 +19,11 @@ import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
+import kkr.DIUpdate.CommonUtils.DataBaseUtils;
+
 public class CompanyMissingInfoInsert {
 
 	public static final Map<String, Integer> sectorMap = new HashMap<String, Integer>();
-
-	private static Connection connectLocal() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = (Connection) DriverManager
-				.getConnection("jdbc:mysql://localhost:3306/kkrdb?rewriteBatchedStatements=true", "root", "");
-		con.setAutoCommit(true);
-		return con;
-	}
-
-	// private static Connection connectKKR() throws ClassNotFoundException,
-	// SQLException {
-	// Class.forName("com.mysql.jdbc.Driver");
-	// //Connection con = (Connection)
-	// DriverManager.getConnection("jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
-	// Connection con = (Connection)
-	// DriverManager.getConnection("jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
-	// return con;
-	// }
 
 	private static JSONObject getResultsFromQMGCBS(String ticker) throws IOException {
 		URL url = new URL("http://app.quotemedia.com/data/getCompanyBySymbol.json?webmasterId=102417&symbol="
@@ -100,7 +84,7 @@ public class CompanyMissingInfoInsert {
 
 	public static void main(String[] args) {
 		try {
-			Connection cLocal = connectLocal();
+			Connection cLocal = DataBaseUtils.connectLocal();
 			createSectorMap();
 			Statement sKKR = cLocal.createStatement();
 			// PreparedStatement pSLocal = cLocal.prepareStatement("INSERT INTO

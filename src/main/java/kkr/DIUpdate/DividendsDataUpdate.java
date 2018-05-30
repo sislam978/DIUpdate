@@ -1,4 +1,4 @@
-package lrglobal.DIUpdate;
+package kkr.DIUpdate;
 
 import java.io.BufferedReader;
 import java.io.IOException;

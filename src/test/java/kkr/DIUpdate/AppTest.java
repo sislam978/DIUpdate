@@ -1,4 +1,4 @@
-package lrglobal.DIUpdate;
+package kkr.DIUpdate;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

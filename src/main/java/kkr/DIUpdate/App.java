@@ -1,4 +1,4 @@
-package lrglobal.DIUpdate;
+package kkr.DIUpdate;
 
 /**
  * Hello world!
