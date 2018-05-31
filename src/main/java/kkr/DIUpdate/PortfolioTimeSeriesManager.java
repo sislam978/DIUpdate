@@ -48,23 +48,26 @@ public class PortfolioTimeSeriesManager {
 		percentIndexMap.put(133, 15);
 		percentIndexMap.put(134, 20);
 
-		Date dd = new Date();
-		System.out.println(dd.toString());
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-		String desired_date = dateFormat.format(dd);
-		System.out.println(desired_date);
 		Connection conL = DataBaseUtils.connectLocal();
 
-//		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` ORDER BY rates_date ASC";
-//		Statement locStat = conL.createStatement();
-//
-//		ResultSet rsL = locStat.executeQuery(SQL_query);
-//		while (rsL.next()) {
-//			String d_date = rsL.getString(1);
-//			insertData(d_date);
-//			inserDataForPercents(d_date);
-//			updatePortfolioTimeSeriePercents(d_date);
-//		}
+		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` ORDER BY rates_date ASC";
+		Statement locStat = conL.createStatement();
+
+		ResultSet rsL = locStat.executeQuery(SQL_query);
+		int i=0;
+		String prev_date=null;
+		while (rsL.next()) {
+			String d_date = rsL.getString(1);
+			insertData(d_date);
+			inserDataForPercents(d_date);
+			if(i==0){
+				prev_date=d_date;
+				i++;
+				continue;
+			}
+			updatePortfolioTimeSeriePercents(d_date,prev_date);
+			prev_date=d_date;
+		}
 		
 		String SQL_query2 = "SELECT history_date from volatility_index  ORDER BY history_date ASC";
 		Statement locStat1 = conL.createStatement();
@@ -81,7 +84,7 @@ public class PortfolioTimeSeriesManager {
 
 		Connection conL = DataBaseUtils.connectLocal();
 		Connection conKkr = DataBaseUtils.connectKkrClient();
-		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE timeseries_date='" + desired_date + "'";
+		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id not in(121,131,132,133,134) and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
 		ResultSet checkrsl = check_st.executeQuery(sql);
 		int size = 0;
@@ -145,7 +148,8 @@ public class PortfolioTimeSeriesManager {
 		// TODO Auto-generated method stub
 
 		Connection conKkr = DataBaseUtils.connectKkrClient();
-		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE timeseries_date='" + desired_date + "'";
+		String sql = "SELECT * FROM `user_saved_portfolio_timeseries`  WHERE "
+				+ "user_saved_portfolio_id not in(121,122,123,124,125,126,127,128,129) and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
 		ResultSet checkrsl = check_st.executeQuery(sql);
 		int size = 0;
@@ -180,16 +184,16 @@ public class PortfolioTimeSeriesManager {
 	public static void insertVolatilityData(String desired_date) throws ClassNotFoundException, SQLException {
 		Connection conL = DataBaseUtils.connectLocal();
 		Connection conKkr = DataBaseUtils.connectKkrClient();
-//		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE timeseries_date='" + desired_date + "'";
-//		Statement check_st = conKkr.createStatement();
-//		ResultSet checkrsl = check_st.executeQuery(sql);
-//		int size = 0;
-//		if (checkrsl != null) {
-//			checkrsl.beforeFirst();
-//			checkrsl.last();
-//			size = checkrsl.getRow();
-//		}
-//		if (size < 1) {
+		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id='"+121+"' and timeseries_date='" + desired_date + "'";
+		Statement check_st = conKkr.createStatement();
+		ResultSet checkrsl = check_st.executeQuery(sql);
+		int size = 0;
+		if (checkrsl != null) {
+			checkrsl.beforeFirst();
+			checkrsl.last();
+			size = checkrsl.getRow();
+		}
+		if (size < 1) {
 			String SQL_query = "SELECT * FROM `volatility_index` WHERE history_date='" + desired_date
 					+ "' ORDER BY history_date ASC";
 
@@ -212,39 +216,47 @@ public class PortfolioTimeSeriesManager {
 				System.out.println(mm++);
 
 			}
-		//}
+		}
 	}
 
-	public static void updatePortfolioTimeSeriePercents(String desired_date) throws Exception {
+	public static void updatePortfolioTimeSeriePercents(String desired_date,String previousdate) throws Exception {
 		Connection conKkr = DataBaseUtils.connectKkrClient();
 
 		String cc_date = DateUtils.stringTodate(desired_date, "yyyy-MM-dd", "MM/dd/yyyy");
+		
+		/*
+		 * previous day data grab
+		 */
+		
+		String prev_date=DateUtils.stringTodate(previousdate, "yyyy-MM-dd", "MM/dd/yyyy");
+		
 		for (Map.Entry<Integer, Integer> entry : percentIndexMap.entrySet()) {
 
-			String SQL_query = "SELECT * FROM user_saved_portfolio_timeseries WHERE timeseries_date>='" + desired_date
-					+ "' " + "and user_saved_portfolio_id=" + entry.getKey() + " ORDER BY timeseries_date ASC";
+			String SQL_query = "SELECT * FROM user_saved_portfolio_timeseries WHERE user_saved_portfolio_id not in(121,122,123,124,125,126,127,128,129) and timeseries_date='" + cc_date+"'and user_saved_portfolio_id=" + entry.getKey() + "";
+			
+			String prev_query= "SELECT * FROM user_saved_portfolio_timeseries WHERE user_saved_portfolio_id not in(121,122,123,124,125,126,127,128,129) and timeseries_date='" + prev_date+"'and user_saved_portfolio_id=" + entry.getKey() + "";
 
 			Statement kkrStat = conKkr.createStatement();
-
 			ResultSet rsKkr = kkrStat.executeQuery(SQL_query);
-			int i = 0;
-			double prev_close = -1;
-			int mm = 0;
-			while (rsKkr.next()) {
-				if (i == 0) {
-					prev_close = rsKkr.getDouble(5);
-					i++;
-					continue;
-				}
-				double calculated_close = prev_close * (rsKkr.getDouble(4) + 1);
-				String time_seriesdate = rsKkr.getString(3);
-				String query_str = "UPDATE user_saved_portfolio_timeseries SET close='" + calculated_close
-						+ "' WHERE timeseries_date='" + time_seriesdate + "'";
-				Statement update_statement = conKkr.createStatement();
-				update_statement.executeUpdate(query_str);
-				prev_close = calculated_close;
-				System.out.println(mm++);
-			}
+			rsKkr.next();
+			Statement prev_state=conKkr.createStatement();
+			ResultSet prevRsl=prev_state.executeQuery(prev_query);
+			prevRsl.next();
+			//int i = 0;
+			double prev_close = prevRsl.getDouble(5);
+			
+			double id_prev=prevRsl.getDouble(2);
+			double id=rsKkr.getDouble(2);
+			
+			if(id<130 ||id_prev<130) return;
+			double calculated_close = prev_close * (rsKkr.getDouble(4) + 1);
+			String time_seriesdate = rsKkr.getString(3);
+			System.out.println("id: "+id+" id2: "+id_prev+" calculated close: "+calculated_close+" prev_value: "+prev_close+" date: "+time_seriesdate);
+			String query_str = "UPDATE user_saved_portfolio_timeseries SET user_saved_portfolio_timeseries.close='" + calculated_close
+						+ "' WHERE timeseries_date='" + time_seriesdate + "' and user_saved_portfolio_id="+id+"";
+			Statement update_statement = conKkr.createStatement();
+			update_statement.executeUpdate(query_str);
+			
 		}
 
 	}
