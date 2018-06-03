@@ -1,8 +1,10 @@
 package kkr.DIUpdate;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.math.RoundingMode;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -17,6 +19,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONObject;
@@ -24,9 +29,16 @@ import org.codehaus.jettison.json.JSONObject;
 import com.mysql.fabric.xmlrpc.base.Array;
 
 public class DividendsDataUpdate {
-	public static final ArrayList<String> groupName=new ArrayList<String>();
+	public static final ArrayList<String> groupName = new ArrayList<String>();
+
 	private static Connection connectkkrProd() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
+		/*
+		 * connection string
+		 * "jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true"
+		 * ,"kkr_app","kkr123"
+		 * 
+		 */
 		Connection con = (Connection) DriverManager
 				.getConnection("jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
 		con.setAutoCommit(true);
@@ -35,12 +47,17 @@ public class DividendsDataUpdate {
 
 	private static Connection connectkkrDev() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
+		/*
+		 * Connection string for kkrdev
+		 * "jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true"
+		 * ,"kkr_app","kkr123"
+		 */
 		Connection con = (Connection) DriverManager
 				.getConnection("jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
 		con.setAutoCommit(true);
 		return con;
 	}
-	
+
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		InsertGroupNamesinList();
@@ -50,13 +67,27 @@ public class DividendsDataUpdate {
 		try {
 
 			Connection con = connectkkrProd();
-			Connection conkkrDev=connectkkrDev();
-			
+			Connection conkkrDev = connectkkrDev();
+
 			Statement sCon = con.createStatement();
-			String SQL_QUERY = "select exgroup from zsenia_exchange_groups";
-			ResultSet rs = sCon.executeQuery(SQL_QUERY);
+
 			int i = 1;
-			for (int g=0;g<groupName.size();g++) {
+			/*
+			 * file create to maintain log
+			 */
+			String perent_directory = "resources/";
+			String[] splitdate = d_date.split("-");
+			String insert_fileName = "insert_Log" + splitdate[0] + splitdate[1] + splitdate[2];
+			String duplicate_log = "duplicate_log" + splitdate[0] + splitdate[1] + splitdate[2];
+			String file_path = perent_directory + insert_fileName;
+			String duplicate_filePath = perent_directory + duplicate_log;
+			File insertLog = new File(file_path);
+			File dupLog = new File(duplicate_filePath);
+			
+			BufferedWriter bw_insert = new BufferedWriter(new FileWriter(insertLog));
+	        BufferedWriter bw_dup = new BufferedWriter(new FileWriter(dupLog));
+	        
+			for (int g = 0; g < groupName.size(); g++) {
 				System.out.println("looping: " + i++);
 
 				String group = groupName.get(g);
@@ -114,10 +145,13 @@ public class DividendsDataUpdate {
 								dividendData.put("record", record);
 
 								/*
-								 * Insert Data into two different database. kkrProd with connection con and kkrdev with conkkrDev
+								 * Insert Data into two different database.
+								 * kkrProd with connection con and kkrdev with
+								 * conkkrDev
 								 */
-								//InsertintoDividendFunds(con, dividendData);
-								//InsertintoDividendFunds(conkkrDev, dividendData);
+								InsertintoDividendFunds(con, dividendData, bw_dup, bw_insert);
+								// InsertintoDividendFunds(conkkrDev,
+								// dividendData);
 								// pSLocal.executeBatch();
 								System.out.println("..................inerted................................");
 							}
@@ -125,12 +159,14 @@ public class DividendsDataUpdate {
 					}
 				}
 			}
+			bw_dup.close();
+			bw_insert.close();
 		} catch (Exception e) {
 			System.out.println("the exception is : " + e);
 		}
 
 	}
-	
+
 	private static void InsertGroupNamesinList() {
 		// TODO Auto-generated method stub
 		groupName.add("DOW");
@@ -178,8 +214,8 @@ public class DividendsDataUpdate {
 		}
 	}
 
-
-	public static void InsertintoDividendFunds(Connection con, Map<String, String> dividendData) throws SQLException {
+	public static void InsertintoDividendFunds(Connection con, Map<String, String> dividendData, BufferedWriter bw_dup,
+			BufferedWriter bw_insert) throws SQLException, IOException {
 		// TODO Auto-generated method stub
 		Statement checkstatement = con.createStatement();
 
@@ -210,6 +246,8 @@ public class DividendsDataUpdate {
 
 		if (size < 1) {
 			System.out.println(SQL_QUERY);
+			//PrintWriter output = new PrintWriter(new FileWriter(insertlog, true));
+			
 			PreparedStatement pSLocal = con.prepareStatement(
 					"insert into zsenia_fund_dividends (kkr_company_id,company_ticker,amount,record,payable,divtype,declared,"
 							+ "frequency,date,currency,divflag,indicatedrate) values (?,?,?,?,?,?,?,?,?,?,?,?)");
@@ -226,8 +264,13 @@ public class DividendsDataUpdate {
 			pSLocal.setString(10, dividendData.get("currency"));
 			pSLocal.setString(11, dividendData.get("divflag"));
 			pSLocal.setString(12, dividendData.get("indicatedrate"));
+			
+			bw_insert.write(dividendData.toString()+"\n");
 
 			pSLocal.execute();
+		}
+		else{
+			bw_dup.write(dividendData.toString()+"\n");
 		}
 
 	}
