@@ -9,7 +9,7 @@ public class DataBaseUtils {
 	public static Connection connectLocal() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = (Connection) DriverManager
-				.getConnection("jdbc:mysql://localhost:3306/kkrdb?rewriteBatchedStatements=true", "root", "");
+				.getConnection("jdbc:mysql://localhost:3306/kkr_database?rewriteBatchedStatements=true", "root", "Orchid1406");
 		con.setAutoCommit(true);
 		return con;
 	}

@@ -11,19 +11,14 @@ import kkr.DIUpdate.CommonUtils.ReadCSV;
 
 public class SP500update 
 {
-	
 	public static Scanner input;
 	
 	public static void main(String [] args) throws ClassNotFoundException, SQLException
 	{
 		ArrayList<String> tickerList = new ArrayList<String>();
 		tickerList = makeTickerList();
-		
 		Connection con = DataBaseUtils.connectLocal();
-		
 		updateSP500(con,tickerList);
-		
-		
 	}
 	
 	
