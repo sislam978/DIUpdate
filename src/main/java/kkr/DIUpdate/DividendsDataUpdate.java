@@ -125,9 +125,8 @@ public class DividendsDataUpdate {
 								 * kkrProd with connection con and kkrdev with
 								 * conkkrDev
 								 */
-								InsertintoDividendFunds(con, dividendData, bw_dup, bw_insert);
-								// InsertintoDividendFunds(conkkrDev,
-								// dividendData);
+								InsertintoDividendFunds(con, dividendData, bw_dup, bw_insert,1);
+								 InsertintoDividendFunds(conkkrDev,dividendData,bw_dup,bw_insert,0);
 								// pSLocal.executeBatch();
 								System.out.println("..................inerted................................");
 							}
@@ -191,7 +190,7 @@ public class DividendsDataUpdate {
 	}
 
 	public static void InsertintoDividendFunds(Connection con, Map<String, String> dividendData, BufferedWriter bw_dup,
-			BufferedWriter bw_insert) throws SQLException, IOException {
+			BufferedWriter bw_insert,int flag) throws SQLException, IOException {
 		// TODO Auto-generated method stub
 		Statement checkstatement = con.createStatement();
 
@@ -241,12 +240,18 @@ public class DividendsDataUpdate {
 			pSLocal.setString(11, dividendData.get("divflag"));
 			pSLocal.setString(12, dividendData.get("indicatedrate"));
 			
-			bw_insert.write(dividendData.toString()+"\n");
+			if(flag==1){
+				bw_insert.write(dividendData.toString()+"\n");
+			}
+			
 
 			pSLocal.execute();
 		}
 		else{
-			bw_dup.write(dividendData.toString()+"\n");
+			if(flag==1){
+				bw_dup.write(dividendData.toString()+"\n");
+			}
+			
 		}
 
 	}
