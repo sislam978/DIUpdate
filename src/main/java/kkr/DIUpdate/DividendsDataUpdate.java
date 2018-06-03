@@ -42,10 +42,10 @@ public class DividendsDataUpdate {
 		String d_date = in.nextLine();
 		try {
 
-			Connection con = DataBaseUtils.connectkkrProd();
-			Connection conkkrDev = DataBaseUtils.connectkkrDev();
+			Connection con = DataBaseUtils.connectLocal();
+			Connection conkkrDev = DataBaseUtils.connectLocal();
 
-			Statement sCon = con.createStatement();
+		//	Statement sCon = con.createStatement();
 
 			int i = 1;
 			/*
