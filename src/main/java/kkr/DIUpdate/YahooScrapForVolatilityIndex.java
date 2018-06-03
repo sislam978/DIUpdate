@@ -180,7 +180,7 @@ public class YahooScrapForVolatilityIndex {
 				downServers.add(vi);
 
 			}
-			//InsertDataIntoVolatilityTable(downServers);
+			InsertDataIntoVolatilityTable(downServers);
 
 		} catch (IOException e) {
 			e.printStackTrace();

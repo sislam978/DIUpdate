@@ -28,35 +28,11 @@ import org.codehaus.jettison.json.JSONObject;
 
 import com.mysql.fabric.xmlrpc.base.Array;
 
+import kkr.DIUpdate.CommonUtils.DataBaseUtils;
+
 public class DividendsDataUpdate {
 	public static final ArrayList<String> groupName = new ArrayList<String>();
 
-	private static Connection connectkkrProd() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.jdbc.Driver");
-		/*
-		 * connection string
-		 * "jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true"
-		 * ,"kkr_app","kkr123"
-		 * 
-		 */
-		Connection con = (Connection) DriverManager
-				.getConnection("jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
-		con.setAutoCommit(true);
-		return con;
-	}
-
-	private static Connection connectkkrDev() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.jdbc.Driver");
-		/*
-		 * Connection string for kkrdev
-		 * "jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true"
-		 * ,"kkr_app","kkr123"
-		 */
-		Connection con = (Connection) DriverManager
-				.getConnection("jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
-		con.setAutoCommit(true);
-		return con;
-	}
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -66,8 +42,8 @@ public class DividendsDataUpdate {
 		String d_date = in.nextLine();
 		try {
 
-			Connection con = connectkkrProd();
-			Connection conkkrDev = connectkkrDev();
+			Connection con = DataBaseUtils.connectkkrProd();
+			Connection conkkrDev = DataBaseUtils.connectkkrDev();
 
 			Statement sCon = con.createStatement();
 
