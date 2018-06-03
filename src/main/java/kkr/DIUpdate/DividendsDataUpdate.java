@@ -105,7 +105,7 @@ public class DividendsDataUpdate {
 								String divtype = dv.has("divtype") ? dv.getString("divtype") : "D";
 								String frequency = dv.has("frequency") ? dv.getString("frequency") : "U";
 								String currency = dv.has("currency") ? dv.getString("currency") : null;
-								String divflag = dv.has("divflag") ? dv.getString("divflag") : null;
+								String divflag = dv.has("divflag") ? dv.getString("divflag") : "UR";
 								String indicatedrate = dv.has("indicatedrate") ? dv.getString("indicatedrate") : null;
 								String record = dv.has("record") ? dv.getString("record") : null;
 
@@ -202,13 +202,13 @@ public class DividendsDataUpdate {
 			SQL_QUERY = "SELECT * FROM zsenia_fund_dividends WHERE " + "kkr_company_id = '"
 					+ dividendData.get("company_id") + "'" + "AND amount = '" + converted_Amount + "' "
 					+ "and frequency = '" + dividendData.get("frequency") + "'and " + "zsenia_fund_dividends.date = '"
-					+ dividendData.get("date") + "' and divtype='" + dividendData.get("divtype") + "'";
+					+ dividendData.get("date") + "' and divtype='" + dividendData.get("divtype") + "' and divflag='"+dividendData.get("divflag")+"'";
 		} else {
 			SQL_QUERY = "SELECT * FROM zsenia_fund_dividends WHERE " + "kkr_company_id = '"
 					+ dividendData.get("company_id") + "' AND " + "record = '" + dividendData.get("record")
 					+ "'AND amount = '" + converted_Amount + "' " + "and frequency = '" + dividendData.get("frequency")
 					+ "'and " + "zsenia_fund_dividends.date = '" + dividendData.get("date") + "' and divtype='"
-					+ dividendData.get("divtype") + "'";
+					+ dividendData.get("divtype") + "'and divflag='"+dividendData.get("divflag")+"'";
 		}
 
 		ResultSet checkSet = checkstatement.executeQuery(SQL_QUERY);
