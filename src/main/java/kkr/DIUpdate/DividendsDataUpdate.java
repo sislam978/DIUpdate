@@ -15,7 +15,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -24,6 +26,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 
 import org.codehaus.jettison.json.JSONArray;
+import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
 import com.mysql.fabric.xmlrpc.base.Array;
@@ -37,9 +40,20 @@ public class DividendsDataUpdate {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		InsertGroupNamesinList();
-		Scanner in = new Scanner(System.in);
-		System.out.println("Insert desired date with format YYYY-mm-DD to find all the data for the groups: ");
-		String d_date = in.nextLine();
+		/*
+		 * Exchange QM call for data insert
+		 */
+		//ReadnInsertQMDataExchange();
+		
+		/*
+		 * Ticker wise call to QM
+		 */
+		ReadQMTickernInsert();
+
+	}
+
+	public static void ReadnInsertQMDataExchange(){
+		String d_date=new SimpleDateFormat("yyyy-MM-dd").format(new Date());
 		try {
 
 			Connection con = DataBaseUtils.connectLocal();
@@ -139,9 +153,7 @@ public class DividendsDataUpdate {
 		} catch (Exception e) {
 			System.out.println("the exception is : " + e);
 		}
-
 	}
-
 	private static void InsertGroupNamesinList() {
 		// TODO Auto-generated method stub
 		groupName.add("DOW");
@@ -159,7 +171,117 @@ public class DividendsDataUpdate {
 		groupName.add("AMX");
 
 	}
+	
+	private static JSONObject getResultsFromQMTicker(String ticker) throws IOException {
+		System.out.println("http://app.quotemedia.com/data/getDividendsBySymbol.json?webmasterId=102417&symbol="+ticker+"&start=2017-12-26&end=2018-01-02");
+		URL url = new URL("http://app.quotemedia.com/data/getDividendsBySymbol.json?webmasterId=102417&symbol="+ticker+"&start=2017-12-26&end=2018-01-02");
+		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		String responseString = "";
+		String enterpriseToken = "NWFiNjM2OGEtYjFmNy00YmNiLThlYTktOTQyMjM4ZGJjMGQ1";
+        try {
+        	conn.setRequestMethod("GET");
+            conn.setRequestProperty("Accept", "application/json");
+            conn.setRequestProperty("Authorization", "Bearer " + enterpriseToken);
+             BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
+             String output;
+            StringBuffer response = new StringBuffer();
+     		while ((output = br.readLine()) != null) {
+     			response.append(output);
+     		}
+     		responseString = response.toString();
+     		br.close();
+     		JSONObject json = new JSONObject(responseString);
+     		return json;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
 
+	public static void ReadQMTickernInsert(){
+		try {
+			Connection cKKR = DataBaseUtils.connectkkrProd();
+			Connection cLocal = DataBaseUtils.connectLocal();
+			
+			Statement sKKR = cKKR.createStatement();
+			ResultSet rSetKKR = sKKR.executeQuery("select kkr_company_id,Company_ticker from kkr_company where company_ticker is not null "
+					+ "and kkr_company_id not in (56009,64013,65750,76890,81408)"
+					+ " and type<>'Index' and type <> 'sector' order by kkr_company_id");
+			
+//			PreparedStatement pSLocal = cLocal.prepareStatement("insert into zsenia_fund_dividends (kkr_company_id,company_ticker,amount,record,payable,divtype,declared,"
+//					+ "frequency,date,currency,divflag,indicatedrate) values (?,?,?,?,?,?,?,?,?,?,?,?)");
+			String perent_directory = "resources/";
+			String d_date=new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+			String[] splitdate = d_date.split("-");
+			String insert_fileName = "insert_Log" + splitdate[0] + splitdate[1] + splitdate[2];
+			String duplicate_log = "duplicate_log" + splitdate[0] + splitdate[1] + splitdate[2];
+			String file_path = perent_directory + insert_fileName;
+			String duplicate_filePath = perent_directory + duplicate_log;
+			File insertLog = new File(file_path);
+			File dupLog = new File(duplicate_filePath);
+			
+			BufferedWriter bw_insert = new BufferedWriter(new FileWriter(insertLog));
+	        BufferedWriter bw_dup = new BufferedWriter(new FileWriter(dupLog));
+			while(rSetKKR.next()) {
+				Map<String, String> dividendData = new HashMap<String, String>();
+				Integer companyId = rSetKKR.getInt(1);
+				String ticker = rSetKKR.getString(2);
+				System.out.println("running for companyID::"+companyId+"::"+ticker);
+				
+				JSONObject jsonObject = getResultsFromQMTicker(ticker.trim());
+				
+				JSONObject json1 = (JSONObject) jsonObject.get("results");
+				
+				JSONArray dividends = json1.has("dividends") ? json1.getJSONArray("dividends"):null;
+				
+				if(dividends != null) {
+					JSONObject dividend1 = dividends.getJSONObject(0);
+					if(dividend1 != null) {
+						JSONArray dividendArr = dividend1.has("dividend") ? dividend1.getJSONArray("dividend"):null;
+						if(dividendArr != null) {
+							for (int i = 0; i < dividendArr.length(); i++) {
+								
+								JSONObject dividend = dividendArr.getJSONObject(i);
+								
+								dividendData.put("company_name", companyId.toString());
+								dividendData.put("company_name", ticker);
+								dividendData.put("amount", dividend.has("amount")?dividend.getString("amount"):"0.0");
+								dividendData.put("record", dividend.has("record")?dividend.getString("record"):null);
+								dividendData.put("payable", dividend.has("payable")?dividend.getString("payable"):null);
+								dividendData.put("divtype", dividend.has("divtype")?dividend.getString("divtype"):"D");
+								dividendData.put("declared", dividend.has("declared")?dividend.getString("declared"):null);
+								dividendData.put("frequency", dividend.has("frequency")?dividend.getString("frequency"):"U");
+								dividendData.put("date", dividend.has("date")?dividend.getString("date"):null);
+								dividendData.put("currency", dividend.has("currency")?dividend.getString("currency"):null);
+								dividendData.put("divflag", dividend.has("divflag")?dividend.getString("divflag"):"UR");
+								dividendData.put("indicatedrate", dividend.has("indicatedrate")?dividend.getString("indicatedrate"):null);
+								
+								InsertintoDividendFunds(cKKR, dividendData, bw_dup, bw_insert,1);
+							}
+							
+							System.out.println("..................inerted................................");
+						}
+					}
+					
+				}
+			}
+			bw_dup.close();
+			bw_insert.close();
+			
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 	public static JSONObject getResultsFromQM(String exchangeGroup, String desired_date) throws IOException {
 		// http://app.quotemedia.com/data/getDividendsByExchange.json?exgroup=NYE&webmasterId=102417&date=2018-04-12
 		System.out.println("http://app.quotemedia.com/data/getDividendsByExchange.json?exgroup=" + exchangeGroup
