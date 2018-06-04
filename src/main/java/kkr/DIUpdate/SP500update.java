@@ -17,8 +17,14 @@ public class SP500update
 	{
 		ArrayList<String> tickerList = new ArrayList<String>();
 		tickerList = makeTickerList();
-		Connection con = DataBaseUtils.connectLocal();
-		updateSP500(con,tickerList);
+		//stage db
+		Connection conS = DataBaseUtils.connectkkrDev();
+		updateSP500(conS,tickerList);
+		//prod db
+		Connection conP = DataBaseUtils.connectkkrProd();
+		updateSP500(conP,tickerList);
+		
+		System.out.println("End of Update");
 	}
 	
 	
