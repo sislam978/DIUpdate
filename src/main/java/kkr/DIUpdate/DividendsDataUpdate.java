@@ -45,7 +45,7 @@ public class DividendsDataUpdate {
 		System.out.println("Quote Media Query paramters end date:(yyyy-MM-dd) ");
 		String end_date = input.nextLine();
 
-		Connection cKKR = DataBaseUtils.connectkkrProd();
+		Connection cKKR = DataBaseUtils.connectLocal();
 		Connection cLocal = DataBaseUtils.connectLocal();
 
 		ArrayList<Map<String, String>> mapList = ReadQMDatanCreateListMap(start_date, end_date, cKKR, cLocal);
@@ -73,7 +73,7 @@ public class DividendsDataUpdate {
 	private static JSONObject getResultsFromQMTicker(String ticker, String start_date, String end_date)
 			throws IOException {
 		System.out.println("http://app.quotemedia.com/data/getDividendsBySymbol.json?webmasterId=102417&symbol="
-				+ ticker + "&start=2017-12-26&end=2018-01-02");
+				+ ticker + "&start= "+start_date+ "&end= " +end_date);
 		URL url = new URL("http://app.quotemedia.com/data/getDividendsBySymbol.json?webmasterId=102417&symbol=" + ticker
 				+ "&start=" + start_date + "&end=" + end_date + "");
 		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -147,7 +147,7 @@ public class DividendsDataUpdate {
 										dividend.has("frequency") ? dividend.getString("frequency") : "U");
 								dividendData.put("date", dividend.has("date") ? dividend.getString("date") : null);
 								dividendData.put("currency",
-										dividend.has("currency") ? dividend.getString("currency") : null);
+										dividend.has("currency") ? dividend.getString("currency") : "USD");
 								dividendData.put("divflag",
 										dividend.has("divflag") ? dividend.getString("divflag") : "UR");
 								dividendData.put("indicatedrate",
@@ -208,7 +208,7 @@ public class DividendsDataUpdate {
 				System.out.println(SQL_QUERY);
 				PreparedStatement pSLocal = con.prepareStatement(
 						"insert into zsenia_fund_dividends (kkr_company_id,company_ticker,amount,record,payable,divtype,declared,"
-								+ "frequency,date,currency,divflag,indicatedrate) values (?,?,?,?,?,?,?,?,?,?,?,?)");
+								+ "frequency,date,currency,divflag,indicatedrate, created_on) values (?,?,?,?,?,?,?,?,?,?,?,?,NOW())");
 
 				pSLocal.setInt(1, Integer.parseInt(dividendData.get("company_id")));
 				pSLocal.setString(2, dividendData.get("company_name"));
