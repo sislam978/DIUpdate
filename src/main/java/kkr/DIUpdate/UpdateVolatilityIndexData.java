@@ -27,7 +27,7 @@ public class UpdateVolatilityIndexData {
 		Scanner in=new Scanner(System.in);
 		Connection conL = DataBaseUtils.connectLocal();
 
-		String SQL_query = "SELECT history_date FROM `volatility_index` where return_val is null ORDER BY history_date ASC";
+		String SQL_query = "SELECT history_date FROM `volatility_index` WHERE spike is null and return_val is null ORDER BY history_date ASC";
 		Statement locStat = conL.createStatement();
 
 		ResultSet rsL = locStat.executeQuery(SQL_query);
@@ -37,10 +37,6 @@ public class UpdateVolatilityIndexData {
 		while (rsL.next()) {
 			String d_date = rsL.getString(1);
 			dd_date.add(d_date);
-			if(i<22){
-				i++;
-				continue;
-			}
 			SpikeCalculation_UpdateVolatilityRows(d_date);
 		}
 		Collections.sort(dd_date);
