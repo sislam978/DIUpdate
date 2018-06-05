@@ -34,6 +34,48 @@ public class PortfolioTimeSeriesManager {
 
 	public static void main(String[] args) throws Exception {
 
+		createStatcElements();
+		
+		Scanner input =new Scanner(System.in);
+		System.out.println("Enter the start date to insert data:");
+		String start_date=input.nextLine();
+		
+		System.out.println("Last date of data insertion:");
+		String end_date=input.nextLine();
+
+		Connection conL = DataBaseUtils.connectLocal();
+		Connection conKkr = DataBaseUtils.connectkkrDevClient();
+		
+		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` where rates_date>='"+start_date+"' and rates_date<='"+end_date+"'ORDER BY rates_date ASC";
+		Statement locStat = conL.createStatement();
+		ResultSet rsL = locStat.executeQuery(SQL_query);
+		int i=0;
+		String prev_date=null;
+		while (rsL.next()) {
+			String d_date = rsL.getString(1);
+			insertData(d_date,conL,conKkr);
+			inserDataForPercents(d_date,conKkr);
+			if(i==0){
+				prev_date=d_date;
+				i++;
+				continue;
+			}
+			updatePortfolioTimeSeriePercents(d_date,prev_date,conKkr);
+			prev_date=d_date;
+		}
+		
+		String SQL_query2 = "SELECT history_date from volatility_index  where history_date >= '"+start_date+"' and history_date <='"+end_date+"' ORDER BY history_date ASC";
+		Statement locStat1 = conL.createStatement();
+
+		ResultSet rsL1 = locStat1.executeQuery(SQL_query2);
+		while(rsL1.next()){
+			String d_date=rsL1.getString(1);
+			insertVolatilityData(d_date,conL,conKkr);
+		}
+
+	}
+
+	public static void createStatcElements(){
 		YieldIndex.add(Y1);
 		YieldIndex.add(Y2);
 		YieldIndex.add(Y3);
@@ -47,52 +89,12 @@ public class PortfolioTimeSeriesManager {
 		percentIndexMap.put(132, 10);
 		percentIndexMap.put(133, 15);
 		percentIndexMap.put(134, 20);
-
-		Connection conL = DataBaseUtils.connectLocal();
-		
-		
-		Scanner input =new Scanner(System.in);
-		
-		System.out.println("Enter the start date to insert data:");
-		String start_date=input.nextLine();
-		
-		System.out.println("Last date of data insertion:");
-		String end_date=input.nextLine();
-		
-//		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` where rates_date>='"+start_date+"' and rates_date<='"+end_date+"'ORDER BY rates_date ASC";
-//		Statement locStat = conL.createStatement();
-//
-//		ResultSet rsL = locStat.executeQuery(SQL_query);
-//		int i=0;
-//		String prev_date=null;
-//		while (rsL.next()) {
-//			String d_date = rsL.getString(1);
-//			insertData(d_date);
-//			inserDataForPercents(d_date);
-//			if(i==0){
-//				prev_date=d_date;
-//				i++;
-//				continue;
-//			}
-//			updatePortfolioTimeSeriePercents(d_date,prev_date);
-//			prev_date=d_date;
-//		}
-		
-		String SQL_query2 = "SELECT history_date from volatility_index  where history_date >= '"+start_date+"' and history_date <='"+end_date+"' ORDER BY history_date ASC";
-		Statement locStat1 = conL.createStatement();
-
-		ResultSet rsL1 = locStat1.executeQuery(SQL_query2);
-		while(rsL1.next()){
-			String d_date=rsL1.getString(1);
-			insertVolatilityData(d_date);
-		}
-
 	}
-
-	public static void insertData(String desired_date) throws Exception {
-
-		Connection conL = DataBaseUtils.connectLocal();
-		Connection conKkr = DataBaseUtils.connectkkrDevClient();
+	/*
+	 * Treasury Yield data insert into time series table
+	 */
+	public static void insertData(String desired_date,Connection conL,Connection conKkr) throws Exception {
+		
 		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id not in(121,131,132,133,134) and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
 		ResultSet checkrsl = check_st.executeQuery(sql);
@@ -153,10 +155,13 @@ public class PortfolioTimeSeriesManager {
 
 	}
 
-	private static void inserDataForPercents(String desired_date) throws Exception {
+	/*
+	 * Insert Percent data into time series table
+	 */
+	private static void inserDataForPercents(String desired_date,Connection conKkr) throws Exception {
 		// TODO Auto-generated method stub
 
-		Connection conKkr = DataBaseUtils.connectKkrClient();
+		
 		String sql = "SELECT * FROM `user_saved_portfolio_timeseries`  WHERE "
 				+ "user_saved_portfolio_id not in(121,122,123,124,125,126,127,128,129) and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
@@ -190,9 +195,11 @@ public class PortfolioTimeSeriesManager {
 
 	}
 
-	public static void insertVolatilityData(String desired_date) throws Exception {
-		Connection conL = DataBaseUtils.connectLocal();
-		Connection conKkr = DataBaseUtils.connectKkrClient();
+	/*
+	 * volatility index data 
+	 */
+	public static void insertVolatilityData(String desired_date,Connection conL,Connection conKkr) throws Exception {
+
 		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id='"+121+"' and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
 		ResultSet checkrsl = check_st.executeQuery(sql);
@@ -228,8 +235,11 @@ public class PortfolioTimeSeriesManager {
 		}
 	}
 
-	public static void updatePortfolioTimeSeriePercents(String desired_date,String previousdate) throws Exception {
-		Connection conKkr = DataBaseUtils.connectKkrClient();
+	/*
+	 * time series close calculation and update the rows in time series table
+	 */
+	public static void updatePortfolioTimeSeriePercents(String desired_date,String previousdate,Connection conKkr) throws Exception {
+		
 
 		String cc_date = DateUtils.stringTodate(desired_date, "yyyy-MM-dd", "MM/dd/yyyy");
 		
