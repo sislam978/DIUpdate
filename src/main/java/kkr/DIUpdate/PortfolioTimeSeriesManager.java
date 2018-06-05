@@ -59,24 +59,24 @@ public class PortfolioTimeSeriesManager {
 		System.out.println("Last date of data insertion:");
 		String end_date=input.nextLine();
 		
-		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` where rates_date>='"+start_date+"' and rates_date<='"+end_date+"'ORDER BY rates_date ASC";
-		Statement locStat = conL.createStatement();
-
-		ResultSet rsL = locStat.executeQuery(SQL_query);
-		int i=0;
-		String prev_date=null;
-		while (rsL.next()) {
-			String d_date = rsL.getString(1);
-			insertData(d_date);
-			inserDataForPercents(d_date);
-			if(i==0){
-				prev_date=d_date;
-				i++;
-				continue;
-			}
-			updatePortfolioTimeSeriePercents(d_date,prev_date);
-			prev_date=d_date;
-		}
+//		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` where rates_date>='"+start_date+"' and rates_date<='"+end_date+"'ORDER BY rates_date ASC";
+//		Statement locStat = conL.createStatement();
+//
+//		ResultSet rsL = locStat.executeQuery(SQL_query);
+//		int i=0;
+//		String prev_date=null;
+//		while (rsL.next()) {
+//			String d_date = rsL.getString(1);
+//			insertData(d_date);
+//			inserDataForPercents(d_date);
+//			if(i==0){
+//				prev_date=d_date;
+//				i++;
+//				continue;
+//			}
+//			updatePortfolioTimeSeriePercents(d_date,prev_date);
+//			prev_date=d_date;
+//		}
 		
 		String SQL_query2 = "SELECT history_date from volatility_index  where history_date >= '"+start_date+"' and history_date <='"+end_date+"' ORDER BY history_date ASC";
 		Statement locStat1 = conL.createStatement();
@@ -92,7 +92,7 @@ public class PortfolioTimeSeriesManager {
 	public static void insertData(String desired_date) throws Exception {
 
 		Connection conL = DataBaseUtils.connectLocal();
-		Connection conKkr = DataBaseUtils.connectKkrClient();
+		Connection conKkr = DataBaseUtils.connectkkrDevClient();
 		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id not in(121,131,132,133,134) and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
 		ResultSet checkrsl = check_st.executeQuery(sql);
@@ -190,7 +190,7 @@ public class PortfolioTimeSeriesManager {
 
 	}
 
-	public static void insertVolatilityData(String desired_date) throws ClassNotFoundException, SQLException {
+	public static void insertVolatilityData(String desired_date) throws Exception {
 		Connection conL = DataBaseUtils.connectLocal();
 		Connection conKkr = DataBaseUtils.connectKkrClient();
 		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id='"+121+"' and timeseries_date='" + desired_date + "'";
@@ -217,7 +217,7 @@ public class PortfolioTimeSeriesManager {
 				pSLocal.setInt(1, 121);
 				double rt = rsL.getDouble(9);
 				double close = rsL.getDouble(6);
-				pSLocal.setString(2, desired_date);
+				pSLocal.setString(2, DateUtils.stringTodate(desired_date, "yyyy-MM-dd", "MM/dd/yyyy"));
 				pSLocal.setDouble(3, rt);
 				pSLocal.setDouble(4, close);
 
