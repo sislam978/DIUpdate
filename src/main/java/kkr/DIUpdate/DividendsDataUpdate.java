@@ -110,14 +110,8 @@ public class DividendsDataUpdate {
 							+ "and kkr_company_id not in (56009,64013,65750,76890,81408)"
 							+ " and type<>'Index' and type <> 'sector' order by kkr_company_id");
 
-			// PreparedStatement pSLocal = cLocal.prepareStatement("insert into
-			// zsenia_fund_dividends
-			// (kkr_company_id,company_ticker,amount,record,payable,divtype,declared,"
-			// + "frequency,date,currency,divflag,indicatedrate) values
-			// (?,?,?,?,?,?,?,?,?,?,?,?)");
-
 			while (rSetKKR.next()) {
-				Map<String, String> dividendData = new HashMap<String, String>();
+				
 				Integer companyId = rSetKKR.getInt(1);
 				String ticker = rSetKKR.getString(2);
 				System.out.println("running for companyID::" + companyId + "::" + ticker);
@@ -134,10 +128,10 @@ public class DividendsDataUpdate {
 						JSONArray dividendArr = dividend1.has("dividend") ? dividend1.getJSONArray("dividend") : null;
 						if (dividendArr != null) {
 							for (int i = 0; i < dividendArr.length(); i++) {
-
+								Map<String, String> dividendData = new HashMap<String, String>();
 								JSONObject dividend = dividendArr.getJSONObject(i);
 
-								dividendData.put("company_name", companyId.toString());
+								dividendData.put("company_id", companyId.toString());
 								dividendData.put("company_name", ticker);
 								dividendData.put("amount",
 										dividend.has("amount") ? dividend.getString("amount") : "0.0");

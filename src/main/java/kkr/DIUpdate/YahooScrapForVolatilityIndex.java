@@ -160,12 +160,18 @@ public class YahooScrapForVolatilityIndex {
 			ArrayList<VolatilityIndex> downServers = new ArrayList<VolatilityIndex>();
 			Element table = doc.select("table").get(0); // select the first
 														// table.
-			Elements rows = table.select("tr");
+			Elements rows = table_tag.select("tr");
 
-			for (int i = 1; i < rows.size(); i++) { // first row is the col
+			for (int i = 0; i < rows.size(); i++) { // first row is the col
 				Element row = rows.get(i);
 				Elements cols = row.select("td");
 				String txt=cols.get(0).text();
+				String txt1=cols.get(1).text();
+				String txt2=cols.get(2).text();
+				String txt3=cols.get(3).text();
+				String txt4=cols.get(4).text();
+				String txt5=cols.get(5).text();
+				
 				if(txt.contains("Close price adjusted for splits.")){
 					break;
 				}

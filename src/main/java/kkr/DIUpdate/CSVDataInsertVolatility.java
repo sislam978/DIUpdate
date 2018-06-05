@@ -24,7 +24,7 @@ public class CSVDataInsertVolatility {
 		try {
 			String csvSplitter = ",";
 			String columnSplit = " ";
-			BufferedReader br = new BufferedReader(new FileReader(new File("resources/VIX.csv")));
+			BufferedReader br = new BufferedReader(new FileReader(new File("resources/VIX_2.csv")));
 			int i = 0;
 			while ((line = br.readLine()) != null) {
 				String[] cols = line.split(csvSplitter);
