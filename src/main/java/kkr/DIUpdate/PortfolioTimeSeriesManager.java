@@ -49,8 +49,17 @@ public class PortfolioTimeSeriesManager {
 		percentIndexMap.put(134, 20);
 
 		Connection conL = DataBaseUtils.connectLocal();
-
-		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` ORDER BY rates_date ASC";
+		
+		
+		Scanner input =new Scanner(System.in);
+		
+		System.out.println("Enter the start date to insert data:");
+		String start_date=input.nextLine();
+		
+		System.out.println("Last date of data insertion:");
+		String end_date=input.nextLine();
+		
+		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` where rates_date>='"+start_date+"' and rates_date<='"+end_date+"'ORDER BY rates_date ASC";
 		Statement locStat = conL.createStatement();
 
 		ResultSet rsL = locStat.executeQuery(SQL_query);
@@ -69,7 +78,7 @@ public class PortfolioTimeSeriesManager {
 			prev_date=d_date;
 		}
 		
-		String SQL_query2 = "SELECT history_date from volatility_index  ORDER BY history_date ASC";
+		String SQL_query2 = "SELECT history_date from volatility_index  where history_date >= '"+start_date+"' and history_date <='"+end_date+"' ORDER BY history_date ASC";
 		Statement locStat1 = conL.createStatement();
 
 		ResultSet rsL1 = locStat1.executeQuery(SQL_query2);
