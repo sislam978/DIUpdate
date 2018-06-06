@@ -25,13 +25,18 @@ public class HistoricalPriceEventGenration {
 
 		Connection con = DataBaseUtils.connectLocal();
 		Connection conKKrProd = DataBaseUtils.connectkkrProd();
-		//VolatilityEventCreate(con);
-		//TreasuryEventCreate(con);
-
+		Connection conKkrDev=DataBaseUtils.connectkkrDev();
+		VolatilityEventCreate(con,conKKrProd);
+		TreasuryEventCreate(con,conKKrProd);
+		
+		VolatilityEventCreate(con,conKkrDev);
+		TreasuryEventCreate(con,conKkrDev);
+		
 		System.out.println("enter a date where to start calculating the SnP:");
 		Scanner input = new Scanner(System.in);
 		String d_date = input.nextLine();
 		SnPEventCreate(conKKrProd, d_date, con);
+		SnPEventCreate(conKkrDev, d_date, con);
 	}
 
 	
@@ -109,7 +114,7 @@ public class HistoricalPriceEventGenration {
 		return vv;
 	}
 
-	public static void TreasuryEventCreate(Connection con) throws Exception {
+	public static void TreasuryEventCreate(Connection con,Connection conKKr) throws Exception {
 		String sql_query = "SELECT * FROM `treasury_yield_curve_rates` ORDER BY rates_date";
 
 		Statement kkrDb = con.createStatement();
@@ -130,7 +135,7 @@ public class HistoricalPriceEventGenration {
 				if (i == 0) {
 					start_date = rs.getString(2);
 					if (k == 0) {
-						boolean flag = updateEvent(start_date, con,"Treasury Inverse");
+						boolean flag = updateEvent(start_date, conKKr,"Treasury Inverse");
 						if (flag) {
 							continue;
 						}
@@ -146,10 +151,10 @@ public class HistoricalPriceEventGenration {
 			}
 		}
 		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
-		InsertNewEvent(con, sorted, "Treasury Inverse");
+		InsertNewEvent(conKKr, sorted, "Treasury Inverse");
 	}
 
-	public static void VolatilityEventCreate(Connection con) throws Exception {
+	public static void VolatilityEventCreate(Connection con,Connection conKkr) throws Exception {
 
 		String sql_query = "SELECT * FROM `volatility_index` ORDER BY history_date";
 
@@ -170,7 +175,7 @@ public class HistoricalPriceEventGenration {
 				if (i == 0) {
 					start_date = rs.getString(2);
 					if (k == 0) {
-						boolean flag = updateEvent(start_date, con,"Volatility Spike");
+						boolean flag = updateEvent(start_date, conKkr,"Volatility Spike");
 						if (flag) {
 							continue;
 						}
@@ -189,7 +194,7 @@ public class HistoricalPriceEventGenration {
 		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
 		// Copy all data from hashMap into TreeMap
 		// sorted.putAll(eventDateMap);
-		InsertNewEvent(con, sorted, "Volatility Spike");
+		InsertNewEvent(conKkr, sorted, "Volatility Spike");
 	}
 
 	private static boolean updateEvent(String start_date, Connection con,String event_type) throws SQLException, ParseException {
