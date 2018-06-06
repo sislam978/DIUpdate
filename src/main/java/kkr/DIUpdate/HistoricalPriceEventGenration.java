@@ -31,10 +31,11 @@ public class HistoricalPriceEventGenration {
 		System.out.println("enter a date where to start calculating the spy:");
 		Scanner input = new Scanner(System.in);
 		String d_date = input.nextLine();
-		SpyEventCreate(conKKrProd, d_date, con);
+		SnPEventCreate(conKKrProd, d_date, con);
 	}
 
-	public static void SpyEventCreate(Connection conKkr, String Desired_date, Connection con) throws Exception {
+	
+	public static void SnPEventCreate(Connection conKkr, String Desired_date, Connection con) throws Exception {
 		String SQL_query = "SELECT PRICE_DATE FROM `kkr_price` WHERE PRICE_DATE>='" + Desired_date
 				+ "' and KKR_company_ID=616 ORDER BY PRICE_DATE ASC";
 		Statement locStat = conKkr.createStatement();
@@ -50,7 +51,7 @@ public class HistoricalPriceEventGenration {
 		while (rsL.next()) {
 			if (i == 0) {
 				start_date = rsL.getString(1);
-				double vv = spyEventCreateProcess(conKkr, rsL.getString(1));
+				double vv = SnPEventCreateProcess(conKkr, rsL.getString(1));
 				if (vv < -0.1 && k == 0) {
 					boolean flag = updateEvent(start_date, con,"S&P Down");
 					if (flag) {
@@ -60,7 +61,7 @@ public class HistoricalPriceEventGenration {
 				}
 				i++;
 			}
-			double vv = spyEventCreateProcess(conKkr, rsL.getString(1));
+			double vv = SnPEventCreateProcess(conKkr, rsL.getString(1));
 			if (vv < -0.1) {
 				prev_date = rsL.getString(1);
 			} else {
@@ -78,7 +79,7 @@ public class HistoricalPriceEventGenration {
 
 	}
 
-	private static double spyEventCreateProcess(Connection conKkr, String desired_date) throws SQLException {
+	private static double SnPEventCreateProcess(Connection conKkr, String desired_date) throws SQLException {
 		// TODO Auto-generated method stub
 		String SQL_QUERY = "SELECT PRICE_CLOSE, PRICE_DATE FROM kkr_price where PRICE_DATE<='" + desired_date
 				+ "' ORDER BY PRICE_DATE DESC LIMIT 23";
