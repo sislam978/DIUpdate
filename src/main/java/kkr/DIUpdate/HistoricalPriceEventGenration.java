@@ -23,30 +23,29 @@ public class HistoricalPriceEventGenration {
 
 	public static void main(String args[]) throws Exception {
 
-		Connection con = DataBaseUtils.connectLocal();
-		Connection conKKrProd = DataBaseUtils.connectkkrProd();
-		Connection conKkrDev=DataBaseUtils.connectkkrDev();
-		VolatilityEventCreate(con,conKKrProd);
-		TreasuryEventCreate(con,conKKrProd);
-		
-		VolatilityEventCreate(con,conKkrDev);
-		TreasuryEventCreate(con,conKkrDev);
-		
 		System.out.println("enter a date where to start calculating the SnP:");
 		Scanner input = new Scanner(System.in);
 		String d_date = input.nextLine();
+
+		Connection con = DataBaseUtils.connectLocal();
+		Connection conKKrProd = DataBaseUtils.connectkkrProd();
+		Connection conKkrDev = DataBaseUtils.connectkkrDev();
+		VolatilityEventCreate(con, conKKrProd);
+		TreasuryEventCreate(con, conKKrProd);
+
+		VolatilityEventCreate(con, conKkrDev);
+		TreasuryEventCreate(con, conKkrDev);
 		SnPEventCreate(conKKrProd, d_date, con);
 		SnPEventCreate(conKkrDev, d_date, con);
 	}
 
-	
 	public static void SnPEventCreate(Connection conKkr, String Desired_date, Connection con) throws Exception {
 		String SQL_query = "SELECT PRICE_DATE FROM `kkr_price` WHERE PRICE_DATE>='" + Desired_date
 				+ "' and KKR_company_ID=616 ORDER BY PRICE_DATE ASC";
 		Statement locStat = conKkr.createStatement();
 
 		ResultSet rsL = locStat.executeQuery(SQL_query);
-		
+
 		String start_date = null;
 		String end_date = null;
 		String prev_date = null;
@@ -58,38 +57,40 @@ public class HistoricalPriceEventGenration {
 				start_date = rsL.getString(1);
 				double vv = SnPEventCreateProcess(conKkr, rsL.getString(1));
 				if (vv < -0.1 && k == 0) {
-					boolean flag = updateEvent(start_date, con,"S&P Down");
+					boolean flag = updateEvent(start_date, con, "S&P Correction");
 					if (flag) {
 						continue;
 					}
 					k++;
 				}
-				if (vv < -0.1) i++;
+				if (vv < -0.1)
+					i++;
 				continue;
 			}
-			
+
 			double vv = SnPEventCreateProcess(conKkr, rsL.getString(1));
-			
-			if(vv>=-0.1 && prev_date==null && i==1){
+
+			if (vv >= -0.1 && prev_date == null && i == 1) {
 				eventDateMap.put(start_date, start_date);
-				i=0;
+				i = 0;
 				continue;
 			}
 			if (vv < -0.1) {
 				prev_date = rsL.getString(1);
 			} else {
 				end_date = prev_date;
-				Date d=new SimpleDateFormat("yyyy-MM-dd").parse(end_date);
-				Date d1=new SimpleDateFormat("yyyy-MM-dd").parse(start_date);
-				if(d.getTime()<d1.getTime()) continue;
+				Date d = new SimpleDateFormat("yyyy-MM-dd").parse(end_date);
+				Date d1 = new SimpleDateFormat("yyyy-MM-dd").parse(start_date);
+				if (d.getTime() < d1.getTime())
+					continue;
 				eventDateMap.put(start_date, end_date);
-				prev_date=null;
+				prev_date = null;
 				i = 0;
 			}
 		}
 		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
-		System.out.println(sorted);
-		InsertNewEvent(con, sorted, "S&P Down");
+		System.out.println("S&P Down" + sorted);
+		InsertNewEvent(con, sorted, "S&P Correction");
 	}
 
 	private static double SnPEventCreateProcess(Connection conKkr, String desired_date) throws SQLException {
@@ -110,11 +111,11 @@ public class HistoricalPriceEventGenration {
 		}
 		Collections.sort(closeList);
 		double vv = oriClose / closeList.get(closeList.size() - 1) - 1;
-		System.out.println("return Value calculation: "+vv);
+		// System.out.println("return Value calculation: "+vv);
 		return vv;
 	}
 
-	public static void TreasuryEventCreate(Connection con,Connection conKKr) throws Exception {
+	public static void TreasuryEventCreate(Connection con, Connection conKKr) throws Exception {
 		String sql_query = "SELECT * FROM `treasury_yield_curve_rates` ORDER BY rates_date";
 
 		Statement kkrDb = con.createStatement();
@@ -124,37 +125,39 @@ public class HistoricalPriceEventGenration {
 		String end_date = null;
 		String prev_date = null;
 		int i = 0;
-		int k = 0;
 		while (rs.next()) {
 			if (rs.getObject(6) == null || rs.getObject(11) == null)
 				continue;
 			double yr1 = rs.getDouble(6);
 			double yr10 = rs.getDouble(11);
 			double diff = yr10 - yr1;
+			if(diff>=0 && i==0 && prev_date==null) continue;
 			if (diff < 0) {
 				if (i == 0) {
 					start_date = rs.getString(2);
-					if (k == 0) {
-						boolean flag = updateEvent(start_date, conKKr,"Treasury Inverse");
-						if (flag) {
-							continue;
-						}
-						k++;
+					boolean flag = updateEvent(start_date, conKKr, "Treasury Inverse");
+					if (flag) {
+						continue;
 					}
 					i++;
 				}
 				prev_date = rs.getString(2);
 			} else {
 				end_date = prev_date;
+				System.out.println("Treasury Inverse: " + "start_date: " + start_date + " end_date: " + end_date);
 				eventDateMap.put(start_date, end_date);
+				prev_date=null;
 				i = 0;
 			}
+		}
+		if(eventDateMap.isEmpty()){
+			return;
 		}
 		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
 		InsertNewEvent(conKKr, sorted, "Treasury Inverse");
 	}
 
-	public static void VolatilityEventCreate(Connection con,Connection conKkr) throws Exception {
+	public static void VolatilityEventCreate(Connection con, Connection conKkr) throws Exception {
 
 		String sql_query = "SELECT * FROM `volatility_index` ORDER BY history_date";
 
@@ -170,16 +173,14 @@ public class HistoricalPriceEventGenration {
 			if (rs.getObject(8) == null)
 				continue;
 			String d_d = rs.getString(2);
-
+			if(rs.getDouble(8) < 0.1 && i==0 && prev_date==null) continue;
 			if (rs.getDouble(8) > 0.1) {
 				if (i == 0) {
 					start_date = rs.getString(2);
-					if (k == 0) {
-						boolean flag = updateEvent(start_date, conKkr,"Volatility Spike");
-						if (flag) {
-							continue;
-						}
-						k++;
+					
+					boolean flag = updateEvent(start_date, conKkr, "Volatility Spike");
+					if (flag) {
+						continue;
 					}
 					i++;
 				}
@@ -187,7 +188,9 @@ public class HistoricalPriceEventGenration {
 
 			} else {
 				end_date = prev_date;
+				System.out.println("Volatality_spike: " + "start_date: " + start_date + " end_date: " + end_date);
 				eventDateMap.put(start_date, end_date);
+				prev_date=null;
 				i = 0;
 			}
 		}
@@ -197,13 +200,15 @@ public class HistoricalPriceEventGenration {
 		InsertNewEvent(conKkr, sorted, "Volatility Spike");
 	}
 
-	private static boolean updateEvent(String start_date, Connection con,String event_type) throws SQLException, ParseException {
+	private static boolean updateEvent(String start_date, Connection con, String event_type)
+			throws SQLException, ParseException {
 		// TODO Auto-generated method stub
 		Calendar prev = Calendar.getInstance();
 		prev.setTime(new SimpleDateFormat("yyyy-MM-dd").parse(start_date));
 		prev.add(Calendar.DATE, -1); // number of days to add
 		String prev_date = new SimpleDateFormat("yyyy-MM-dd").format(prev.getTime());
-		String SQL_QUERY = "SELECT * FROM `historical_price_event` where end_date='" + prev_date + "' and event_type='"+event_type+"'";
+		String SQL_QUERY = "SELECT * FROM `historical_price_event` where end_date='" + prev_date + "' and event_type='"
+				+ event_type + "'";
 
 		Statement st = con.createStatement();
 		ResultSet rs = st.executeQuery(SQL_QUERY);
@@ -262,7 +267,7 @@ public class HistoricalPriceEventGenration {
 					String d_date = DateUtils.stringTodate(entry.getKey(), "yyyy-MM-dd", "MMM d, yyyy");
 					String d_array[] = d_date.split(",|\\s");
 					final_name = event_type + d_array[0] + d_array[3];
-				} else if (event_type.equals("S&P Down")) {
+				} else if (event_type.equals("S&P Correction")) {
 					Sql_stat = "SELECT event_name FROM `historical_price_event` where event_type='" + event_type
 							+ "' order by historical_price_event_id desc limit 1";
 					Statement event_name = con.createStatement();
@@ -272,9 +277,9 @@ public class HistoricalPriceEventGenration {
 					int vv = Integer.parseInt(event[2]);
 					vv++;
 					if (vv < 10) {
-						final_name = event[0] + " "+event[1]+" 0" + vv;
+						final_name = event[0] + " " + "Down" + " 0" + vv;
 					} else {
-						final_name = event[0] + " "+event[1]+" " + vv;
+						final_name = event[0] + " " + "Down" + " " + vv;
 					}
 				}
 				pSLocal.setString(1, final_name);
