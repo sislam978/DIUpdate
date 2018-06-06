@@ -28,7 +28,7 @@ public class HistoricalPriceEventGenration {
 		//VolatilityEventCreate(con);
 		//TreasuryEventCreate(con);
 
-		System.out.println("enter a date where to start calculating the spy:");
+		System.out.println("enter a date where to start calculating the SnP:");
 		Scanner input = new Scanner(System.in);
 		String d_date = input.nextLine();
 		SnPEventCreate(conKKrProd, d_date, con);
@@ -59,30 +59,38 @@ public class HistoricalPriceEventGenration {
 					}
 					k++;
 				}
-				i++;
+				if (vv < -0.1) i++;
+				continue;
 			}
+			
 			double vv = SnPEventCreateProcess(conKkr, rsL.getString(1));
+			
+			if(vv>=-0.1 && prev_date==null && i==1){
+				eventDateMap.put(start_date, start_date);
+				i=0;
+				continue;
+			}
 			if (vv < -0.1) {
 				prev_date = rsL.getString(1);
 			} else {
+				end_date = prev_date;
 				Date d=new SimpleDateFormat("yyyy-MM-dd").parse(end_date);
 				Date d1=new SimpleDateFormat("yyyy-MM-dd").parse(start_date);
 				if(d.getTime()<d1.getTime()) continue;
-				
-				end_date = prev_date;
 				eventDateMap.put(start_date, end_date);
+				prev_date=null;
 				i = 0;
 			}
 		}
 		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
+		System.out.println(sorted);
 		InsertNewEvent(con, sorted, "S&P Down");
-
 	}
 
 	private static double SnPEventCreateProcess(Connection conKkr, String desired_date) throws SQLException {
 		// TODO Auto-generated method stub
 		String SQL_QUERY = "SELECT PRICE_CLOSE, PRICE_DATE FROM kkr_price where PRICE_DATE<='" + desired_date
-				+ "' ORDER BY PRICE_DATE DESC LIMIT 23";
+				+ "' and KKR_company_ID=616 ORDER BY PRICE_DATE DESC LIMIT 23";
 
 		Statement statement = conKkr.createStatement();
 
@@ -97,6 +105,7 @@ public class HistoricalPriceEventGenration {
 		}
 		Collections.sort(closeList);
 		double vv = oriClose / closeList.get(closeList.size() - 1) - 1;
+		System.out.println("return Value calculation: "+vv);
 		return vv;
 	}
 
@@ -116,7 +125,7 @@ public class HistoricalPriceEventGenration {
 				continue;
 			double yr1 = rs.getDouble(6);
 			double yr10 = rs.getDouble(11);
-			double diff = yr1 - yr10;
+			double diff = yr10 - yr1;
 			if (diff < 0) {
 				if (i == 0) {
 					start_date = rs.getString(2);
@@ -169,7 +178,6 @@ public class HistoricalPriceEventGenration {
 					}
 					i++;
 				}
-
 				prev_date = rs.getString(2);
 
 			} else {
@@ -259,9 +267,9 @@ public class HistoricalPriceEventGenration {
 					int vv = Integer.parseInt(event[2]);
 					vv++;
 					if (vv < 10) {
-						final_name = event[0] + " 0" + vv;
+						final_name = event[0] + " "+event[1]+" 0" + vv;
 					} else {
-						final_name = event[0] + " " + vv;
+						final_name = event[0] + " "+event[1]+" " + vv;
 					}
 				}
 				pSLocal.setString(1, final_name);
