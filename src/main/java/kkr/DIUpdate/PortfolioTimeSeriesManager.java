@@ -48,32 +48,22 @@ public class PortfolioTimeSeriesManager {
 		
 		String SQL_query = "SELECT rates_date FROM `treasury_yield_curve_rates` where rates_date>='"+start_date+"' and rates_date<='"+end_date+"'ORDER BY rates_date ASC";
 		Statement locStat = conL.createStatement();
-<<<<<<< HEAD
-
-=======
->>>>>>> 013755e3e827309cb1f12b6c8f32e1d21aa8bc36
 		ResultSet rsL = locStat.executeQuery(SQL_query);
 		int i=0;
 		String prev_date=null;
 		while (rsL.next()) {
 			String d_date = rsL.getString(1);
-<<<<<<< HEAD
-			insertData(d_date);
-			inserDataForPercents(d_date);
-=======
 			insertData(d_date,conL,conKkr);
 			inserDataForPercents(d_date,conKkr);
->>>>>>> 013755e3e827309cb1f12b6c8f32e1d21aa8bc36
+			insertData(d_date,conL,conKkr);
+			inserDataForPercents(d_date,conKkr);
 			if(i==0){
 				prev_date=d_date;
 				i++;
 				continue;
 			}
-<<<<<<< HEAD
-			updatePortfolioTimeSeriePercents(d_date,prev_date);
-=======
+			updatePortfolioTimeSeriePercents(d_date,prev_date, conKkr);
 			updatePortfolioTimeSeriePercents(d_date,prev_date,conKkr);
->>>>>>> 013755e3e827309cb1f12b6c8f32e1d21aa8bc36
 			prev_date=d_date;
 		}
 		
