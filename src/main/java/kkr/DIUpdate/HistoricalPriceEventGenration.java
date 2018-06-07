@@ -13,6 +13,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.TreeMap;
 
@@ -30,11 +31,13 @@ public class HistoricalPriceEventGenration {
 		Connection con = DataBaseUtils.connectLocal();
 		Connection conKKrProd = DataBaseUtils.connectkkrProd();
 		Connection conKkrDev = DataBaseUtils.connectkkrDev();
+		
 		VolatilityEventCreate(con, conKKrProd);
-		TreasuryEventCreate(con, conKKrProd);
-
 		VolatilityEventCreate(con, conKkrDev);
+		
+		TreasuryEventCreate(con, conKKrProd);
 		TreasuryEventCreate(con, conKkrDev);
+		
 		SnPEventCreate(conKKrProd, d_date, con);
 		SnPEventCreate(conKkrDev, d_date, con);
 	}
@@ -131,7 +134,8 @@ public class HistoricalPriceEventGenration {
 			double yr1 = rs.getDouble(6);
 			double yr10 = rs.getDouble(11);
 			double diff = yr10 - yr1;
-			if(diff>=0 && i==0 && prev_date==null) continue;
+			if (diff >= 0 && i == 0 && prev_date == null)
+				continue;
 			if (diff < 0) {
 				if (i == 0) {
 					start_date = rs.getString(2);
@@ -146,11 +150,11 @@ public class HistoricalPriceEventGenration {
 				end_date = prev_date;
 				System.out.println("Treasury Inverse: " + "start_date: " + start_date + " end_date: " + end_date);
 				eventDateMap.put(start_date, end_date);
-				prev_date=null;
+				prev_date = null;
 				i = 0;
 			}
 		}
-		if(eventDateMap.isEmpty()){
+		if (eventDateMap.isEmpty()) {
 			return;
 		}
 		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
@@ -173,11 +177,12 @@ public class HistoricalPriceEventGenration {
 			if (rs.getObject(8) == null)
 				continue;
 			String d_d = rs.getString(2);
-			if(rs.getDouble(8) < 0.1 && i==0 && prev_date==null) continue;
+			if (rs.getDouble(8) < 0.1 && i == 0 && prev_date == null)
+				continue;
 			if (rs.getDouble(8) > 0.1) {
 				if (i == 0) {
 					start_date = rs.getString(2);
-					
+
 					boolean flag = updateEvent(start_date, conKkr, "Volatility Spike");
 					if (flag) {
 						continue;
@@ -190,7 +195,7 @@ public class HistoricalPriceEventGenration {
 				end_date = prev_date;
 				System.out.println("Volatality_spike: " + "start_date: " + start_date + " end_date: " + end_date);
 				eventDateMap.put(start_date, end_date);
-				prev_date=null;
+				prev_date = null;
 				i = 0;
 			}
 		}
@@ -272,14 +277,26 @@ public class HistoricalPriceEventGenration {
 							+ "' order by historical_price_event_id desc limit 1";
 					Statement event_name = con.createStatement();
 					ResultSet eve = event_name.executeQuery(Sql_stat);
-					eve.next();
-					String[] event = eve.getString(1).split(" ");
-					int vv = Integer.parseInt(event[2]);
-					vv++;
-					if (vv < 10) {
-						final_name = event[0] + " " + "Down" + " 0" + vv;
+					int size11 = 0;
+					if (eve != null) {
+						eve.beforeFirst();
+						eve.last();
+						size11 = eve.getRow();
+					}
+					eve.first();
+					// eve.next();
+					if (size11 < 1) {
+						String id = String.format("%04d", new Random().nextInt(10000));
+						final_name = "S&P Down " + id;
 					} else {
-						final_name = event[0] + " " + "Down" + " " + vv;
+						String[] event = eve.getString(1).split(" ");
+						int vv = Integer.parseInt(event[2]);
+						vv++;
+						if (vv < 10) {
+							final_name = event[0] + " " + "Down" + " 0" + vv;
+						} else {
+							final_name = event[0] + " " + "Down" + " " + vv;
+						}
 					}
 				}
 				pSLocal.setString(1, final_name);
