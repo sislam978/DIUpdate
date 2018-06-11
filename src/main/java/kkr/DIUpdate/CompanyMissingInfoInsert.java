@@ -84,7 +84,7 @@ public class CompanyMissingInfoInsert {
 
 	public static void main(String[] args) {
 		try {
-			Connection cLocal = DataBaseUtils.connectLocal();
+			Connection cLocal = DataBaseUtils.connectkkrProd();
 			createSectorMap();
 			Statement sKKR = cLocal.createStatement();
 			// PreparedStatement pSLocal = cLocal.prepareStatement("INSERT INTO
@@ -184,6 +184,7 @@ public class CompanyMissingInfoInsert {
 				String business_desFi=business_desc.replace("'", "\\'");
 				System.out.println("Going to save the following for ticker::" + ticker + "::" + ceo + "::" + sector
 						+ "::" + industry + "::" + shortdescription + "::" + longdescription + "::" + instrumenttype+ ":bb:" + business_desFi);
+				System.out.println();
 				// Statement psLocal=cLocal.createStatement();
 				if (!instrumenttype.equals("")) {
 					sql_query = "UPDATE kkrdb.kkr_company a SET a.type = '" + instrumenttype

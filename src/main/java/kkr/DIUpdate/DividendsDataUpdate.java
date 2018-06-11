@@ -45,10 +45,10 @@ public class DividendsDataUpdate {
 		System.out.println("Quote Media Query paramters end date:(yyyy-MM-dd) ");
 		String end_date = input.nextLine();
 
-		Connection cKKR = DataBaseUtils.connectLocal();
-		Connection cLocal = DataBaseUtils.connectLocal();
+		Connection ConKkrProd = DataBaseUtils.connectLocal();
+		Connection ConKkrDev = DataBaseUtils.connectLocal();
 
-		ArrayList<Map<String, String>> mapList = ReadQMDatanCreateListMap(start_date, end_date, cKKR, cLocal);
+		ArrayList<Map<String, String>> mapList = ReadQMDatanCreateListMap(start_date, end_date, ConKkrProd);
 
 		String perent_directory = "resources/";
 		String d_date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
@@ -63,7 +63,8 @@ public class DividendsDataUpdate {
 		BufferedWriter bw_insert = new BufferedWriter(new FileWriter(insertLog));
 		BufferedWriter bw_dup = new BufferedWriter(new FileWriter(dupLog));
 
-		InsertintoDividendFunds(cKKR, mapList, bw_dup, bw_insert, 1);
+		InsertintoDividendFunds(ConKkrProd, mapList, bw_dup, bw_insert, 1);
+		InsertintoDividendFunds(ConKkrDev, mapList, bw_dup, bw_insert, 1);
 
 		bw_dup.close();
 		bw_insert.close();
@@ -100,7 +101,7 @@ public class DividendsDataUpdate {
 	}
 
 	public static ArrayList<Map<String, String>> ReadQMDatanCreateListMap(String start_date, String end_date,
-			Connection cKKR, Connection cLocal) {
+			Connection cKKR) {
 		ArrayList<Map<String, String>> mapList = new ArrayList<Map<String, String>>();
 		try {
 			Statement sKKR = cKKR.createStatement();

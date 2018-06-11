@@ -20,14 +20,16 @@ import kkr.DIUpdate.CommonUtils.DateUtils;
 
 public class PortfolioTimeSeriesManager {
 
-	public static final int Y1 = 122;
-	public static final int Y2 = 123;
-	public static final int Y3 = 124;
-	public static final int Y5 = 125;
-	public static final int Y7 = 126;
-	public static final int Y10 = 127;
-	public static final int Y20 = 128;
-	public static final int Y30 = 129;
+	public static final int Y1 = 119;
+	public static final int Y2 = 122;
+	public static final int Y3 = 123;
+	public static final int Y5 = 124;
+	public static final int Y7 = 125;
+	public static final int Y10 = 126;
+	public static final int Y20 = 127;
+	public static final int Y30 = 128;
+	public static final int Y10_Y1=129;
+	
 
 	public static final Map<Integer, Integer> percentIndexMap = new HashMap<Integer, Integer>();
 	public static ArrayList<Integer> YieldIndex = new ArrayList<Integer>();
@@ -53,7 +55,7 @@ public class PortfolioTimeSeriesManager {
 		String prev_date=null;
 		while (rsL.next()) {
 			String d_date = rsL.getString(1);
-			insertData(d_date,conL,conKkr);
+			//insertData(d_date,conL,conKkr);
 			inserDataForPercents(d_date,conKkr);
 			if(i==0){
 				prev_date=d_date;
@@ -84,11 +86,12 @@ public class PortfolioTimeSeriesManager {
 		YieldIndex.add(Y10);
 		YieldIndex.add(Y20);
 		YieldIndex.add(Y30);
+		YieldIndex.add(Y10_Y1);
 
-		percentIndexMap.put(131, 5);
-		percentIndexMap.put(132, 10);
-		percentIndexMap.put(133, 15);
-		percentIndexMap.put(134, 20);
+		percentIndexMap.put(130, 5);
+		percentIndexMap.put(131, 10);
+		percentIndexMap.put(132, 15);
+		percentIndexMap.put(133, 20);
 	}
 	/*
 	 * Treasury Yield data insert into time series table
@@ -133,7 +136,7 @@ public class PortfolioTimeSeriesManager {
 				YieldValues.add(rsL.getDouble(11));
 				YieldValues.add(rsL.getDouble(12));
 				YieldValues.add(rsL.getDouble(13));
-
+				YieldValues.add(rsL.getDouble(13)-rsL.getDouble(6));
 				/*
 				 * insert satement create
 				 */
@@ -174,7 +177,7 @@ public class PortfolioTimeSeriesManager {
 		}
 		if (size < 1) {
 			PreparedStatement pSLocal = conKkr.prepareStatement(
-					"insert into  user_saved_portfolio_timeseries (user_saved_portfolio_id,timeseries_date,returns) values (?,?,?)");
+					"insert into  user_saved_portfolio_timeseries (user_saved_portfolio_id,timeseries_date,returns,close) values (?,?,?,?)");
 			int mm = 0;
 
 			for (Map.Entry<Integer, Integer> entry : percentIndexMap.entrySet()) {
@@ -186,6 +189,7 @@ public class PortfolioTimeSeriesManager {
 				pSLocal.setInt(1, entry.getKey());
 				pSLocal.setString(2, DateUtils.stringTodate(desired_date, "yyyy-MM-dd", "MM/dd/yyyy"));
 				pSLocal.setDouble(3, return_val);
+				pSLocal.setDouble(4, -1);
 
 				pSLocal.execute();
 				System.out.println(mm++);
@@ -200,7 +204,7 @@ public class PortfolioTimeSeriesManager {
 	 */
 	public static void insertVolatilityData(String desired_date,Connection conL,Connection conKkr) throws Exception {
 
-		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id='"+121+"' and timeseries_date='" + desired_date + "'";
+		String sql = "SELECT * FROM `user_saved_portfolio_timeseries` WHERE user_saved_portfolio_id='"+118+"' and timeseries_date='" + desired_date + "'";
 		Statement check_st = conKkr.createStatement();
 		ResultSet checkrsl = check_st.executeQuery(sql);
 		int size = 0;
@@ -221,7 +225,7 @@ public class PortfolioTimeSeriesManager {
 				PreparedStatement pSLocal = conKkr.prepareStatement(
 						"insert into  user_saved_portfolio_timeseries (user_saved_portfolio_id,timeseries_date,returns,close) values (?,?,?,?)");
 
-				pSLocal.setInt(1, 121);
+				pSLocal.setInt(1, 118);
 				double rt = rsL.getDouble(9);
 				double close = rsL.getDouble(6);
 				pSLocal.setString(2, DateUtils.stringTodate(desired_date, "yyyy-MM-dd", "MM/dd/yyyy"));

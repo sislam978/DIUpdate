@@ -23,16 +23,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-
-
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebWindowNotFoundException;
-import com.gargoylesoftware.htmlunit.html.HtmlElement;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
-
 import kkr.DIUpdate.CommonUtils.DataBaseUtils;
 import kkr.DIUpdate.CommonUtils.DateUtils;
 import kkr.DIUpdate.Models.VolatilityIndex;
@@ -40,33 +30,28 @@ import kkr.DIUpdate.Models.VolatilityIndex;
 public class YahooScrapForVolatilityIndex {
 
 	public static final SimpleDateFormat dateformat = new SimpleDateFormat("MM/dd/yy");
-	
 	public static final long ONE_DAY_IN_SECS = 86400;
 
 
-	public static void main(String args[]) throws Exception{
-		Scanner input=new Scanner(System.in);
-		System.out.println("insert date range for historical price data fetch.");
-		System.out.println("if not input provided then take automatically 1 year date range from current date\n");
-		
-		System.out.println("start date:(mm/dd/yy)");
-		String start_date=input.nextLine();
-		System.out.println("end date:(mm/dd/yy)");
-		String end_date=input.nextLine();
-		
-		System.out.println("As usual defult value is historical price data. In case we want different data thats "
-				+ "why provided the option to choose");
-		System.out.println("Other options: put 'div' or 'split' for dividends and split stock splits respectively\n");
-		System.out.println("Now insert the option if you like to:");
-		String show_option=input.nextLine();
-		
-		System.out.println("Frequency defult value: daily=1d");
-		System.out.println("other option: weekly=1wk, monthly=1mo\n");
-		System.out.println("Insert desired frequency:");
-		String freq=input.nextLine();
-		
-		HistoricalPricedataRead(start_date, end_date, show_option, freq);
-		
+	public static String stringTodate(String date, String formatter, String format) throws Exception {
+		// System.out.println( "String "+ date+ " formatter "+ formatter+"
+		// format "+ format);
+		SimpleDateFormat desiredFormat = new SimpleDateFormat(format);
+		SimpleDateFormat dateFormatter = new SimpleDateFormat(formatter);
+
+		Date newdate = null;
+		String newDateString = null;
+		try {
+			newdate = dateFormatter.parse(date);
+			newDateString = desiredFormat.format(newdate);
+			// System.out.println(newDateString);
+		} catch (ParseException e) {
+			e.printStackTrace();
+			throw e;
+		}
+		// System.out.println("newDateString : "+newDateString);
+		return newDateString;
+
 	}
 
 	public static void HistoricalPricedataRead(String start_date, String end_date, String show_option, String freq)
@@ -160,23 +145,17 @@ public class YahooScrapForVolatilityIndex {
 			ArrayList<VolatilityIndex> downServers = new ArrayList<VolatilityIndex>();
 			Element table = doc.select("table").get(0); // select the first
 														// table.
-			Elements rows = table_tag.select("tr");
+			Elements rows = table.select("tr");
 
-			for (int i = 0; i < rows.size(); i++) { // first row is the col
+			for (int i = 1; i < rows.size(); i++) { // first row is the col
 				Element row = rows.get(i);
 				Elements cols = row.select("td");
 				String txt=cols.get(0).text();
-				String txt1=cols.get(1).text();
-				String txt2=cols.get(2).text();
-				String txt3=cols.get(3).text();
-				String txt4=cols.get(4).text();
-				String txt5=cols.get(5).text();
-				
 				if(txt.contains("Close price adjusted for splits.")){
 					break;
 				}
 				VolatilityIndex vi=new VolatilityIndex();
-				vi.setHistorydatadate(DateUtils.stringTodate(cols.get(0).text(),"MMMM d, yy","yyyy-MM-dd"));
+				vi.setHistorydatadate(stringTodate(cols.get(0).text(),"MMMM d, yy","yyyy-MM-dd"));
 				vi.setOpen(Double.parseDouble(cols.get(1).text()));
 				vi.setHigh(Double.parseDouble(cols.get(2).text()));
 				vi.setLow(Double.parseDouble(cols.get(3).text()));
@@ -227,6 +206,33 @@ public class YahooScrapForVolatilityIndex {
 				pSLocal.execute();
 			}
 		}
+	}
+
+	public static void main(String args[]) throws Exception{
+		Scanner input=new Scanner(System.in);
+		System.out.println("insert date range for historical price data fetch.");
+		System.out.println("if not input provided then take automatically 1 year date range from current date\n");
+		
+		System.out.println("start date:(mm/dd/yy)");
+		String start_date=input.nextLine();
+		System.out.println("end date:(mm/dd/yy)");
+		String end_date=input.nextLine();
+		
+		System.out.println("As usual defult value is historical price data. In case we want different data thats "
+				+ "why provided the option to choose");
+		System.out.println("Other options: put 'div' or 'split' for dividends and split stock splits respectively\n");
+		System.out.println("Now insert the option if you like to:");
+		String show_option=input.nextLine();
+		
+		System.out.println("Frequency defult value: daily=1d");
+		System.out.println("other option: weekly=1wk, monthly=1mo\n");
+		System.out.println("Insert desired frequency:");
+		String freq=input.nextLine();
+		
+		
+		
+		HistoricalPricedataRead(start_date, end_date, show_option, freq);
+		
 	}
 
 
