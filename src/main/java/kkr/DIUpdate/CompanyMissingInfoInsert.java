@@ -84,7 +84,7 @@ public class CompanyMissingInfoInsert {
 
 	public static void main(String[] args) {
 		try {
-			Connection cLocal = DataBaseUtils.connectkkrProd();
+			Connection cLocal = DataBaseUtils.connectkkrDev();
 			createSectorMap();
 			Statement sKKR = cLocal.createStatement();
 			// PreparedStatement pSLocal = cLocal.prepareStatement("INSERT INTO
