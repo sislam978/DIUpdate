@@ -1,8 +1,7 @@
 package kkr.DIUpdate;
 
-import java.io.BufferedWriter;
+
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.sql.Connection;
@@ -27,7 +26,6 @@ public class EmployeeFeedBackDataLoader {
 		Connection con = DataBaseUtils.connectLocal();
 
 		ReviewDetailsDataLoader(con, conClient, ps);
-		// LoadDataintoDev(con);
 	}
 
 	private static void ReviewDetailsDataLoader(Connection conRead, Connection conWrite, PrintStream ps) throws SQLException, IOException {
