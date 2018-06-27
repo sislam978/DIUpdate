@@ -18,21 +18,135 @@ CompanyTickerInfo [instrumenttype=etf, longname=DBX ETF Trust Deutsche X-Tracker
  
 CompanyTickerInfo [instrumenttype=etf, longname=BMO REX MicroSectors FANG Index -3X Inverse Leveraged Exchange Traded Notes, shorname=FNGD, symbol=FNGD, symbol_string=FNGD, exchange=ARCA, issuetype=FNGD, sectype=null, isocfi=EYMYFI]
  
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons BetaPro S&P/TSX Capped Financials Bear Plus ETF Unit Cl A (New), shorname=HZBBF, symbol=HZBBF, symbol_string=HZBBF, exchange=GREY, issuetype=HZBBF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons BetaPro S&P/TSX Capped Energy Bull Plus ETF Unit Cl A (New), shorname=HZBRF, symbol=HZBRF, symbol_string=HZBRF, exchange=OTO, issuetype=HZBRF, sectype=ETF, isocfi=CEOXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BetaPro US 30 Year Bond 2x Daily Bear ETF Unit Cl A, shorname=HZBTF, symbol=HZBTF, symbol_string=HZBTF, exchange=GREY, issuetype=HZBTF, sectype=ETF, isocfi=CEOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BetaPro Canadian Gold Miners 2x Daily Bull ETF, shorname=HZNSF, symbol=HZNSF, symbol_string=HZNSF, exchange=OTO, issuetype=HZNSF, sectype=ETF, isocfi=CEXXXX]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Large Cap Growth Index-Linked Exchange Traded Notes due 2028, shorname=FRLG, symbol=FRLG, symbol_string=FRLG, exchange=ARCA, issuetype=FRLG, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BetaPro Crude Oil 2x Daily Bull ETF, shorname=HZOZF, symbol=HZOZF, symbol_string=HZOZF, exchange=OTO, issuetype=HZOZF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons BetaPro S&P/TSX Global Gold Bear Plus ETF Unit Cl A No Par (New), shorname=HZRZF, symbol=HZRZF, symbol_string=HZRZF, exchange=GREY, issuetype=HZRZF, sectype=ETF, isocfi=CEOXCX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons US Equity Managed Risk ETF Cl E Unit, shorname=HZUVF, symbol=HZUVF, symbol_string=HZUVF, exchange=GREY, issuetype=HZUVF, sectype=ETF, isocfi=CEOXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares VII PLC Core S&P 500 UCITS ETF, shorname=CSTNL, symbol=CSTNL, symbol_string=CSTNL, exchange=OTO, issuetype=CSTNL, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Salt truBeta High Exposure, shorname=SLT, symbol=SLT, symbol_string=SLT, exchange=BATS, issuetype=SLT, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian Real Return Bond Index ETF Unit, shorname=ICDXF, symbol=ICDXF, symbol_string=ICDXF, exchange=GREY, issuetype=ICDXF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian HYBrid Corporate Bond Index ETF Unit, shorname=ICDZF, symbol=ICDZF, symbol_string=ICDZF, exchange=GREY, issuetype=ICDZF, sectype=ETF, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Ftse/Xinhua A50, shorname=IFXAF, symbol=IFXAF, symbol_string=IFXAF, exchange=GREY, issuetype=IFXAF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Global X Future Analytics Tech ETF, shorname=AIQ, symbol=AIQ, symbol_string=AIQ, exchange=NSD, issuetype=AIQ, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Plc Res Nl, shorname=IHPCF, symbol=IHPCF, symbol_string=IHPCF, exchange=OTO, issuetype=IHPCF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Msci Euro Ex-Uk, shorname=IHPXF, symbol=IHPXF, symbol_string=IHPXF, exchange=GREY, issuetype=IHPXF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares III Plc Eur Corporate Bd Ex-Financials UCITS ETF, shorname=IHRHF, symbol=IHRHF, symbol_string=IHRHF, exchange=GREY, issuetype=IHRHF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Msci Jpn Ord, shorname=IHRMF, symbol=IHRMF, symbol_string=IHRMF, exchange=OTO, issuetype=IHRMF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Plc - iShares Euro Government Bond 1-3 Fund Shs Eur, shorname=IIGGF, symbol=IIGGF, symbol_string=IIGGF, exchange=GREY, issuetype=IIGGF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Msci World Ord, shorname=IIREF, symbol=IIREF, symbol_string=IIREF, exchange=OTO, issuetype=IIREF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares III Plc Emerging Mkts Loc Govt Bd UCITS ETF, shorname=IISHF, symbol=IISHF, symbol_string=IISHF, exchange=GREY, issuetype=IISHF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares III Plc Eur Corp Bd Ex-Finls 1-5 Yr UCITS ETF, shorname=ILLLF, symbol=ILLLF, symbol_string=ILLLF, exchange=GREY, issuetype=ILLLF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares BRIC Index Fund Unit Com, shorname=CYMEF, symbol=CYMEF, symbol_string=CYMEF, exchange=GREY, issuetype=CYMEF, sectype=ETF, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Canadian Preferred Share Index ETF Com Unit, shorname=CYSXF, symbol=CYSXF, symbol_string=CYSXF, exchange=GREY, issuetype=CYSXF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian Short Term Bond Index ETF Unit, shorname=INITF, symbol=INITF, symbol_string=INITF, exchange=GREY, issuetype=INITF, sectype=ETF, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Deutsche Bank Luxembourg S.A. - Xtrackers FTSE Vietnam Swap UCITS ETF 1C, shorname=DBTRF, symbol=DBTRF, symbol_string=DBTRF, exchange=GREY, issuetype=DBTRF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Reality Shares Nasdaq NexGen Economy China ETF, shorname=BCNA, symbol=BCNA, symbol_string=BCNA, exchange=NSD, issuetype=BCNA, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Core Canadian Long Term Bond Index ETF Unit, shorname=IOOXF, symbol=IOOXF, symbol_string=IOOXF, exchange=GREY, issuetype=IOOXF, sectype=ETF, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Core S&P/TSX Capped Composite Index ETF Unit, shorname=IRSHF, symbol=IRSHF, symbol_string=IRSHF, exchange=GREY, issuetype=IRSHF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BlackRock Asset Management Ireland Limited - BlackRock iShares MSCI Japan CHF Hedged UCITS ETF (Acc), shorname=IRVVF, symbol=IRVVF, symbol_string=IRVVF, exchange=GREY, issuetype=IRVVF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian Universe Bond Index ETF Unit, shorname=ISARF, symbol=ISARF, symbol_string=ISARF, exchange=GREY, issuetype=ISARF, sectype=ETF, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares II Plc Shs GBP Core UK Gilts UCITS ETF, shorname=ISCKF, symbol=ISCKF, symbol_string=ISCKF, exchange=GREY, issuetype=ISCKF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian Select Dividend Index ETF Unit, shorname=ISDJF, symbol=ISDJF, symbol_string=ISDJF, exchange=GREY, issuetype=ISDJF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian Corporate Bond Index ETF Unit, shorname=ISDXF, symbol=ISDXF, symbol_string=ISDXF, exchange=GREY, issuetype=ISDXF, sectype=ETF, isocfi=CIOXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Capped Materials Index ETF Unit, shorname=ISESF, symbol=ISESF, symbol_string=ISESF, exchange=GREY, issuetype=ISESF, sectype=ETF, isocfi=ELXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Msci Ac Far East, shorname=ISEXF, symbol=ISEXF, symbol_string=ISEXF, exchange=OTO, issuetype=ISEXF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Diversified Monthly Income ETF Tr Unit, shorname=ISHAF, symbol=ISHAF, symbol_string=ISHAF, exchange=GREY, issuetype=ISHAF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Iii Plc Shs, shorname=ISHOF, symbol=ISHOF, symbol_string=ISHOF, exchange=OTO, issuetype=ISHOF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BlackRock Investments Canada Inc - iShares High Quality Canadian Bond Index ETF (Advisor Class Units), shorname=ISHQF, symbol=ISHQF, symbol_string=ISHQF, exchange=GREY, issuetype=ISHQF, sectype=ETF, isocfi=CICXMX]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Pacer Benchmark Industrial Real Estate SCTR, shorname=INDS, symbol=INDS, symbol_string=INDS, exchange=ARCA, issuetype=INDS, sectype=null, isocfi=CEOJRS]
  
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Plc Shs, shorname=ISHRF, symbol=ISHRF, symbol_string=ISHRF, exchange=GREY, issuetype=ISHRF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Canadian Government Bond Index ETF Unit, shorname=ISHXF, symbol=ISHXF, symbol_string=ISHXF, exchange=GREY, issuetype=ISHXF, sectype=ETF, isocfi=CIOXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BlackRock Asset Management Canada Ltd - BlackRock Canada iShares Jantzi Social Index ETF, shorname=ISJSF, symbol=ISJSF, symbol_string=ISJSF, exchange=GREY, issuetype=ISJSF, sectype=ETF, isocfi=CIOXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Emerging Markets Fundamental Index ETF Unit Com, shorname=ISMKF, symbol=ISMKF, symbol_string=ISMKF, exchange=GREY, issuetype=ISMKF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Plc Shs ETF GBP, shorname=ISRRF, symbol=ISRRF, symbol_string=ISRRF, exchange=GREY, issuetype=ISRRF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares III Plc MSCI Australia UCITS ETF, shorname=ISSSF, symbol=ISSSF, symbol_string=ISSSF, exchange=GREY, issuetype=ISSSF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares IV PLC Shs ETF EUR, shorname=ISSVF, symbol=ISSVF, symbol_string=ISSVF, exchange=GREY, issuetype=ISSVF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=iShares Trust Robotics & Artificial Intelligence ETF, shorname=IRBO, symbol=IRBO, symbol_string=IRBO, exchange=NYE, issuetype=IRBO, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Bse Sensex India, shorname=ISXIF, symbol=ISXIF, symbol_string=ISXIF, exchange=OTO, issuetype=ISXIF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Causeway Global Value NextShares, shorname=CGVICNX, symbol=CGVICNX, symbol_string=CGVICNX, exchange=NSD, issuetype=CGVICNX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Causeway International Value NextShares, shorname=CIVECNX, symbol=CIVECNX, symbol_string=CIVECNX, exchange=NSD, issuetype=CIVECNX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Capped Financials Index ETF Unit, shorname=ITSXF, symbol=ITSXF, symbol_string=ITSXF, exchange=GREY, issuetype=ITSXF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Ubs Composite Bd, shorname=IUCDL, symbol=IUCDL, symbol_string=IUCDL, exchange=GREY, issuetype=IUCDL, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Capped Energy Index ETF Unit, shorname=IUNSF, symbol=IUNSF, symbol_string=IUNSF, exchange=GREY, issuetype=IUNSF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Shares MSCI EAFE Index ETF (CAD-Hedged) Unit, shorname=IUNTF, symbol=IUNTF, symbol_string=IUNTF, exchange=GREY, issuetype=IUNTF, sectype=ETF, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Capped REIT Index ETF Unit, shorname=IUSPF, symbol=IUSPF, symbol_string=IUSPF, exchange=GREY, issuetype=IUSPF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Global Gold Index ETF Unit, shorname=IUTCF, symbol=IUTCF, symbol_string=IUTCF, exchange=GREY, issuetype=IUTCF, sectype=ETF, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Ubs Trea Indx Fd, shorname=IUTIL, symbol=IUTIL, symbol_string=IUTIL, exchange=GREY, issuetype=IUTIL, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX 60 Index ETF Unit, shorname=IUTSF, symbol=IUTSF, symbol_string=IUTSF, exchange=GREY, issuetype=IUTSF, sectype=ETF, isocfi=ELNUFR]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares VI Plc Shs ETF USD, shorname=IVIVF, symbol=IVIVF, symbol_string=IVIVF, exchange=GREY, issuetype=IVIVF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P Global Consumer Discretionary Index ETF (CAD-Hedged) Unit, shorname=IXLCF, symbol=IXLCF, symbol_string=IXLCF, exchange=GREY, issuetype=IXLCF, sectype=ETF, isocfi=CEOGXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P Global Industrials Index ETF (CAD-Hedged) Unit, shorname=IXLDF, symbol=IXLDF, symbol_string=IXLDF, exchange=GREY, issuetype=IXLDF, sectype=ETF, isocfi=CEOGXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares STOXX Europe 600 Insurance DE Shs Hldgs, shorname=IXXXF, symbol=IXXXF, symbol_string=IXXXF, exchange=GREY, issuetype=IXXXF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Iii Plc Accum, shorname=IZIZF, symbol=IZIZF, symbol_string=IZIZF, exchange=OTO, issuetype=IZIZF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Jasdaq-Top20 Etf 10Units, shorname=JDQTF, symbol=JDQTF, symbol_string=JDQTF, exchange=GREY, issuetype=JDQTF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Goldman Sachs JUST U.S. Large Cap Equity, shorname=JUST, symbol=JUST, symbol_string=JUST, exchange=ARCA, issuetype=JUST, sectype=null, isocfi=CEOJLS]
  
@@ -40,19 +154,65 @@ CompanyTickerInfo [instrumenttype=etf, longname=KraneShares Trust CCBS China Cor
  
 CompanyTickerInfo [instrumenttype=etf, longname=First Trust DorseyWright DALI 1 ETF, shorname=DALI, symbol=DALI, symbol_string=DALI, exchange=NSD, issuetype=DALI, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=ETFS Commodity Securities Ltd St Helier Regd Certificates 2006 Without Fixed Maturity On Precious Metals DJ-AIGCI, shorname=ECDYF, symbol=ECDYF, symbol_string=ECDYF, exchange=GREY, issuetype=ECDYF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Vanguard Funds PLC MSCI ACWI ETF USD, shorname=VFPEF, symbol=VFPEF, symbol_string=VFPEF, exchange=GREY, issuetype=VFPEF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Vanguard Australian Property Securities Index ETF Units ETF, shorname=VGAPF, symbol=VGAPF, symbol_string=VGAPF, exchange=OTO, issuetype=VGAPF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Vanguard Funds PLC Vanguard FTSE Japan UCITS ETF, shorname=VNFGF, symbol=VNFGF, symbol_string=VNFGF, exchange=GREY, issuetype=VNFGF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=MFLA, symbol=MFLA, symbol_string=MFLA, exchange=NYE, issuetype=MFLA, sectype=null, isocfi=EYXXXX]
  
+CompanyTickerInfo [instrumenttype=etf, longname=ETFS Commodity Securities Ltd St Helier Regd Individual Commodity Securities 2008 - Without Fixed Maturity On DJ - UBS Nat Gas IDX Secured, shorname=ELVGF, symbol=ELVGF, symbol_string=ELVGF, exchange=GREY, issuetype=ELVGF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Abf Singapore Bd I/Fd, shorname=ASNGF, symbol=ASNGF, symbol_string=ASNGF, exchange=GREY, issuetype=ASNGF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Sharespost 100 Fund -, shorname=PIIVX, symbol=PIIVX, symbol_string=PIIVX, exchange=NMF, issuetype=PIIVX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Easyetf Epra Eurozone Fcp, shorname=ESEFF, symbol=ESEFF, symbol_string=ESEFF, exchange=GREY, issuetype=ESEFF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Etfs Cmdty Sec, shorname=ETFBF, symbol=ETFBF, symbol_string=ETFBF, exchange=GREY, issuetype=ETFBF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Etfs Cmdty Secs Cotton, shorname=ETFDF, symbol=ETFDF, symbol_string=ETFDF, exchange=GREY, issuetype=ETFDF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=ETFS Commodity Securities Ltd St Helier Regd Individual Commodity Security 2006 - Without Fixed Maturity On Coffee Commodity Index, shorname=ETSCF, symbol=ETSCF, symbol_string=ETSCF, exchange=GREY, issuetype=ETSCF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Gold Bullion Secs Nts2004, shorname=LGLBF, symbol=LGLBF, symbol_string=LGLBF, exchange=OTO, issuetype=LGLBF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Multi Units Luxembourg SICAV Shs MUL LY FAUG 0-5 Yr ETF D GBP, shorname=LLXXF, symbol=LLXXF, symbol_string=LLXXF, exchange=OTO, issuetype=LLXXF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=O'Shares Global Internet Giants, shorname=OGIG, symbol=OGIG, symbol_string=OGIG, exchange=ARCA, issuetype=OGIG, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse X-Links WTI Crude Oil Index ETNs due February 8 2016, shorname=OIIL, symbol=OIIL, symbol_string=OIIL, exchange=ARCA, issuetype=OIIL, sectype=null, isocfi=EYXXXX]
  
+CompanyTickerInfo [instrumenttype=etf, longname=European Ex Traded Ord, shorname=EXTDF, symbol=EXTDF, symbol_string=EXTDF, exchange=OTO, issuetype=EXTDF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=First Asset Active Utilities & Infrastructure ETF Com, shorname=FAPPF, symbol=FAPPF, symbol_string=FAPPF, exchange=GREY, issuetype=FAPPF, sectype=ETF, isocfi=ESVUFR]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Virtus InfraCap U.S. Preferred Stock, shorname=PFFA, symbol=PFFA, symbol_string=PFFA, exchange=ARCA, issuetype=PFFA, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Invesco Russell Top 200 Pure Value, shorname=PKLV, symbol=PKLV, symbol_string=PKLV, exchange=ARCA, issuetype=PKLV, sectype=ETF, isocfi=CEOXLS]
  
+CompanyTickerInfo [instrumenttype=etf, longname=Lyxor Asset Management - Lyxor CAC 40 (DR) UCITS ETF - Dist., shorname=LYXRF, symbol=LYXRF, symbol_string=LYXRF, exchange=GREY, issuetype=LYXRF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Cushing 30 MLP Index ETNs due June 15 2037, shorname=PPLN, symbol=PPLN, symbol_string=PPLN, exchange=ARCA, issuetype=PPLN, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Lyxor Asset Management - Lyxor UCITS ETF MSCI Emerging Markets - Acc, shorname=LYYXF, symbol=LYYXF, symbol_string=LYYXF, exchange=GREY, issuetype=LYYXF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Zkb Gold Corp, shorname=ZKBGF, symbol=ZKBGF, symbol_string=ZKBGF, exchange=GREY, issuetype=ZKBGF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Zkb Gold Corp A, shorname=ZKBHF, symbol=ZKBHF, symbol_string=ZKBHF, exchange=GREY, issuetype=ZKBHF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Zkb Palladium Etf Klasse, shorname=ZKPLF, symbol=ZKPLF, symbol_string=ZKPLF, exchange=GREY, issuetype=ZKPLF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BMO Short Corporate Bond Index ETF Unit, shorname=BMCBF, symbol=BMCBF, symbol_string=BMCBF, exchange=GREY, issuetype=BMCBF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BMO Covered Call Canadian Banks ETF Unit, shorname=BMDLF, symbol=BMDLF, symbol_string=BMDLF, exchange=GREY, issuetype=BMDLF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Bmo Junior Gold Index Ord, shorname=BMJJF, symbol=BMJJF, symbol_string=BMJJF, exchange=GREY, issuetype=BMJJF, sectype=ETF, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=First Trust Short Duration High Yield Bond ETF (CAD-Hedged) Unit Advisor Cl, shorname=FRADF, symbol=FRADF, symbol_string=FRADF, exchange=GREY, issuetype=FRADF, sectype=ETF, isocfi=CEOIXX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Deutsche Bank AG, shorname=AGA, symbol=AGA, symbol_string=AGA, exchange=ARCA, issuetype=AGA, sectype=NTS, isocfi=EPNXFR]
  
@@ -70,7 +230,13 @@ CompanyTickerInfo [instrumenttype=etf, longname=USCF SummerHaven Dynamic Commodi
  
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=SFLA, symbol=SFLA, symbol_string=SFLA, exchange=NYE, issuetype=SFLA, sectype=null, isocfi=EYXXXX]
  
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons ETFs Management (Canada) Inc - BetaPro S&P 500 VIX Short-Term Futures Daily Inverse ETF Class A, shorname=BTTPF, symbol=BTTPF, symbol_string=BTTPF, exchange=GREY, issuetype=BTTPF, sectype=ETF, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BlackRock Asset Management Ireland Limited - BlackRock iShares MSCI World Islamic UCITS ETF USD (Dist), shorname=SIIPF, symbol=SIIPF, symbol_string=SIIPF, exchange=GREY, issuetype=SIIPF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Amplify Advanced Battery Metals and Materials, shorname=BATT, symbol=BATT, symbol_string=BATT, exchange=ARCA, issuetype=BATT, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Gold Corp Etc Sec Wts, shorname=GDCWF, symbol=GDCWF, symbol_string=GDCWF, exchange=GREY, issuetype=GDCWF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Gabelli NextShares Trust, shorname=PETZC, symbol=PETZC, symbol_string=PETZC, exchange=NSD, issuetype=PETZC, sectype=null, isocfi=null]
  
@@ -92,21 +258,47 @@ CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse AxelaTrader 3x Lon
  
 CompanyTickerInfo [instrumenttype=etf, longname=First Trust TCW Unconstrained Plus Bond, shorname=UCON, symbol=UCON, symbol_string=UCON, exchange=ARCA, issuetype=UCON, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Canadian Fundmnt, shorname=CFYFF, symbol=CFYFF, symbol_string=CFYFF, exchange=GREY, issuetype=CFYFF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Gold Bullion ETF (CAD-Hedged), shorname=CGBLF, symbol=CGBLF, symbol_string=CGBLF, exchange=GREY, issuetype=CGBLF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Chinaamc Etf Fd Mgr, shorname=CHMCF, symbol=CHMCF, symbol_string=CHMCF, exchange=OTO, issuetype=CHMCF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Ssga Spdr Etfs Eur I Plc, shorname=SSEEF, symbol=SSEEF, symbol_string=SSEEF, exchange=OTO, issuetype=SSEEF, sectype=ETF, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse AxelaTrader 3x Inverse Brent Crude Oil ETN, shorname=DBRT, symbol=DBRT, symbol_string=DBRT, exchange=ARCA, issuetype=DBRT, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Aberdeen Asia-Pacific Income Fund Inc., shorname=XFAPX, symbol=XFAPX, symbol_string=XFAPX, exchange=NMF, issuetype=XFAPX, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Highland Floating Rate Opportunities Fund, shorname=XHFOX, symbol=XHFOX, symbol_string=XHFOX, exchange=NMF, issuetype=XHFOX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=iShares 1-5 Year Laddered Corporate Bond Index ETF Com Unit, shorname=CLAYF, symbol=CLAYF, symbol_string=CLAYF, exchange=GREY, issuetype=CLAYF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons BetaPro COMEX Gold Bullion Bull Plus ETF Unit Cl A, shorname=HBCGF, symbol=HBCGF, symbol_string=HBCGF, exchange=GREY, issuetype=HBCGF, sectype=ETF, isocfi=CEXXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares 1-5 Year Laddered Government Bond Index ETF Com Unit, shorname=CLFMF, symbol=CLFMF, symbol_string=CLFMF, exchange=GREY, issuetype=CLFMF, sectype=ETF, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Horizons BetaPro NYMEX Crude Oil Bear Plus ETF Unit Cl A, shorname=HBTPF, symbol=HBTPF, symbol_string=HBTPF, exchange=OTO, issuetype=HBTPF, sectype=ETF, isocfi=CICIMX]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=The Communication Services Select Sector SPDR Fund, shorname=XLC, symbol=XLC, symbol_string=XLC, exchange=ARCA, issuetype=XLC, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=Ishares Global Agricultu, shorname=CLYAF, symbol=CLYAF, symbol_string=CLYAF, exchange=GREY, issuetype=CLYAF, sectype=ETF, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares S&P/TSX Canadian Dividend Aristocrats Index ETF Com Unit, shorname=CLYLF, symbol=CLYLF, symbol_string=CLYLF, exchange=GREY, issuetype=CLYLF, sectype=ETF, isocfi=CICXMX]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Amplify ETF Trust, shorname=EASI, symbol=EASI, symbol_string=EASI, exchange=ARCA, issuetype=EASI, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=iShares Global Water Index ETF Com Unit, shorname=CMOXF, symbol=CMOXF, symbol_string=CMOXF, exchange=GREY, issuetype=CMOXF, sectype=ETF, isocfi=CICXMX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=EMLB, symbol=EMLB, symbol_string=EMLB, exchange=NYE, issuetype=EMLB, sectype=null, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Columbia Premium Technology Growth Fund Inc., shorname=XSTKX, symbol=XSTKX, symbol_string=XSTKX, exchange=NMF, issuetype=XSTKX, sectype=EQS, isocfi=CICXXX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Tri-Continental Corp., shorname=XTYCX, symbol=XTYCX, symbol_string=XTYCX, exchange=NMF, issuetype=XTYCX, sectype=EQS, isocfi=CICXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Tracker Fund Of Hong Kong, shorname=TAHKF, symbol=TAHKF, symbol_string=TAHKF, exchange=GREY, issuetype=TAHKF, sectype=ETF, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BetaPro Natural Gas 2x Daily Bull ETF, shorname=HNUZF, symbol=HNUZF, symbol_string=HNUZF, exchange=OTO, issuetype=HNUZF, sectype=ETF, isocfi=CEXXMX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Rafael Holdings Inc. Class B, shorname=RFL, symbol=RFL, symbol_string=RFL, exchange=AMX, issuetype=RFL, sectype=null, isocfi=null]
  
@@ -10182,7 +10374,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Franklin Liberty Internationa
  
 CompanyTickerInfo [instrumenttype=equity, longname=iShares Broad USD High Yield Corporate Bond, shorname=USHY, symbol=USHY, symbol_string=USHY, exchange=BATS, issuetype=USHY, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Aptinyx Inc., shorname=APTX, symbol=APTX, symbol_string=APTX, exchange=NGS, issuetype=APTX, sectype=null, isocfi=ESVUFR]
+CompanyTickerInfo [instrumenttype=equity, longname=Aptinyx Inc., shorname=APTX, symbol=APTX, symbol_string=APTX, exchange=NGS, issuetype=APTX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Autolus Therapeutics plc, shorname=AUTL, symbol=AUTL, symbol_string=AUTL, exchange=NGS, issuetype=AUTL, sectype=null, isocfi=null]
  
@@ -10194,7 +10386,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Correvio Pharma Corp., shorna
  
 CompanyTickerInfo [instrumenttype=equity, longname=Cowen Inc. 7.75% Senior Notes due 2033, shorname=COWNL, symbol=COWNL, symbol_string=COWNL, exchange=NGS, issuetype=COWNL, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Chicken Soup for the Soul Entertainment Inc - 9.75% PRF PERPETUAL USD 25 - Ser A, shorname=CSSEP, symbol=CSSEP, symbol_string=CSSEP, exchange=NSD, issuetype=CSSEP, sectype=null, isocfi=EPNCCR]
+CompanyTickerInfo [instrumenttype=equity, longname=Chicken Soup for the Soul Entertainment Inc - 10% PRF PERPETUAL USD - Ser A, shorname=CSSEP, symbol=CSSEP, symbol_string=CSSEP, exchange=NSD, issuetype=CSSEP, sectype=null, isocfi=EPNCCR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=First Trust Indxx Global Natural Resources Income, shorname=CU, symbol=CU, symbol_string=CU, exchange=NSD, issuetype=CU, sectype=null, isocfi=null]
  
@@ -10212,7 +10404,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=ESSA Pharma Inc., shorname=EP
  
 CompanyTickerInfo [instrumenttype=equity, longname=EVO Payments Inc., shorname=EVOP, symbol=EVOP, symbol_string=EVOP, exchange=NSD, issuetype=EVOP, sectype=null, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Forty Seven Inc - Ordinary Shares, shorname=FTSV, symbol=FTSV, symbol_string=FTSV, exchange=NGS, issuetype=FTSV, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Forty Seven Inc, shorname=FTSV, symbol=FTSV, symbol_string=FTSV, exchange=NSD, issuetype=FTSV, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=GoodBulk Ltd, shorname=GBLK, symbol=GBLK, symbol_string=GBLK, exchange=NSD, issuetype=GBLK, sectype=EQS, isocfi=null]
  
@@ -10230,7 +10422,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Hancock Whitney Corporation, 
  
 CompanyTickerInfo [instrumenttype=equity, longname=Hancock Whitney Corporation 5.95% Subordinated Notes due 2045, shorname=HWCPL, symbol=HWCPL, symbol_string=HWCPL, exchange=NGS, issuetype=HWCPL, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=HyreCar Inc - Ordinary Shares, shorname=HYRE, symbol=HYRE, symbol_string=HYRE, exchange=NSC, issuetype=HYRE, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=HyreCar Inc, shorname=HYRE, symbol=HYRE, symbol_string=HYRE, exchange=NSC, issuetype=HYRE, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=i3 Verticals Inc., shorname=IIIV, symbol=IIIV, symbol_string=IIIV, exchange=NGS, issuetype=IIIV, sectype=null, isocfi=ESVUFR]
  
@@ -10258,7 +10450,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Magenta Therapeutics Inc., sh
  
 CompanyTickerInfo [instrumenttype=equity, longname=MeiraGTx Holdings plc, shorname=MGTX, symbol=MGTX, symbol_string=MGTX, exchange=NGS, issuetype=MGTX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Neon Therapeutics Inc - Ordinary Shares, shorname=NTGN, symbol=NTGN, symbol_string=NTGN, exchange=NGS, issuetype=NTGN, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Neon Therapeutics Inc - Ordinary Shares, shorname=NTGN, symbol=NTGN, symbol_string=NTGN, exchange=NSD, issuetype=NTGN, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Oncolytics Biotech Inc., shorname=ONCY, symbol=ONCY, symbol_string=ONCY, exchange=NSC, issuetype=ONCY, sectype=EQS, isocfi=ESVUFR]
  
@@ -10294,11 +10486,9 @@ CompanyTickerInfo [instrumenttype=equity, longname=Trinity Merger Corp., shornam
  
 CompanyTickerInfo [instrumenttype=equity, longname=Trinity Merger Corp. Warrant, shorname=TMCXW, symbol=TMCXW, symbol_string=TMCXW, exchange=NSC, issuetype=TMCXW, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Titan Medical Inc - Ordinary Shares, shorname=TMDI, symbol=TMDI, symbol_string=TMDI, exchange=NSC, issuetype=TMDI, sectype=EQS, isocfi=ESVUFR]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Twelve Seas Investment Company Units, shorname=TWLVU, symbol=TWLVU, symbol_string=TWLVU, exchange=NSC, issuetype=TWLVU, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Uxin Ltd ADS, shorname=UXIN, symbol=UXIN, symbol_string=UXIN, exchange=NGS, issuetype=UXIN, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Uxin Ltd ADS, shorname=UXIN, symbol=UXIN, symbol_string=UXIN, exchange=NSD, issuetype=UXIN, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Verrica Pharmaceuticals Inc., shorname=VRCA, symbol=VRCA, symbol_string=VRCA, exchange=NSD, issuetype=VRCA, sectype=null, isocfi=null]
  
@@ -10524,7 +10714,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=OTC108582, shorname=OTC108582
  
 CompanyTickerInfo [instrumenttype=equity, longname=OTC120304, shorname=OTC120304, symbol=OTC120304, symbol_string=OTC120304, exchange=OBB, issuetype=OTC120304, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Test Mutual Fund 4 - PICE, shorname=TESTX, symbol=TESTX, symbol_string=TESTX, exchange=OBB, issuetype=TESTX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=OTC130514, shorname=OTC130514, symbol=OTC130514, symbol_string=OTC130514, exchange=OBB, issuetype=OTC130514, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Almadex Minerals Ltd - Ordinary Shares, shorname=AAMMF, symbol=AAMMF, symbol_string=AAMMF, exchange=OTO, issuetype=AAMMF, sectype=null, isocfi=null]
  
@@ -10584,15 +10774,9 @@ CompanyTickerInfo [instrumenttype=equity, longname=AvroBio Inc - Ordinary Shares
  
 CompanyTickerInfo [instrumenttype=equity, longname=Amseco Exploration Ltd, shorname=AXPRF, symbol=AXPRF, symbol_string=AXPRF, exchange=GREY, issuetype=AXPRF, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=iPath GEMS Asia 8 ETN, shorname=AYTEF, symbol=AYTEF, symbol_string=AYTEF, exchange=OTO, issuetype=AYTEF, sectype=NTS, isocfi=EPVXUR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Cotton Subindex Total Return SM Index ETN, shorname=BALTF, symbol=BALTF, symbol_string=BALTF, exchange=OTO, issuetype=BALTF, sectype=NTS, isocfi=EMXXXR]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Bacanora Lithium PLC, shorname=BCLMF, symbol=BCLMF, symbol_string=BCLMF, exchange=GREY, issuetype=BCLMF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=BCM Res Corporation, shorname=BCMRF, symbol=BCMRF, symbol_string=BCMRF, exchange=GREY, issuetype=BCMRF, sectype=EQS, isocfi=ESVUFR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=Premier Biomedical Inc, shorname=BIEID, symbol=BIEID, symbol_string=BIEID, exchange=OTO, issuetype=BIEID, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Brasil Insurance Participacoes E Administracao SA, shorname=BIPCF, symbol=BIPCF, symbol_string=BIPCF, exchange=GREY, issuetype=BIPCF, sectype=EQS, isocfi=null]
  
@@ -10609,8 +10793,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Bollore. - Ordinary Shares (N
 CompanyTickerInfo [instrumenttype=equity, longname=BLOK Technologies, shorname=BLPFF, symbol=BLPFF, symbol_string=BLPFF, exchange=OTO, issuetype=BLPFF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=BioPharma Credit Plc - Ordinary Shares, shorname=BOPCF, symbol=BOPCF, symbol_string=BOPCF, exchange=GREY, issuetype=BOPCF, sectype=EQS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Goldman Sachs Barclays Bank PLC Exchange Traded Notes Linked to the CBOE S&P 500 BuyWrite Index Structured Product, shorname=BWVTF, symbol=BWVTF, symbol_string=BWVTF, exchange=OTO, issuetype=BWVTF, sectype=NTS, isocfi=EPVXAR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Boyuan Construction Group Inc, shorname=BYGRF, symbol=BYGRF, symbol_string=BYGRF, exchange=GREY, issuetype=BYGRF, sectype=EQS, isocfi=ESVUFR]
  
@@ -10653,8 +10835,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Constantine Metal Res, shorna
 CompanyTickerInfo [instrumenttype=equity, longname=Cenveo Inc Wt Pur Com 144A Exp 06/10/2024, shorname=CNVWQ, symbol=CNVWQ, symbol_string=CNVWQ, exchange=GREY, issuetype=CNVWQ, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Cannex Capital Holdings Inc. - Ordinary Shares, shorname=CNXXF, symbol=CNXXF, symbol_string=CNXXF, exchange=OTCQB, issuetype=CNXXF, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Livestock Total Return Sub-Index ETN, shorname=COWTF, symbol=COWTF, symbol_string=COWTF, exchange=OTO, issuetype=COWTF, sectype=null, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Capital Enterprises Inc - Ordinary Shares, shorname=CPPE, symbol=CPPE, symbol_string=CPPE, exchange=GREY, issuetype=CPPE, sectype=null, isocfi=null]
  
@@ -10710,8 +10890,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Encanto Potash Corp Ord, shor
  
 CompanyTickerInfo [instrumenttype=equity, longname=Enstar Group Ltd Depositary Sh Repstg 1/1000th Fixed To Fltg Rate Pref Ser D, shorname=ENSTF, symbol=ENSTF, symbol_string=ENSTF, exchange=OTO, issuetype=ENSTF, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Barclays PLC iPath EUR/USD Exchange Rate ETN, shorname=EROTF, symbol=EROTF, symbol_string=EROTF, exchange=OTO, issuetype=EROTF, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Essex Bio-Technology - Ordinary Shares, shorname=ESXBF, symbol=ESXBF, symbol_string=ESXBF, exchange=GREY, issuetype=ESXBF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=European Investment Trust PLC, shorname=EUITF, symbol=EUITF, symbol_string=EUITF, exchange=OTO, issuetype=EUITF, sectype=null, isocfi=null]
@@ -10740,10 +10918,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=First St Bancshares Inc - Ord
  
 CompanyTickerInfo [instrumenttype=equity, longname=Fortive Corp Pfd Conv Ser A, shorname=FTVVP, symbol=FTVVP, symbol_string=FTVVP, exchange=OTO, issuetype=FTVVP, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Natural Gas Subindeex Total Return ETN, shorname=GAZZF, symbol=GAZZF, symbol_string=GAZZF, exchange=GREY, issuetype=GAZZF, sectype=null, isocfi=EMXXXR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Goldman Sachs GBP/USD Exchange Rate ETN, shorname=GBBEF, symbol=GBBEF, symbol_string=GBBEF, exchange=OTO, issuetype=GBBEF, sectype=NTS, isocfi=EYXXXX]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Global Dominion Access SA, shorname=GBDMF, symbol=GBDMF, symbol_string=GBDMF, exchange=OTO, issuetype=GBDMF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Goldstar Minerals Inc - Ordinary Shares, shorname=GDMIF, symbol=GDMIF, symbol_string=GDMIF, exchange=OTO, issuetype=GDMIF, sectype=EQS, isocfi=ESVUFR]
@@ -10757,8 +10931,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Genocea Biosciences Inc - War
 CompanyTickerInfo [instrumenttype=equity, longname=Goldplay Exploration Ltd - Ordinary Shares, shorname=GLYXF, symbol=GLYXF, symbol_string=GLYXF, exchange=OTCQB, issuetype=GLYXF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Grand Mountain Bancshares Inc, shorname=GMBB, symbol=GMBB, symbol_string=GMBB, exchange=GREY, issuetype=GMBB, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=VetaNova Inc, shorname=GMVID, symbol=GMVID, symbol_string=GMVID, exchange=OTO, issuetype=GMVID, sectype=EQS, isocfi=ESVTFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Geant Corp - Ordinary Shares, shorname=GNNT, symbol=GNNT, symbol_string=GNNT, exchange=OTO, issuetype=GNNT, sectype=null, isocfi=null]
  
@@ -10778,8 +10950,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=GreenBox Pos LLC - Ordinary S
  
 CompanyTickerInfo [instrumenttype=equity, longname=Group Eleven Resources, shorname=GRLVF, symbol=GRLVF, symbol_string=GRLVF, exchange=OTCQB, issuetype=GRLVF, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Global Carbon ETN, shorname=GRNTF, symbol=GRNTF, symbol_string=GRNTF, exchange=OTO, issuetype=GRNTF, sectype=null, isocfi=EMXXXR]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Draper Esprit Plc - Ordinary Shares, shorname=GRWXF, symbol=GRWXF, symbol_string=GRWXF, exchange=OTO, issuetype=GRWXF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Green Thumb Industries Inc, shorname=GTBIF, symbol=GTBIF, symbol_string=GTBIF, exchange=OTO, issuetype=GTBIF, sectype=null, isocfi=null]
@@ -10791,8 +10961,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=G2R Inc Ord, shorname=GTRRF, 
 CompanyTickerInfo [instrumenttype=equity, longname=Gym Group plc - Ordinary Shares, shorname=GYYMF, symbol=GYYMF, symbol_string=GYYMF, exchange=OTO, issuetype=GYYMF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Gascoyne Resources Ltd., shorname=GYYSF, symbol=GYYSF, symbol_string=GYYSF, exchange=OTO, issuetype=GYYSF, sectype=EQS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=BetaPro Natural Gas -2x Daily Bear ETF, shorname=HBNNF, symbol=HBNNF, symbol_string=HBNNF, exchange=GREY, issuetype=HBNNF, sectype=ETF, isocfi=CEOXMX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Helio Resource Corp, shorname=HELOF, symbol=HELOF, symbol_string=HELOF, exchange=GREY, issuetype=HELOF, sectype=EQS, isocfi=ESVUFR]
  
@@ -10828,43 +10996,15 @@ CompanyTickerInfo [instrumenttype=equity, longname=Integrated Green Energy Solut
  
 CompanyTickerInfo [instrumenttype=equity, longname=Immune Network Ltd., shorname=IMMFF, symbol=IMMFF, symbol_string=IMMFF, exchange=OTO, issuetype=IMMFF, sectype=EQS, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Barclays Bank Plc iPath ETNs linked to the MSCI India Total Return Index, shorname=INPTF, symbol=INPTF, symbol_string=INPTF, exchange=OTO, issuetype=INPTF, sectype=ETF, isocfi=EYXXXX]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Pond Technologies Holdings Inc - Ordinary Shares, shorname=IOGIF, symbol=IOGIF, symbol_string=IOGIF, exchange=GREY, issuetype=IOGIF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Intervest Offices & Warehouses SA, shorname=IOWFF, symbol=IOWFF, symbol_string=IOWFF, exchange=GREY, issuetype=IOWFF, sectype=EQS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=BlackRock Asset Management Ireland Limited - BlackRock iShares MSCI Japan CHF Hedged UCITS ETF (Acc), shorname=IRVVF, symbol=IRVVF, symbol_string=IRVVF, exchange=GREY, issuetype=IRVVF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Iterum Therapeutics Plc - Ordinary Shares, shorname=ITRM(EXP20111222), symbol=ITRM(EXP20111222), symbol_string=ITRM(EXP20111222), exchange=GREY, issuetype=ITRM(EXP20111222), sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Hub Deals Corp - Ordinary Shares, shorname=IUTK, symbol=IUTK, symbol_string=IUTK, exchange=OTO, issuetype=IUTK, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=iPath GEMS Index ETN, shorname=JEMTF, symbol=JEMTF, symbol_string=JEMTF, exchange=OTO, issuetype=JEMTF, sectype=NTS, isocfi=EPVXUR]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Jaguar Financial Corp, shorname=JGFCD, symbol=JGFCD, symbol_string=JGFCD, exchange=GREY, issuetype=JGFCD, sectype=EQS, isocfi=ESVUFR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Agriculture Total Return Sub-Index ETN, shorname=JJATF, symbol=JJATF, symbol_string=JJATF, exchange=OTO, issuetype=JJATF, sectype=null, isocfi=EMXXXR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Copper Subindex Total Return Sub-Index ETN, shorname=JJCTF, symbol=JJCTF, symbol_string=JJCTF, exchange=OTO, issuetype=JJCTF, sectype=null, isocfi=EYXXXX]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Energy Total Return Sub-Index ETN, shorname=JJETF, symbol=JJETF, symbol_string=JJETF, exchange=OTO, issuetype=JJETF, sectype=null, isocfi=EYXXXX]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Grains Total Return Sub-Index ETN, shorname=JJGTF, symbol=JJGTF, symbol_string=JJGTF, exchange=OTO, issuetype=JJGTF, sectype=null, isocfi=EMXXXR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Industrial Metals Total Return Sub-Index ETN, shorname=JJMTF, symbol=JJMTF, symbol_string=JJMTF, exchange=OTO, issuetype=JJMTF, sectype=null, isocfi=EYXXXX]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Nickel Subindex Total Return ETN, shorname=JJNTF, symbol=JJNTF, symbol_string=JJNTF, exchange=OTO, issuetype=JJNTF, sectype=null, isocfi=EYMMFS]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Coffee Subindex Total Return SM Index ETN, shorname=JJOFF, symbol=JJOFF, symbol_string=JJOFF, exchange=OTO, issuetype=JJOFF, sectype=NTS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Precious Metals Subindex Total Return SM Index ETN, shorname=JJPFF, symbol=JJPFF, symbol_string=JJPFF, exchange=OTO, issuetype=JJPFF, sectype=NTS, isocfi=EMXXXR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Softs Subindex Total Return SM Index ETN, shorname=JJSSF, symbol=JJSSF, symbol_string=JJSSF, exchange=OTO, issuetype=JJSSF, sectype=NTS, isocfi=EMXXXR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Tin Subindex Total Return SM ETN, shorname=JJTFF, symbol=JJTFF, symbol_string=JJTFF, exchange=OTO, issuetype=JJTFF, sectype=NTS, isocfi=EMXXXR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Aluminum Subindex Total Return SM IndexETN, shorname=JJUFF, symbol=JJUFF, symbol_string=JJUFF, exchange=OTO, issuetype=JJUFF, sectype=NTS, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=JustKapital Ltd, shorname=JKLPF, symbol=JKLPF, symbol_string=JKLPF, exchange=OTO, issuetype=JKLPF, sectype=EQS, isocfi=null]
  
@@ -10873,8 +11013,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Jackpot Digital Inc, shorname
 CompanyTickerInfo [instrumenttype=equity, longname=August Metal Corp., shorname=JUGRF, symbol=JUGRF, symbol_string=JUGRF, exchange=OTO, issuetype=JUGRF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=James E. Wagner, shorname=JWCAF, symbol=JWCAF, symbol_string=JWCAF, exchange=OTO, issuetype=JWCAF, sectype=EQS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=BARCLAYS BANK PLC iPath JPY/USD Exchange Rate ETN, shorname=JYNFF, symbol=JYNFF, symbol_string=JYNFF, exchange=OTO, issuetype=JYNFF, sectype=NTS, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Kodi-M Co.Ltd - Ordinary Shares, shorname=KDDDF, symbol=KDDDF, symbol_string=KDDDF, exchange=GREY, issuetype=KDDDF, sectype=EQS, isocfi=null]
  
@@ -10890,8 +11028,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Katipult Technology Corp - Or
  
 CompanyTickerInfo [instrumenttype=equity, longname=KT High-Tech Marketing Inc, shorname=KUTG, symbol=KUTG, symbol_string=KUTG, exchange=OTO, issuetype=KUTG, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Kyocera Corporation, shorname=KYOCY, symbol=KYOCY, symbol_string=KYOCY, exchange=OTO, issuetype=KYOCY, sectype=DR, isocfi=EDXXXX]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Liberty Holdings Ltd., shorname=LBBTF, symbol=LBBTF, symbol_string=LBBTF, exchange=GREY, issuetype=LBBTF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Lee Chang Yung Chemical Industrial Corp., shorname=LCYGF, symbol=LCYGF, symbol_string=LCYGF, exchange=GREY, issuetype=LCYGF, sectype=null, isocfi=null]
@@ -10903,8 +11039,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Leviathan Cannabis Group Inc,
 CompanyTickerInfo [instrumenttype=equity, longname=Globalive Technology Inc. - Ordinary Shares, shorname=LVVEF, symbol=LVVEF, symbol_string=LVVEF, exchange=OTO, issuetype=LVVEF, sectype=EQS, isocfi=ESVXFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=LXI REIT Plc - Ordinary Shares, shorname=LXILF, symbol=LXILF, symbol_string=LXILF, exchange=OTO, issuetype=LXILF, sectype=EQS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=Lyxor Euro Stoxx 50 DR ETF D-EUR A/I, shorname=LYXMF, symbol=LYXMF, symbol_string=LYXMF, exchange=GREY, issuetype=LYXMF, sectype=ETF, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Minera Alamos Inc, shorname=MAIFF, symbol=MAIFF, symbol_string=MAIFF, exchange=OTCQB, issuetype=MAIFF, sectype=EQS, isocfi=ESVUFR]
  
@@ -10919,8 +11053,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Magnolia Colombia, shorname=M
 CompanyTickerInfo [instrumenttype=equity, longname=MMC Corp Berhad, shorname=MCPNF, symbol=MCPNF, symbol_string=MCPNF, exchange=GREY, issuetype=MCPNF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Medibank Private Limited - Ordinary Shares, shorname=MDBPF, symbol=MDBPF, symbol_string=MDBPF, exchange=OTO, issuetype=MDBPF, sectype=EQS, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Long Enhanced MSCI EAFE Index ETN, shorname=MFLAF, symbol=MFLAF, symbol_string=MFLAF, exchange=OTO, issuetype=MFLAF, sectype=null, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Metalurgica DuroFelguera, shorname=MGIDF, symbol=MGIDF, symbol_string=MGIDF, exchange=OTO, issuetype=MGIDF, sectype=EQS, isocfi=ESVUFR]
  
@@ -10976,8 +11108,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Ocean Outdoor Ltd, shorname=O
  
 CompanyTickerInfo [instrumenttype=equity, longname=Oracle Energy Corp, shorname=OECCF, symbol=OECCF, symbol_string=OECCF, exchange=GREY, issuetype=OECCF, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Barclays Bank Plc iPath Exchange Traded Notes Linked to Goldman Sachs Crude Oil Total Return, shorname=OILNF, symbol=OILNF, symbol_string=OILNF, exchange=OTO, issuetype=OILNF, sectype=ETF, isocfi=EYXXXX]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=OneMarket Limited - Ordinary Shares, shorname=ONMKF, symbol=ONMKF, symbol_string=ONMKF, exchange=OTO, issuetype=ONMKF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=O-Net Technologies Group Ltd, shorname=ONTZF, symbol=ONTZF, symbol_string=ONTZF, exchange=GREY, issuetype=ONTZF, sectype=EQS, isocfi=null]
@@ -11009,8 +11139,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Pool Safe Inc - Ordinary Shar
 CompanyTickerInfo [instrumenttype=equity, longname=iPath Asian and Gulf Currency Revaluation ETN Revaluation ETN, shorname=PGDDF, symbol=PGDDF, symbol_string=PGDDF, exchange=OTO, issuetype=PGDDF, sectype=NTS, isocfi=EMXXXR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Pengrowth Energy Corporation, shorname=PGHEF, symbol=PGHEF, symbol_string=PGHEF, exchange=OTCQX, issuetype=PGHEF, sectype=EQS, isocfi=CIXXXX]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Platinum Subindex Total Return SM ETN, shorname=PGMFF, symbol=PGMFF, symbol_string=PGMFF, exchange=OTO, issuetype=PGMFF, sectype=NTS, isocfi=EMXXXR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Ping An Healthcare And Technology Company Limited - ADR, shorname=PIAHY, symbol=PIAHY, symbol_string=PIAHY, exchange=GREY, issuetype=PIAHY, sectype=null, isocfi=null]
  
@@ -11076,7 +11204,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Royal Unibrew AS, shorname=RO
  
 CompanyTickerInfo [instrumenttype=equity, longname=RPCG Public Company Limited - Ordinary Shares, shorname=RPCCF, symbol=RPCCF, symbol_string=RPCCF, exchange=OTO, issuetype=RPCCF, sectype=EQS, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=RPCG Public Co Ltd, shorname=RPPCF, symbol=RPPCF, symbol_string=RPPCF, exchange=GREY, issuetype=RPPCF, sectype=EQS, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=RPCG Public Co Ltd, shorname=RPPCF, symbol=RPPCF, symbol_string=RPPCF, exchange=GREY, issuetype=RPPCF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=iPath Long Extended Russell 2000 TR Index ETN, shorname=RTLAF, symbol=RTLAF, symbol_string=RTLAF, exchange=OTO, issuetype=RTLAF, sectype=null, isocfi=EYXXXX]
  
@@ -11099,8 +11227,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Sauer Energy Inc, shorname=SE
 CompanyTickerInfo [instrumenttype=equity, longname=iPath Long Extended S&P 500 TR Index ETN, shorname=SFLAF, symbol=SFLAF, symbol_string=SFLAF, exchange=OTO, issuetype=SFLAF, sectype=null, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Safe-T Group Ltd ADR (Sponsored), shorname=SFTTD, symbol=SFTTD, symbol_string=SFTTD, exchange=OTCQB, issuetype=SFTTD, sectype=DR, isocfi=EDSXFR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Sugar Subindex Total Return Sm Index ETN, shorname=SGGFF, symbol=SGGFF, symbol_string=SGGFF, exchange=OTO, issuetype=SGGFF, sectype=NTS, isocfi=EMXXXR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Shoal Point Energy Ltd, shorname=SHPNF, symbol=SHPNF, symbol_string=SHPNF, exchange=GREY, issuetype=SHPNF, sectype=EQS, isocfi=ESVUFR]
  
@@ -11160,7 +11286,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Thorn Plc Cl B Ord, shorname=
  
 CompanyTickerInfo [instrumenttype=equity, longname=Greenangel Energy Crp Ord, shorname=TIMCF, symbol=TIMCF, symbol_string=TIMCF, exchange=GREY, issuetype=TIMCF, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=TITXD, shorname=TITXD, symbol=TITXD, symbol_string=TITXD, exchange=OTCQB, issuetype=TITXD, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Titan Medical Inc, shorname=TITXD, symbol=TITXD, symbol_string=TITXD, exchange=OTCQB, issuetype=TITXD, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Tikehau Capital - Ordinary Shares, shorname=TKKHF, symbol=TKKHF, symbol_string=TKKHF, exchange=OTO, issuetype=TKKHF, sectype=EQS, isocfi=null]
  
@@ -11194,6 +11320,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=Terveystalo Oy, shorname=TTAL
  
 CompanyTickerInfo [instrumenttype=equity, longname=Tanzania Minerals Corp, shorname=TZNMF, symbol=TZNMF, symbol_string=TZNMF, exchange=GREY, issuetype=TZNMF, sectype=EQS, isocfi=ESVUFR]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Vortex Blockchain Technologies Inc - Ordinary Shares, shorname=UAGZD, symbol=UAGZD, symbol_string=UAGZD, exchange=OTO, issuetype=UAGZD, sectype=EQS, isocfi=ESVUFR]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=VelocityShares 3X Long Crude ETN linked to the S&P GSCI Crude Oil Index Excess Return, shorname=UWTIF, symbol=UWTIF, symbol_string=UWTIF, exchange=OTO, issuetype=UWTIF, sectype=null, isocfi=EYXXXX]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Vantex Resources, shorname=VANTD, symbol=VANTD, symbol_string=VANTD, exchange=GREY, issuetype=VANTD, sectype=EQS, isocfi=ESVUFR]
@@ -11211,8 +11339,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Silver Viper Minerals, shorna
 CompanyTickerInfo [instrumenttype=equity, longname=Versapay Corp - Ordinary Shares, shorname=VPYYF, symbol=VPYYF, symbol_string=VPYYF, exchange=OTO, issuetype=VPYYF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Vatic Ventures Corp - Ordinary Shares, shorname=VTTCF, symbol=VTTCF, symbol_string=VTTCF, exchange=OTO, issuetype=VTTCF, sectype=EQS, isocfi=ESVUFR]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=Vortex Blockchain Technologies Inc - Ordinary Shares, shorname=VXBT, symbol=VXBT, symbol_string=VXBT, exchange=OTO, issuetype=VXBT, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Wonderfilm Media Corp. - Ordinary Shares, shorname=WDRFF, symbol=WDRFF, symbol_string=WDRFF, exchange=OTO, issuetype=WDRFF, sectype=null, isocfi=null]
  
@@ -11278,4 +11404,34 @@ CompanyTickerInfo [instrumenttype=equity, longname=Chubb INA Holdings Inc 2.500%
  
 CompanyTickerInfo [instrumenttype=equity, longname=Canopy Growth Corporation, shorname=CGC, symbol=CGC, symbol_string=CGC, exchange=NYE, issuetype=CGC, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerI
+CompanyTickerInfo [instrumenttype=equity, longname=Charah Solutions Inc., shorname=CHRA, symbol=CHRA, symbol_string=CHRA, exchange=NYE, issuetype=CHRA, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony NorthStar Inc. 8.5% Series D cumulative redeemable perpetual preferred stock, shorname=CLNS.P.D.CL, symbol=CLNS.P.D.CL, symbol_string=CLNS.P.D.CL, exchange=NYE, issuetype=CLNS.P.D.CL, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc., shorname=CLNY, symbol=CLNY, symbol_string=CLNY, exchange=NYE, issuetype=CLNY, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 8.25% Series B cumulative redeemable perpetual preferred stock, shorname=CLNY.P.B, symbol=CLNY.P.B, symbol_string=CLNY.P.B, exchange=NYE, issuetype=CLNY.P.B, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 8.75% Series E cumulative redeemable perpetual preferred stock, shorname=CLNY.P.E, symbol=CLNY.P.E, symbol_string=CLNY.P.E, exchange=NYE, issuetype=CLNY.P.E, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.50% Series G cumulative redeemable perpetual preferred stock, shorname=CLNY.P.G, symbol=CLNY.P.G, symbol_string=CLNY.P.G, exchange=NYE, issuetype=CLNY.P.G, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.125% Series H cumulative redeemable perpetual preferred stock, shorname=CLNY.P.H, symbol=CLNY.P.H, symbol_string=CLNY.P.H, exchange=NYE, issuetype=CLNY.P.H, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.15% Series I Cumulative Redeemable Perpetual Preferred Stock, shorname=CLNY.P.I, symbol=CLNY.P.I, symbol_string=CLNY.P.I, exchange=NYE, issuetype=CLNY.P.I, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.125% Series J Cumulative Redeemable Perpetual Preferred Stock, shorname=CLNY.P.J, symbol=CLNY.P.J, symbol_string=CLNY.P.J, exchange=NYE, issuetype=CLNY.P.J, sectype=PRF, isocfi=EPVRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=CorePoint Lodging Inc., shorname=CPLG, symbol=CPLG, symbol_string=CPLG, exchange=NYE, issuetype=CPLG, sectype=null, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Covia Holdings Corporation, shorname=CVIA, symbol=CVIA, symbol_string=CVIA, exchange=NYE, issuetype=CVIA, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=DCP Midstream LP 7.875% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units, shorname=DCP.P.B, symbol=DCP.P.B, symbol_string=DCP.P.B, exchange=NYE, issuetype=DCP.P.B, sectype=null, isocfi=EPVRAR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=DDR Corp. Ex-Distribution When Issued, shorname=DDR.W, symbol=DDR.W, symbol_string=DDR.W, exchange=NYE, issuetype=DDR.W, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Essential Properties Realty Trust Inc., shorname=EPRT, symbol=EPRT, symbol_string=EPRT, exchange=NYE, issuetype=EPRT, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Equinor ASA, shorname=EQNR, symbol=EQNR, symbol_string=EQNR, exchange=NYE, issuetype=EQNR, sectype=DR, isocfi=EDSXFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Evergy Inc., shorname=EVRG, symbol=EVRG, symbol_string=EVRG, exchange=NYE, issuetype=EVRG, sectype=null, isocfi=

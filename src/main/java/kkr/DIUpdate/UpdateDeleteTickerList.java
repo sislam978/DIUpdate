@@ -139,7 +139,7 @@ public class UpdateDeleteTickerList {
 						// "+isocfi);
 
 						// System.out.println("instrument: "+instrument_type);
-						if (symbol.contains(":")) {
+						if (symbol.contains(":")|| symbol.equals(null)) {
 							continue;
 						}
 						if (typeMap.containsKey(instrument_type.toLowerCase())) {
@@ -183,18 +183,22 @@ public class UpdateDeleteTickerList {
 
 	public static void CreateAddDeleteList(Connection con) throws IOException {
 
+	
 		for (Map.Entry<String, Map<Integer, String>> eEntry : TypeWiseTcikerMapDatBase.entrySet()) {
 			String instrumentType = eEntry.getKey();
 			if (TypeWiseTcikerMapQM.containsKey(instrumentType)) {
 				Map<Integer, String> mQM = new HashMap<Integer, String>();
 				mQM.putAll(TypeWiseTcikerMapQM.get(instrumentType));
+				int k=0;
 				for (Map.Entry<Integer, String> eeEntry : eEntry.getValue().entrySet()) {
 					String ticker = eeEntry.getValue();
 					if (!mQM.containsValue(ticker)) {
 						deleteCompanyTickerList.add(eeEntry.getKey());
+						k++;
 					}
 
 				}
+				System.out.println("type: " + instrumentType + " :: delete number size: " + k);
 			}
 		}
 		BufferedWriter bw= new BufferedWriter(new FileWriter(new File("resources/deleteList.txt")));
@@ -204,17 +208,19 @@ public class UpdateDeleteTickerList {
 		
 		for (Map.Entry<String, Map<Integer, String>> eEntry : TypeWiseTcikerMapQM.entrySet()) {
 			String instrumentType = eEntry.getKey();
+			int m=0;
 			if (TypeWiseTcikerMapDatBase.containsKey(instrumentType)) {
 				Map<Integer, String> mDataBase = new HashMap<Integer, String>();
 				mDataBase.putAll(TypeWiseTcikerMapDatBase.get(instrumentType));
-				System.out.println("type: " + instrumentType + " :: size: " + eEntry.getValue().size());
+				
 				for (Map.Entry<Integer, String> eeEntry : eEntry.getValue().entrySet()) {
 					String ticker = eeEntry.getValue();
 					if (!mDataBase.containsValue(ticker)) {
 						addList.add(symbolObjectMap.get(eeEntry.getValue()));
-						
+						m++;
 					}
 				}
+				System.out.println("type: " + instrumentType + " :: add number: " + m);
 			}
 		}
 		BufferedWriter bw1=new BufferedWriter(new FileWriter(new File("resources/addlist.txt")));
@@ -224,6 +230,7 @@ public class UpdateDeleteTickerList {
 		}
 		
 		//bw.close();
+		System.out.println("QM list: "+symbolObjectMap.size());
 		System.out.println("Successfully Commpleted.");
 	}
 
