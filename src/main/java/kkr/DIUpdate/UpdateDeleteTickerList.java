@@ -197,7 +197,7 @@ public class UpdateDeleteTickerList {
 				}
 			}
 		}
-		BufferedWriter bw= new BufferedWriter(new FileWriter(new File("resources/deleteList")));
+		BufferedWriter bw= new BufferedWriter(new FileWriter(new File("resources/deleteList.txt")));
 		bw.write(deleteCompanyTickerList.toString());
 		//bw.close();
 		
@@ -217,8 +217,12 @@ public class UpdateDeleteTickerList {
 				}
 			}
 		}
-		BufferedWriter bw1=new BufferedWriter(new FileWriter(new File("resources/addlist")));
-		bw1.write(addList.toString()+"\n \n");
+		BufferedWriter bw1=new BufferedWriter(new FileWriter(new File("resources/addlist.txt")));
+		
+		for(int i=0;i<addList.size();i++){
+			bw1.write(addList.get(i).toString()+"\n \n");
+		}
+		
 		//bw.close();
 		System.out.println("Successfully Commpleted.");
 	}
