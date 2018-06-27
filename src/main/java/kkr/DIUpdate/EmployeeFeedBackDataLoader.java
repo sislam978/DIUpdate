@@ -1,6 +1,5 @@
 package kkr.DIUpdate;
 
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -13,7 +12,6 @@ import java.sql.Statement;
 import kkr.DIUpdate.CommonUtils.DataBaseUtils;
 
 public class EmployeeFeedBackDataLoader {
-	
 	private static String fileName = "resources/review_detail_log";
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
@@ -24,6 +22,13 @@ public class EmployeeFeedBackDataLoader {
 		// Connection conkkrdev=DataBaseUtils.connectkkrDev();
 		Connection conClient = DataBaseUtils.connectKkrClient();
 		Connection con = DataBaseUtils.connectLocal();
+
+		
+		// Connection conkkrProd=DataBaseUtils.connectkkrProd();
+		// Connection conkkrdev=DataBaseUtils.connectkkrDev();
+//		Connection conClient = DataBaseUtils.connectKkrClient();
+//		Connection con = DataBaseUtils.connectLocal();
+		
 
 		ReviewDetailsDataLoader(con, conClient, ps);
 	}
@@ -67,6 +72,8 @@ public class EmployeeFeedBackDataLoader {
 		pt.executeBatch();
 		System.out.println("Data insertion complete.");
 
+
 	}
 
+	
 }

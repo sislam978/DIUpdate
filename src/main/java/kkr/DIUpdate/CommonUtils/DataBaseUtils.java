@@ -45,7 +45,7 @@ public class DataBaseUtils {
 		 * 
 		 */
 		Connection con = (Connection) DriverManager
-				.getConnection("jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrclient?rewriteBatchedStatements=true","kkr_app","kkr123");
+				.getConnection("jdbc:mysql://kkrprod.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrClient?rewriteBatchedStatements=true","kkr_app","kkr123");
 		con.setAutoCommit(true);
 		return con;
 	}
@@ -58,7 +58,7 @@ public class DataBaseUtils {
 		 * ,"kkr_app","kkr123"
 		 */
 		Connection con = (Connection) DriverManager
-				.getConnection("jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrclient?rewriteBatchedStatements=true","kkr_app","kkr123");
+				.getConnection("jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrClient?rewriteBatchedStatements=true","kkr_app","kkr123");
 		con.setAutoCommit(true);
 		return con;
 	}
