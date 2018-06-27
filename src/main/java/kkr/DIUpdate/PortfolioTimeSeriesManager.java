@@ -62,6 +62,20 @@ public class PortfolioTimeSeriesManager {
 		String prev_date = null;
 		while (rsL.next()) {
 			String d_date = rsL.getString(1);
+
+			insertData(d_date,conL,conKkr,YindexDev);
+			inserDataForPercents(d_date,conKkr,percentIndexMapDev);
+			insertData(d_date,conL,conKkr,YindexProd);
+			inserDataForPercents(d_date,conKkr,percentIndexMapProd);
+			if(i==0){
+				prev_date=d_date;
+				i++;
+				continue;
+			}
+			updatePortfolioTimeSeriePercents(d_date,prev_date, conKkr,percentIndexMapDev);
+			updatePortfolioTimeSeriePercents(d_date,prev_date,conkkrProd,percentIndexMapProd);
+			prev_date=d_date;
+
 			insertData(d_date, conL, conKkr, YindexDev);
 			inserDataForPercents(d_date, conKkr, percentIndexMapDev);
 
@@ -75,6 +89,7 @@ public class PortfolioTimeSeriesManager {
 			updatePortfolioTimeSeriePercents(d_date, prev_date, conKkr, percentIndexMapDev);
 			updatePortfolioTimeSeriePercents(d_date, prev_date, conKkr, percentIndexMapProd);
 			prev_date = d_date;
+
 		}
 
 		String SQL_query2 = "SELECT history_date from volatility_index  where history_date >= '" + start_date

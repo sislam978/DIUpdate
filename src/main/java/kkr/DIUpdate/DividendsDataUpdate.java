@@ -107,7 +107,7 @@ public class DividendsDataUpdate {
 			Statement sKKR = cKKR.createStatement();
 
 			ResultSet rSetKKR = sKKR.executeQuery(
-					"select kkr_company_id,Company_ticker from kkr_company where company_ticker is not null "
+					"select kkr_company_id,Company_ticker from kkr_company where company_ticker ='NBD' "
 							+ "and kkr_company_id not in (56009,64013,65750,76890,81408)"
 							+ " and type<>'Index' and type <> 'sector' order by kkr_company_id");
 
@@ -131,7 +131,6 @@ public class DividendsDataUpdate {
 							for (int i = 0; i < dividendArr.length(); i++) {
 								Map<String, String> dividendData = new HashMap<String, String>();
 								JSONObject dividend = dividendArr.getJSONObject(i);
-
 								dividendData.put("company_id", companyId.toString());
 								dividendData.put("company_name", ticker);
 								dividendData.put("amount",

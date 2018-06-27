@@ -22,7 +22,14 @@ public class EmployeeFeedBackDataLoader {
 		// Connection conkkrdev=DataBaseUtils.connectkkrDev();
 		Connection conClient = DataBaseUtils.connectKkrClient();
 		Connection con = DataBaseUtils.connectLocal();
+
 		
+		// Connection conkkrProd=DataBaseUtils.connectkkrProd();
+		// Connection conkkrdev=DataBaseUtils.connectkkrDev();
+//		Connection conClient = DataBaseUtils.connectKkrClient();
+//		Connection con = DataBaseUtils.connectLocal();
+		
+
 		ReviewDetailsDataLoader(con, conClient, ps);
 	}
 
@@ -65,5 +72,8 @@ public class EmployeeFeedBackDataLoader {
 		pt.executeBatch();
 		System.out.println("Data insertion complete.");
 
+
 	}
+
+	
 }
