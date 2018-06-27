@@ -1,0 +1,5 @@
+{declared=2018-05-01, date=2018-05-14, amount=0.0955, company_id=5151, payable=2018-06-01, company_name=NBD, record=2018-05-15, divflag=UR, indicatedrate=null, divtype=D, currency=USD, frequency=M}
+{declared=2018-04-02, date=2018-04-12, amount=0.0955, company_id=5151, payable=2018-05-01, company_name=NBD, record=2018-04-13, divflag=UR, indicatedrate=null, divtype=D, currency=USD, frequency=M}
+{declared=2018-03-01, date=2018-03-14, amount=0.0955, company_id=5151, payable=2018-04-02, company_name=NBD, record=2018-03-15, divflag=FI, indicatedrate=null, divtype=D, currency=USD, frequency=M}
+{declared=2018-02-01, date=2018-02-14, amount=0.0955, company_id=5151, payable=2018-03-01, company_name=NBD, record=2018-02-15, divflag=UR, indicatedrate=null, divtype=D, currency=USD, frequency=M}
+{declared=2018-01-02, date=2018-01-11, amount=0.0955, company_id=5151, payable=2018-02-01, company_name=NBD, record=2018-01-12, divflag=UR, indicatedrate=0.126, divtype=D, currency=USD, frequency=M}
