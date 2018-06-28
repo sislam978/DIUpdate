@@ -91,7 +91,7 @@ public class HistoricalPriceEventGenration {
 				i = 0;
 			}
 		}
-		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
+		TreeMap<String, String> sorted = new TreeMap<String,String>(eventDateMap);
 		System.out.println("S&P Down" + sorted);
 		InsertNewEvent(con, sorted, "S&P Correction");
 	}
@@ -157,7 +157,7 @@ public class HistoricalPriceEventGenration {
 		if (eventDateMap.isEmpty()) {
 			return;
 		}
-		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
+		TreeMap<String, String> sorted = new TreeMap<String,String>(eventDateMap);
 		InsertNewEvent(conKKr, sorted, "Treasury Inverse");
 	}
 
@@ -199,7 +199,7 @@ public class HistoricalPriceEventGenration {
 				i = 0;
 			}
 		}
-		TreeMap<String, String> sorted = new TreeMap<>(eventDateMap);
+		TreeMap<String, String> sorted = new TreeMap<String,String>(eventDateMap);
 		// Copy all data from hashMap into TreeMap
 		// sorted.putAll(eventDateMap);
 		InsertNewEvent(conKkr, sorted, "Volatility Spike");

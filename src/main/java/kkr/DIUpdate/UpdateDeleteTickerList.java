@@ -19,6 +19,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
@@ -38,9 +39,9 @@ public class UpdateDeleteTickerList {
 	public static Map<String, String> typeMap = new HashMap<String, String>();
 	public static ArrayList<CompanyTickerInfo> tickerinfoQMList = new ArrayList<CompanyTickerInfo>();
 	public static ArrayList<CompanyTickerInfo> addList = new ArrayList<CompanyTickerInfo>();
-	public static ArrayList<Integer> deleteCompanyTickerList = new ArrayList<Integer>();
+	public static ArrayList<String> deleteCompanyTickerList = new ArrayList<String>();
 	public static Map<String, CompanyTickerInfo> symbolObjectMap = new HashMap<String, CompanyTickerInfo>();
-
+	public static ArrayList<String> finalSymbolDeleteList = new ArrayList<String>();
 	private static Connection connectLocal() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = (Connection) DriverManager
@@ -193,7 +194,7 @@ public class UpdateDeleteTickerList {
 				for (Map.Entry<Integer, String> eeEntry : eEntry.getValue().entrySet()) {
 					String ticker = eeEntry.getValue();
 					if (!mQM.containsValue(ticker)) {
-						deleteCompanyTickerList.add(eeEntry.getKey());
+						deleteCompanyTickerList.add(eeEntry.getValue());
 						k++;
 					}
 
@@ -234,20 +235,37 @@ public class UpdateDeleteTickerList {
 		System.out.println("Successfully Commpleted.");
 	}
 
-	public static void main(String[] args) throws SQLException, IOException {
+	public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
 		Connection cLocal = null;
 		PreparedStatement pSLocal = null;
-		try {
-			cLocal = connectLocal();
-			pSLocal = cLocal.prepareStatement(iStatement);
-		} catch (ClassNotFoundException | SQLException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-			System.exit(1);
-		}
+		cLocal = connectLocal();
+		pSLocal = cLocal.prepareStatement(iStatement);
 		// TODO Auto-generated method stub
 		createAllListnMaps(cLocal);
 		CreateAddDeleteList(cLocal);
+		
+		Scanner input=new Scanner(System.in);
+		String startDate=input.nextLine();
+		String endDate=input.nextLine();
+		for(int i=0;i<deleteCompanyTickerList.size();i++){
+			GetFullPriceHistory gfph=new GetFullPriceHistory();
+			try {
+				boolean decisionFlag=gfph.finalDeleteList(deleteCompanyTickerList.get(i), startDate, endDate);
+				if(decisionFlag) {
+					finalSymbolDeleteList.add(deleteCompanyTickerList.get(i));
+					
+				}
+			} catch (JSONException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		BufferedWriter bw1=new BufferedWriter(new FileWriter(new File("resources/FinalDeletelist.txt")));
+		
+		for(int i=0;i<finalSymbolDeleteList.size();i++){
+			bw1.write(finalSymbolDeleteList.get(i).toString()+"\n \n");
+		}
+		System.out.println("refined list: "+finalSymbolDeleteList.size());
 	}
 
 }

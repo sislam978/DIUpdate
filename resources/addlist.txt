@@ -1,26 +1,26 @@
+CompanyTickerInfo [instrumenttype=etf, longname=ALPS ETF Trust Clean Energy ETF, shorname=ACES, symbol=ACES, symbol_string=ACES, exchange=BATS, issuetype=ACES, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=JPMorgan BetaBuilders Europe, shorname=BBEU, symbol=BBEU, symbol_string=BBEU, exchange=BATS, issuetype=BBEU, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=etf, longname=Fidelity High Yield Factor, shorname=FDHY, symbol=FDHY, symbol_string=FDHY, exchange=ARCA, issuetype=FDHY, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=etf, longname=JPMorgan BetaBuilders Japan, shorname=BBJP, symbol=BBJP, symbol_string=BBJP, exchange=BATS, issuetype=BBJP, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse FI Enhanced Europe 50 ETNs, shorname=FEUL, symbol=FEUL, symbol_string=FEUL, exchange=ARCA, issuetype=FEUL, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Franklin Liberty Senior Loan, shorname=FLBL, symbol=FLBL, symbol_string=FLBL, exchange=BATS, issuetype=FLBL, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Franklin Liberty High Yield Corporate, shorname=FLHY, symbol=FLHY, symbol_string=FLHY, exchange=BATS, issuetype=FLHY, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=BMO REX MicroSectors FANG Index -3X Inverse Leveraged Exchange Traded Notes, shorname=FNGD, symbol=FNGD, symbol_string=FNGD, exchange=ARCA, issuetype=FNGD, sectype=null, isocfi=EYMYFI]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Hartford Short Duration, shorname=HSRT, symbol=HSRT, symbol_string=HSRT, exchange=BATS, issuetype=HSRT, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=iShares Gold Strategy, shorname=IAUF, symbol=IAUF, symbol_string=IAUF, exchange=BATS, issuetype=IAUF, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=etf, longname=DBX ETF Trust Deutsche X-Trackers Barclays Intl High Yield Bd Hedged ETF, shorname=IHIY, symbol=IHIY, symbol_string=IHIY, exchange=BATS, issuetype=IHIY, sectype=null, isocfi=CEOXXX]
- 
-CompanyTickerInfo [instrumenttype=etf, longname=BMO REX MicroSectors FANG Index -3X Inverse Leveraged Exchange Traded Notes, shorname=FNGD, symbol=FNGD, symbol_string=FNGD, exchange=ARCA, issuetype=FNGD, sectype=null, isocfi=EYMYFI]
- 
 CompanyTickerInfo [instrumenttype=etf, longname=Large Cap Growth Index-Linked Exchange Traded Notes due 2028, shorname=FRLG, symbol=FRLG, symbol_string=FRLG, exchange=ARCA, issuetype=FRLG, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=DBX ETF Trust Deutsche X-Trackers Barclays Intl High Yield Bd Hedged ETF, shorname=IHIY, symbol=IHIY, symbol_string=IHIY, exchange=BATS, issuetype=IHIY, sectype=null, isocfi=CEOXXX]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Salt truBeta High Exposure, shorname=SLT, symbol=SLT, symbol_string=SLT, exchange=BATS, issuetype=SLT, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=SPDR Gold MiniShares Trust, shorname=GLDM, symbol=GLDM, symbol_string=GLDM, exchange=ARCA, issuetype=GLDM, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Global X Future Analytics Tech ETF, shorname=AIQ, symbol=AIQ, symbol_string=AIQ, exchange=NSD, issuetype=AIQ, sectype=null, isocfi=null]
  
@@ -28,21 +28,15 @@ CompanyTickerInfo [instrumenttype=etf, longname=Reality Shares Nasdaq NexGen Eco
  
 CompanyTickerInfo [instrumenttype=etf, longname=Pacer Benchmark Industrial Real Estate SCTR, shorname=INDS, symbol=INDS, symbol_string=INDS, exchange=ARCA, issuetype=INDS, sectype=null, isocfi=CEOJRS]
  
-CompanyTickerInfo [instrumenttype=etf, longname=iShares Trust Robotics & Artificial Intelligence ETF, shorname=IRBO, symbol=IRBO, symbol_string=IRBO, exchange=NYE, issuetype=IRBO, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=etf, longname=Causeway Global Value NextShares, shorname=CGVICNX, symbol=CGVICNX, symbol_string=CGVICNX, exchange=NSD, issuetype=CGVICNX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Causeway International Value NextShares, shorname=CIVECNX, symbol=CIVECNX, symbol_string=CIVECNX, exchange=NSD, issuetype=CIVECNX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Goldman Sachs JUST U.S. Large Cap Equity, shorname=JUST, symbol=JUST, symbol_string=JUST, exchange=ARCA, issuetype=JUST, sectype=null, isocfi=CEOJLS]
  
-CompanyTickerInfo [instrumenttype=etf, longname=KraneShares Trust CCBS China Corp High Yield Bd USD Index ETF, shorname=KCCB, symbol=KCCB, symbol_string=KCCB, exchange=NYE, issuetype=KCCB, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=etf, longname=First Trust DorseyWright DALI 1 ETF, shorname=DALI, symbol=DALI, symbol_string=DALI, exchange=NSD, issuetype=DALI, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=MFLA, symbol=MFLA, symbol_string=MFLA, exchange=NYE, issuetype=MFLA, sectype=null, isocfi=EYXXXX]
- 
-CompanyTickerInfo [instrumenttype=etf, longname=Sharespost 100 Fund -, shorname=PIIVX, symbol=PIIVX, symbol_string=PIIVX, exchange=NMF, issuetype=PIIVX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=O'Shares Global Internet Giants, shorname=OGIG, symbol=OGIG, symbol_string=OGIG, exchange=ARCA, issuetype=OGIG, sectype=null, isocfi=null]
  
@@ -58,13 +52,11 @@ CompanyTickerInfo [instrumenttype=etf, longname=Deutsche Bank AG, shorname=AGA, 
  
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=ROLA, symbol=ROLA, symbol_string=ROLA, exchange=NYE, issuetype=ROLA, sectype=null, isocfi=EYXXXX]
  
-CompanyTickerInfo [instrumenttype=etf, longname=Nedgroup Collective Investments, shorname=NBCB, symbol=NBCB, symbol_string=NBCB, exchange=NGS, issuetype=NBCB, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=etf, longname=AI Powered International Equity, shorname=AIIQ, symbol=AIIQ, symbol_string=AIIQ, exchange=ARCA, issuetype=AIIQ, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=RTLA, symbol=RTLA, symbol_string=RTLA, exchange=NYE, issuetype=RTLA, sectype=null, isocfi=EYXXXX]
  
-CompanyTickerInfo [instrumenttype=etf, longname=AI Powered International Equity, shorname=AIIQ, symbol=AIIQ, symbol_string=AIIQ, exchange=ARCA, issuetype=AIIQ, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=etf, longname=Sharespost 100 Fund -, shorname=PRLVX, symbol=PRLVX, symbol_string=PRLVX, exchange=NMF, issuetype=PRLVX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=etf, longname=Nedgroup Collective Investments, shorname=NBCB, symbol=NBCB, symbol_string=NBCB, exchange=NGS, issuetype=NBCB, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund, shorname=SDCI, symbol=SDCI, symbol_string=SDCI, exchange=ARCA, issuetype=SDCI, sectype=null, isocfi=null]
  
@@ -72,17 +64,19 @@ CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=SFLA
  
 CompanyTickerInfo [instrumenttype=etf, longname=Amplify Advanced Battery Metals and Materials, shorname=BATT, symbol=BATT, symbol_string=BATT, exchange=ARCA, issuetype=BATT, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=ProShares S&P 500 Bond, shorname=SPXB, symbol=SPXB, symbol_string=SPXB, exchange=ARCA, issuetype=SPXB, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Gabelli NextShares Trust, shorname=PETZC, symbol=PETZC, symbol_string=PETZC, exchange=NSD, issuetype=PETZC, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Gabelli Pet Parents' NextShares, shorname=PETZCNX, symbol=PETZCNX, symbol_string=PETZCNX, exchange=NSD, issuetype=PETZCNX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=etf, longname=ProShares S&P 500 Bond, shorname=SPXB, symbol=SPXB, symbol_string=SPXB, exchange=ARCA, issuetype=SPXB, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Pacer Benchmark Data & Infrastructure Real Estate SCTR, shorname=SRVR, symbol=SRVR, symbol_string=SRVR, exchange=ARCA, issuetype=SRVR, sectype=null, isocfi=CEOJRS]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Rogers AI Global Macro, shorname=BIKR, symbol=BIKR, symbol_string=BIKR, exchange=ARCA, issuetype=BIKR, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=REX BKCM, shorname=BKC, symbol=BKC, symbol_string=BKC, exchange=ARCA, issuetype=BKC, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=BMO LGM Frontier Markets Equity Fund - Y, shorname=BLGFX, symbol=BLGFX, symbol_string=BLGFX, exchange=NMF, issuetype=BLGFX, sectype=MF, isocfi=CIOXXX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Cambria ETF Trust Covered Call Strategy ETF, shorname=CCOV, symbol=CCOV, symbol_string=CCOV, exchange=NYE, issuetype=CCOV, sectype=null, isocfi=null]
  
@@ -92,23 +86,63 @@ CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse AxelaTrader 3x Lon
  
 CompanyTickerInfo [instrumenttype=etf, longname=First Trust TCW Unconstrained Plus Bond, shorname=UCON, symbol=UCON, symbol_string=UCON, exchange=ARCA, issuetype=UCON, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=etf, longname=MFS California Municipal Fund, shorname=XCCAX, symbol=XCCAX, symbol_string=XCCAX, exchange=NMF, issuetype=XCCAX, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Intermediate High Income Fund, shorname=XCIFX, symbol=XCIFX, symbol_string=XCIFX, exchange=NMF, issuetype=XCIFX, sectype=EQS, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS High Yield Municipal Trust, shorname=XCMUX, symbol=XCMUX, symbol_string=XCMUX, exchange=NMF, issuetype=XCMUX, sectype=EQS, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS High Income Municipal Trust, shorname=XCXEX, symbol=XCXEX, symbol_string=XCXEX, exchange=NMF, issuetype=XCXEX, sectype=EQS, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Investment Grade Municipal Trust, shorname=XCXHX, symbol=XCXHX, symbol_string=XCXHX, exchange=NMF, issuetype=XCXHX, sectype=EQS, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=DNP Select Income Fund Inc., shorname=XDNPX, symbol=XDNPX, symbol_string=XDNPX, exchange=NMF, issuetype=XDNPX, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Duff & Phelps Global Utility Income Fd Inc., shorname=XDPGX, symbol=XDPGX, symbol_string=XDPGX, exchange=NMF, issuetype=XDPGX, sectype=EQS, isocfi=CICXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Duff & Phelps Select Energy MLP Fund Inc., shorname=XDSEX, symbol=XDSEX, symbol_string=XDSEX, exchange=NMF, issuetype=XDSEX, sectype=EQS, isocfi=CICIXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=DTF Tax Free Income Inc., shorname=XDTFX, symbol=XDTFX, symbol_string=XDTFX, exchange=NMF, issuetype=XDTFX, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Duff & Phelps Utility and Corporate Bd Trust, shorname=XDUCX, symbol=XDUCX, symbol_string=XDUCX, exchange=NMF, issuetype=XDUCX, sectype=EQS, isocfi=ESXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Wells Fargo Income Opportunities Fund, shorname=XEADX, symbol=XEADX, symbol_string=XEADX, exchange=NMF, issuetype=XEADX, sectype=EQS, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Wells Fargo Multi-Sector Income Fund, shorname=XERCX, symbol=XERCX, symbol_string=XERCX, exchange=NMF, issuetype=XERCX, sectype=EQS, isocfi=CICIMX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Wells Fargo Utilities and High Income Fund, shorname=XERHX, symbol=XERHX, symbol_string=XERHX, exchange=NMF, issuetype=XERHX, sectype=EQS, isocfi=CICXMX]
+ 
 CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse AxelaTrader 3x Inverse Brent Crude Oil ETN, shorname=DBRT, symbol=DBRT, symbol_string=DBRT, exchange=ARCA, issuetype=DBRT, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=etf, longname=Aberdeen Asia-Pacific Income Fund Inc., shorname=XFAPX, symbol=XFAPX, symbol_string=XFAPX, exchange=NMF, issuetype=XFAPX, sectype=EQS, isocfi=ESVUFR]
+CompanyTickerInfo [instrumenttype=etf, longname=John Hancock Fds Tax-Advantaged Glob Shareholder Yield Fund, shorname=XHTYX, symbol=XHTYX, symbol_string=XHTYX, exchange=NMF, issuetype=XHTYX, sectype=EQS, isocfi=CICXMX]
  
-CompanyTickerInfo [instrumenttype=etf, longname=Highland Floating Rate Opportunities Fund, shorname=XHFOX, symbol=XHFOX, symbol_string=XHFOX, exchange=NMF, issuetype=XHFOX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=etf, longname=Pioneer ILS Interval Fund, shorname=XILSX, symbol=XILSX, symbol_string=XILSX, exchange=NMF, issuetype=XILSX, sectype=null, isocfi=CICXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Nuveen All Cap Energy MLP Opportunities Fund, shorname=XJMLX, symbol=XJMLX, symbol_string=XJMLX, exchange=NMF, issuetype=XJMLX, sectype=EQS, isocfi=CICXXX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=The Communication Services Select Sector SPDR Fund, shorname=XLC, symbol=XLC, symbol_string=XLC, exchange=ARCA, issuetype=XLC, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Charter Income Trust, shorname=XMCRX, symbol=XMCRX, symbol_string=XMCRX, exchange=NMF, issuetype=XMCRX, sectype=EQS, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Municipal Income Trust, shorname=XMFMX, symbol=XMFMX, symbol_string=XMFMX, exchange=NMF, issuetype=XMFMX, sectype=EQS, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Special Value Trust, shorname=XMFVX, symbol=XMFVX, symbol_string=XMFVX, exchange=NMF, issuetype=XMFVX, sectype=EQS, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Government Markets Income Trust, shorname=XMGFX, symbol=XMGFX, symbol_string=XMGFX, exchange=NMF, issuetype=XMGFX, sectype=EQS, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Intermediate Income Trust, shorname=XMINX, symbol=XMINX, symbol_string=XMINX, exchange=NMF, issuetype=XMINX, sectype=EQS, isocfi=CIXXXX]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=MFS Multimarket Income Trust, shorname=XMMTX, symbol=XMMTX, symbol_string=XMMTX, exchange=NMF, issuetype=XMMTX, sectype=EQS, isocfi=CIXXXX]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Amplify ETF Trust, shorname=EASI, symbol=EASI, symbol_string=EASI, exchange=ARCA, issuetype=EASI, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=etf, longname=Barclays Bank PLC, shorname=EMLB, symbol=EMLB, symbol_string=EMLB, exchange=NYE, issuetype=EMLB, sectype=null, isocfi=EYXXXX]
  
-CompanyTickerInfo [instrumenttype=etf, longname=Columbia Premium Technology Growth Fund Inc., shorname=XSTKX, symbol=XSTKX, symbol_string=XSTKX, exchange=NMF, issuetype=XSTKX, sectype=EQS, isocfi=CICXXX]
- 
-CompanyTickerInfo [instrumenttype=etf, longname=Tri-Continental Corp., shorname=XTYCX, symbol=XTYCX, symbol_string=XTYCX, exchange=NMF, issuetype=XTYCX, sectype=EQS, isocfi=CICXXX]
- 
 CompanyTickerInfo [instrumenttype=etf, longname=Rafael Holdings Inc. Class B, shorname=RFL, symbol=RFL, symbol_string=RFL, exchange=AMX, issuetype=RFL, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Fidelity High Yield Factor, shorname=FDHY, symbol=FDHY, symbol_string=FDHY, exchange=ARCA, issuetype=FDHY, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=etf, longname=Credit Suisse FI Enhanced Europe 50 ETNs, shorname=FEUL, symbol=FEUL, symbol_string=FEUL, exchange=ARCA, issuetype=FEUL, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AIM Growth Series Invesco Growth Series Invesco Growth Allocation Fd Cl T, shorname=AADUX, symbol=AADUX, symbol_string=AADUX, exchange=NMF, issuetype=AADUX, sectype=null, isocfi=null]
  
@@ -212,11 +246,11 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=AIM Counselor Series Tru
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Aberdeen China Opportunities Fund, shorname=ACHTX, symbol=ACHTX, symbol_string=ACHTX, exchange=NMF, issuetype=ACHTX, sectype=null, isocfi=CIOIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Core Plus Bond Fund Institutional Class, shorname=ACKIX, symbol=ACKIX, symbol_string=ACKIX, exchange=NMF, issuetype=ACKIX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Core Plus Bd Fd Instl Cl, shorname=ACKIX, symbol=ACKIX, symbol_string=ACKIX, exchange=NMF, issuetype=ACKIX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Core Plus Bond Fund, shorname=ACKPX, symbol=ACKPX, symbol_string=ACKPX, exchange=NMF, issuetype=ACKPX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Core Plus Bd Fd Cl P, shorname=ACKPX, symbol=ACKPX, symbol_string=ACKPX, exchange=NMF, issuetype=ACKPX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Core Plus Bond Fund6, shorname=ACOSX, symbol=ACOSX, symbol_string=ACOSX, exchange=NMF, issuetype=ACOSX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Core Plus Bd Fd Cl R6, shorname=ACOSX, symbol=ACOSX, symbol_string=ACOSX, exchange=NMF, issuetype=ACOSX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AIM Sector Funds Invesco Sector Funds Invesco Comstock Fd Cl T, shorname=ACSZX, symbol=ACSZX, symbol_string=ACSZX, exchange=NMF, issuetype=ACSZX, sectype=null, isocfi=null]
  
@@ -418,11 +452,11 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI NFJ Mid-Cap Va
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Convertible Fund, shorname=ANZTX, symbol=ANZTX, symbol_string=ANZTX, exchange=NMF, issuetype=ANZTX, sectype=null, isocfi=CIOIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Core Bond Fund Institutional Class, shorname=AOBIX, symbol=AOBIX, symbol_string=AOBIX, exchange=NMF, issuetype=AOBIX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Core Bd Fd Instl Cl, shorname=AOBIX, symbol=AOBIX, symbol_string=AOBIX, exchange=NMF, issuetype=AOBIX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Core Bond Fund, shorname=AOBPX, symbol=AOBPX, symbol_string=AOBPX, exchange=NMF, issuetype=AOBPX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Core Bd Fd Cl P, shorname=AOBPX, symbol=AOBPX, symbol_string=AOBPX, exchange=NMF, issuetype=AOBPX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Core Bond Fund6, shorname=AOBSX, symbol=AOBSX, symbol_string=AOBSX, exchange=NMF, issuetype=AOBSX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Core Bd Fd Cl R6, shorname=AOBSX, symbol=AOBSX, symbol_string=AOBSX, exchange=NMF, issuetype=AOBSX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Alger Funds Small Cap Focus Fd Cl T, shorname=AOFTX, symbol=AOFTX, symbol_string=AOFTX, exchange=NMF, issuetype=AOFTX, sectype=null, isocfi=CIOGXX]
  
@@ -432,13 +466,17 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Angel Oak UltraShort Inc
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Artisan Thematic Fund - Advisor Shares, shorname=APDTX, symbol=APDTX, symbol_string=APDTX, exchange=NMF, issuetype=APDTX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Preferred Securities and Income Fund Institutional Class, shorname=APEIX, symbol=APEIX, symbol_string=APEIX, exchange=NMF, issuetype=APEIX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Pfd Secs & Income Fd Instl Cl, shorname=APEIX, symbol=APEIX, symbol_string=APEIX, exchange=NMF, issuetype=APEIX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Artisan Thematic Fund - Institutional Shares, shorname=APHTX, symbol=APHTX, symbol_string=APHTX, exchange=NMF, issuetype=APHTX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Preferred Securities and Income Fund, shorname=APUPX, symbol=APUPX, symbol_string=APUPX, exchange=NMF, issuetype=APUPX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Investment Managers Series Trust AAM/Phocas Real Estate Fd Cl A, shorname=APRAX, symbol=APRAX, symbol_string=APRAX, exchange=NMF, issuetype=APRAX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=AllianzGI Preferred Securities and Income Fund6, shorname=ARISX, symbol=ARISX, symbol_string=ARISX, exchange=NMF, issuetype=ARISX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Investment Managers Series Trust AAM/Phocas Real Estate Fd Cl C, shorname=APRCX, symbol=APRCX, symbol_string=APRCX, exchange=NMF, issuetype=APRCX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Pfd Secs & Income Fd Cl P, shorname=APUPX, symbol=APUPX, symbol_string=APUPX, exchange=NMF, issuetype=APUPX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Allianz Funds Multi-Strategy Trust AllianzGI Pfd Secs & Income Fd Cl R6, shorname=ARISX, symbol=ARISX, symbol_string=ARISX, exchange=NMF, issuetype=ARISX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Astor Sector Allocation Fund - Shares, shorname=ASATX, symbol=ASATX, symbol_string=ASATX, exchange=NMF, issuetype=ASATX, sectype=null, isocfi=null]
  
@@ -859,6 +897,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Guggenheim Defined Portf
 CompanyTickerInfo [instrumenttype=mutual fund, longname=CION Ares Diversified Credit Fund - L, shorname=CADWX, symbol=CADWX, symbol_string=CADWX, exchange=NMF, issuetype=CADWX, sectype=null, isocfi=CICXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Guggenheim Defined Portfolios Series 1727 Advisory Series: Guggenheim Investmen, shorname=CAGIAX, symbol=CAGIAX, symbol_string=CAGIAX, exchange=NMF, issuetype=CAGIAX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Guggenheim Defined Portfolios Series 1765 Advisory Series: Investment Grade Cor, shorname=CAGIBX, symbol=CAGIBX, symbol_string=CAGIBX, exchange=NMF, issuetype=CAGIBX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Guggenheim Defined Portfolios Series 1588 Alternative Income Portfolio Series, shorname=CAIPHX, symbol=CAIPHX, symbol_string=CAIPHX, exchange=NMF, issuetype=CAIPHX, sectype=null, isocfi=CICXMX]
  
@@ -1448,7 +1488,7 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Janus Enterprise 529 Por
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AIM Counselor Series Trust Invesco Counselor Series Trust Invesco Calif Tax-Free Income Fd Cl T, shorname=CLFTX, symbol=CLFTX, symbol_string=CLFTX, exchange=NMF, issuetype=CLFTX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Clough Funds Trust Global Long/Short Fd Cl A, shorname=CLOVX, symbol=CLOVX, symbol_string=CLOVX, exchange=NMF, issuetype=CLOVX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Clough Global Long Short Fund -, shorname=CLOVX, symbol=CLOVX, symbol_string=CLOVX, exchange=NMF, issuetype=CLOVX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=MFS Value 529 Port A, shorname=CMFSX, symbol=CMFSX, symbol_string=CMFSX, exchange=NMF, issuetype=CMFSX, sectype=null, isocfi=CIOXMX]
  
@@ -2234,15 +2274,11 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Wells Fargo Funds Trust 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=American Funds College Enrollment Fund - Class 529-F-2, shorname=FAADX, symbol=FAADX, symbol_string=FAADX, exchange=NMF, issuetype=FAADX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen All American Municipal Bond Fund, shorname=FAAUX, symbol=FAAUX, symbol_string=FAAUX, exchange=NMF, issuetype=FAAUX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7426: High-Yield Income Closed-End Portfolio Series 82, shorname=FACIDX, symbol=FACIDX, symbol_string=FACIDX, exchange=NMF, issuetype=FACIDX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6434: Biotechnology Portfolio Series 35, shorname=FACJSX, symbol=FACJSX, symbol_string=FACJSX, exchange=NMF, issuetype=FACJSX, sectype=null, isocfi=CICXXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=American Funds College 2024 Fund - Class 529-F-2, shorname=FACRX, symbol=FACRX, symbol_string=FACRX, exchange=NMF, issuetype=FACRX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Mid Cap Value Fund, shorname=FACUX, symbol=FACUX, symbol_string=FACUX, exchange=NMF, issuetype=FACUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Fidelity Advisor Equity Value Fund:, shorname=FAEFX, symbol=FAEFX, symbol_string=FAEFX, exchange=NMF, issuetype=FAEFX, sectype=null, isocfi=CIOGXX]
  
@@ -2474,6 +2510,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6754: Technology Sele
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6807: New York Municipal Income Select Closed-End Portfolio Series 42, shorname=FBYHOX, symbol=FBYHOX, symbol_string=FBYHOX, exchange=NMF, issuetype=FBYHOX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7414: Capital Strength Portfolio Series 43, shorname=FBZESX, symbol=FBZESX, symbol_string=FBZESX, exchange=NMF, issuetype=FBZESX, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6203: Cyclical Strength Portfolio Series 14, shorname=FCARLX, symbol=FCARLX, symbol_string=FCARLX, exchange=NMF, issuetype=FCARLX, sectype=null, isocfi=CICXXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=American Funds College 2018 Fund - Class 529-F-2, shorname=FCATX, symbol=FCATX, symbol_string=FCATX, exchange=NMF, issuetype=FCATX, sectype=null, isocfi=CIOXMX]
@@ -2520,10 +2558,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6571: Corporate High 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7249: Cybersecurity Portfolio Series 11, shorname=FCNLEX, symbol=FCNLEX, symbol_string=FCNLEX, exchange=NMF, issuetype=FCNLEX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen North Carolina Municipal Bond Fund, shorname=FCNUX, symbol=FCNUX, symbol_string=FCNUX, exchange=NMF, issuetype=FCNUX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Colorado Municipal Bond Fund, shorname=FCOUX, symbol=FCOUX, symbol_string=FCOUX, exchange=NMF, issuetype=FCOUX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6603: Inflation Hedge Opportunity Portfolio Series 33, shorname=FCPBKX, symbol=FCPBKX, symbol_string=FCPBKX, exchange=NMF, issuetype=FCPBKX, sectype=null, isocfi=CICXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7251: Senior Loan & Limited Duration Opportunities Closed-End Portfolio Seri, shorname=FCPYGX, symbol=FCPYGX, symbol_string=FCPYGX, exchange=NMF, issuetype=FCPYGX, sectype=null, isocfi=null]
@@ -2545,8 +2579,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6947: Low Volatility 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6918: Cyclical Strength Portfolio Series 19, shorname=FCSOHX, symbol=FCSOHX, symbol_string=FCSOHX, exchange=NMF, issuetype=FCSOHX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6154: High Dividend Equity Portfolio Series 28, shorname=FCTDEX, symbol=FCTDEX, symbol_string=FCTDEX, exchange=NMF, issuetype=FCTDEX, sectype=null, isocfi=CICIXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Connecticut Municipal Bond Fund, shorname=FCTUX, symbol=FCTUX, symbol_string=FCTUX, exchange=NMF, issuetype=FCTUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7122: Sabrient Baker's Dozen Portfolio January 2018 Series, shorname=FCVZLX, symbol=FCVZLX, symbol_string=FCVZLX, exchange=NMF, issuetype=FCVZLX, sectype=null, isocfi=null]
  
@@ -2629,6 +2661,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6995: Technology Sele
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6296: Preferred Income Portfolio Series 85, shorname=FDRTLX, symbol=FDRTLX, symbol_string=FDRTLX, exchange=NMF, issuetype=FDRTLX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6692: Chaikin Low Beta Growth Portfolio Series 7, shorname=FDRVSX, symbol=FDRVSX, symbol_string=FDRVSX, exchange=NMF, issuetype=FDRVSX, sectype=null, isocfi=CICXMX]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7438: Dow Jones Global Titans Portfolio Series 25, shorname=FDRYMX, symbol=FDRYMX, symbol_string=FDRYMX, exchange=NMF, issuetype=FDRYMX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7392: Water Utility & Infrastructure Select Portfolio Series 50, shorname=FDRZPX, symbol=FDRZPX, symbol_string=FDRZPX, exchange=NMF, issuetype=FDRZPX, sectype=null, isocfi=null]
  
@@ -2834,8 +2868,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=American Funds Global Ba
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=The Income Fund of America - Class 529-F-3, shorname=FFIFX, symbol=FFIFX, symbol_string=FFIFX, exchange=NMF, issuetype=FFIFX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Core Plus Bond Fund, shorname=FFITX, symbol=FFITX, symbol_string=FFITX, exchange=NMF, issuetype=FFITX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=American Funds Mortgage Fund - Class 529-F-2, shorname=FFMFX, symbol=FFMFX, symbol_string=FFMFX, exchange=NMF, issuetype=FFMFX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=American Mutual Fund - Class 529-F-2, shorname=FFMMX, symbol=FFMMX, symbol_string=FFMMX, exchange=NMF, issuetype=FFMMX, sectype=null, isocfi=CIOXMX]
@@ -2859,8 +2891,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6133: Inflation Hedge
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7069: Corporate Investment Grade Portfolio 3-7 Year Series 2, shorname=FGBAVX, symbol=FGBAVX, symbol_string=FGBAVX, exchange=NMF, issuetype=FGBAVX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6695: Homebuilders Recovery Select Portfolio Series 16, shorname=FGBMUX, symbol=FGBMUX, symbol_string=FGBMUX, exchange=NMF, issuetype=FGBMUX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Georgia Municipal Bond Fund, shorname=FGCTX, symbol=FGCTX, symbol_string=FGCTX, exchange=NMF, issuetype=FGCTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6753: Tactical Income Portfolio Series 48, shorname=FGDQAX, symbol=FGDQAX, symbol_string=FGDQAX, exchange=NMF, issuetype=FGDQAX, sectype=null, isocfi=null]
  
@@ -3016,8 +3046,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7265: Tactical Alpha 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7178: American Agenda Portfolio Series 4, shorname=FHLWCX, symbol=FHLWCX, symbol_string=FHLWCX, exchange=NMF, issuetype=FHLWCX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Small Cap Select Fund, shorname=FHMTX, symbol=FHMTX, symbol_string=FHMTX, exchange=NMF, issuetype=FHMTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6117: Corporate Investment Grade Portfolio 3-7 Year Series, shorname=FHMZAX, symbol=FHMZAX, symbol_string=FHMZAX, exchange=NMF, issuetype=FHMZAX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7364: Municipal Advantage Closed-End and ETF Portfolio Series 48, shorname=FHNEAX, symbol=FHNEAX, symbol_string=FHNEAX, exchange=NMF, issuetype=FHNEAX, sectype=null, isocfi=null]
@@ -3088,8 +3116,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7393: Dividend Edge P
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6880: Core Three Closed-End Allocation Portfolio Series 32, shorname=FIDHAX, symbol=FIDHAX, symbol_string=FIDHAX, exchange=NMF, issuetype=FIDHAX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Core Bond Fund, shorname=FIDTX, symbol=FIDTX, symbol_string=FIDTX, exchange=NMF, issuetype=FIDTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7130: S&P Dividend Aristocrats Target 25 1Q '18 - Term 4/9/19, shorname=FIDZVX, symbol=FIDZVX, symbol_string=FIDZVX, exchange=NMF, issuetype=FIDZVX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6602: SMid Capital Strength Portfolio Series 33, shorname=FIERMX, symbol=FIERMX, symbol_string=FIERMX, exchange=NMF, issuetype=FIERMX, sectype=null, isocfi=CICXXX]
@@ -3097,8 +3123,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6602: SMid Capital St
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6497: Health Care Select Portfolio Series 44, shorname=FIEYJX, symbol=FIEYJX, symbol_string=FIEYJX, exchange=NMF, issuetype=FIEYJX, sectype=null, isocfi=CICXXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Intermediate Bond Fund of America - Class 529-F-3, shorname=FIFBX, symbol=FIFBX, symbol_string=FIFBX, exchange=NMF, issuetype=FIFBX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Inflation Protected Securities Fund, shorname=FIFTX, symbol=FIFTX, symbol_string=FIFTX, exchange=NMF, issuetype=FIFTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6371: Diversified Income Portfolio Series 4, shorname=FIGNQX, symbol=FIGNQX, symbol_string=FIGNQX, exchange=NMF, issuetype=FIGNQX, sectype=null, isocfi=CICIXX]
  
@@ -3123,6 +3147,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6582: Corporate Tax R
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7434: Equity Closed-End Portfolio Series 49, shorname=FINYZX, symbol=FINYZX, symbol_string=FINYZX, exchange=NMF, issuetype=FINYZX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7307: Interest Rate Hedge and ETF Portfolio Series 20, shorname=FIOKJX, symbol=FIOKJX, symbol_string=FIOKJX, exchange=NMF, issuetype=FIOKJX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7486: Global Bond Income Closed-End Portfolio Series 29, shorname=FIQBRX, symbol=FIQBRX, symbol_string=FIQBRX, exchange=NMF, issuetype=FIQBRX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7372: Senior Loan Select Closed-End Portfolio Series 31, shorname=FIQNLX, symbol=FIQNLX, symbol_string=FIQNLX, exchange=NMF, issuetype=FIQNLX, sectype=null, isocfi=null]
  
@@ -3174,8 +3200,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7039: Sabrient Defens
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=The First Trust Combined Series 560: Tax Exempt Municipal Income Trust Series 2, shorname=FJMTPX, symbol=FJMTPX, symbol_string=FJMTPX, exchange=NMF, issuetype=FJMTPX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Minnesota Municipal Bond Fund, shorname=FJMTX, symbol=FJMTX, symbol_string=FJMTX, exchange=NMF, issuetype=FJMTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7348: Health Care Select Portfolio Series 50, shorname=FJNLUX, symbol=FJNLUX, symbol_string=FJNLUX, exchange=NMF, issuetype=FJNLUX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7379: Capital Strength Opportunity Portfolio Series 5, shorname=FJNUCX, symbol=FJNUCX, symbol_string=FJNUCX, exchange=NMF, issuetype=FJNUCX, sectype=null, isocfi=null]
@@ -3215,6 +3239,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7186: Utilities Selec
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7060: International Capital Strength Opportunity Portfolio Series 3, shorname=FJUNSX, symbol=FJUNSX, symbol_string=FJUNSX, exchange=NMF, issuetype=FJUNSX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6551: U.S. Infrastructure Portfolio Series 10, shorname=FJUYMX, symbol=FJUYMX, symbol_string=FJUYMX, exchange=NMF, issuetype=FJUYMX, sectype=null, isocfi=CICXXX]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7418: Sabrient Forward Looking Value Portfolio Series 6, shorname=FJVLQX, symbol=FJVLQX, symbol_string=FJVLQX, exchange=NMF, issuetype=FJVLQX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6295: Biotechnology Portfolio Series 34, shorname=FJWONX, symbol=FJWONX, symbol_string=FJWONX, exchange=NMF, issuetype=FJWONX, sectype=null, isocfi=CICXXX]
  
@@ -3261,8 +3287,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6274: Dividend & Inco
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7415: Dividend & Income Select Closed-End Portfolio Series 66, shorname=FKCGLX, symbol=FKCGLX, symbol_string=FKCGLX, exchange=NMF, issuetype=FKCGLX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6998: Deep Value Dividend Portfolio Series 17, shorname=FKCLHX, symbol=FKCLHX, symbol_string=FKCLHX, exchange=NMF, issuetype=FKCLHX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Kentucky Municipal Bond Fund, shorname=FKCTX, symbol=FKCTX, symbol_string=FKCTX, exchange=NMF, issuetype=FKCTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6385: Dividend Strength Portfolio Series 34, shorname=FKEBTX, symbol=FKEBTX, symbol_string=FKEBTX, exchange=NMF, issuetype=FKEBTX, sectype=null, isocfi=CICIXX]
  
@@ -3362,13 +3386,9 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6596: First Trust ETF
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6516: Richard Bernstein Advisors Global Dividend Kings Series 21, shorname=FLBJUX, symbol=FLBJUX, symbol_string=FLBJUX, exchange=NMF, issuetype=FLBJUX, sectype=null, isocfi=CICIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Michigan Municipal Bond Fund, shorname=FLBTX, symbol=FLBTX, symbol_string=FLBTX, exchange=NMF, issuetype=FLBTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6212: Deep Value Dividend Portfolio Series 12, shorname=FLBVRX, symbol=FLBVRX, symbol_string=FLBVRX, exchange=NMF, issuetype=FLBVRX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Fidelity Advisor Large Cap Fund:, shorname=FLCJX, symbol=FLCJX, symbol_string=FLCJX, exchange=NMF, issuetype=FLCJX, sectype=null, isocfi=CIOXXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Large Cap Growth Opportunities Fund, shorname=FLCUX, symbol=FLCUX, symbol_string=FLCUX, exchange=NMF, issuetype=FLCUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6697: U.S. Infrastructure Portfolio Series 11, shorname=FLCZQX, symbol=FLCZQX, symbol_string=FLCZQX, exchange=NMF, issuetype=FLCZQX, sectype=null, isocfi=null]
  
@@ -3420,6 +3440,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6285: Investment Grad
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6713: Tactical Alpha Portfolio Series 13, shorname=FLMGWX, symbol=FLMGWX, symbol_string=FLMGWX, exchange=NMF, issuetype=FLMGWX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7439: Richard Bernstein Advisors Global Dividend Kings Series 27, shorname=FLNCHX, symbol=FLNCHX, symbol_string=FLNCHX, exchange=NMF, issuetype=FLNCHX, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6415: Limited Duration Fixed Income ETF Portfolio Series 18, shorname=FLNDUX, symbol=FLNDUX, symbol_string=FLNDUX, exchange=NMF, issuetype=FLNDUX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7127: Diversified Equity Strategic Allocation Port. 1Q '18 - Term 4/15/19, shorname=FLNIAX, symbol=FLNIAX, symbol_string=FLNIAX, exchange=NMF, issuetype=FLNIAX, sectype=null, isocfi=null]
@@ -3448,8 +3470,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=The First Trust Combined
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6633: New York Municipal Income Select Closed-End Portfolio Series 41, shorname=FLTSQX, symbol=FLTSQX, symbol_string=FLTSQX, exchange=NMF, issuetype=FLTSQX, sectype=null, isocfi=CICIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Limited Term Municipal Bond Fund, shorname=FLTUX, symbol=FLTUX, symbol_string=FLTUX, exchange=NMF, issuetype=FLTUX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6930: Balanced Income Select Portfolio Series 71, shorname=FLTWNX, symbol=FLTWNX, symbol_string=FLTWNX, exchange=NMF, issuetype=FLTWNX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6712: Cybersecurity Portfolio Series 8, shorname=FLTZRX, symbol=FLTZRX, symbol_string=FLTZRX, exchange=NMF, issuetype=FLTZRX, sectype=null, isocfi=null]
@@ -3461,8 +3481,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6404: Municipal Advan
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Fidelity Flex Real Estate Index Fund, shorname=FLXRX, symbol=FLXRX, symbol_string=FLXRX, exchange=NMF, issuetype=FLXRX, sectype=null, isocfi=CIOXRX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=The First Trust Combined Series 541: Investment Grade Multi-Asset Income Portfol, shorname=FLYEBX, symbol=FLYEBX, symbol_string=FLYEBX, exchange=NMF, issuetype=FLYEBX, sectype=null, isocfi=CICIXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Large Cap Select Fund, shorname=FLYTX, symbol=FLYTX, symbol_string=FLYTX, exchange=NMF, issuetype=FLYTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7217: Dividend & Income Select Closed-End Portfolio Series 64, shorname=FLZNSX, symbol=FLZNSX, symbol_string=FLZNSX, exchange=NMF, issuetype=FLZNSX, sectype=null, isocfi=null]
  
@@ -3496,8 +3514,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7336: Diversified Hig
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7365: U.S. Equity Closed-End Portfolio Series 27, shorname=FMETSX, symbol=FMETSX, symbol_string=FMETSX, exchange=NMF, issuetype=FMETSX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Mid Cap Growth Opportunities Fund, shorname=FMETX, symbol=FMETX, symbol_string=FMETX, exchange=NMF, issuetype=FMETX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7254: Municipal Advantage Closed-End and ETF Portfolio Series 47, shorname=FMGHBX, symbol=FMGHBX, symbol_string=FMGHBX, exchange=NMF, issuetype=FMGHBX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6587: Diversified Equity Strategic Allocation Port. 2Q '17 - Term 7/16/18, shorname=FMGNTX, symbol=FMGNTX, symbol_string=FMGNTX, exchange=NMF, issuetype=FMGNTX, sectype=null, isocfi=CICXXX]
@@ -3528,8 +3544,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=American Funds Mortgage 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AMCAP Fund - Class 529-F-2, shorname=FMMMX, symbol=FMMMX, symbol_string=FMMMX, exchange=NMF, issuetype=FMMMX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Missouri Municipal Bond Fund, shorname=FMMTX, symbol=FMMTX, symbol_string=FMMTX, exchange=NMF, issuetype=FMMTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6427: Alternative Income Portfolio Series 21, shorname=FMNLBX, symbol=FMNLBX, symbol_string=FMNLBX, exchange=NMF, issuetype=FMNLBX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7436: Global Deep Value Dividend Portfolio Series 19, shorname=FMOHUX, symbol=FMOHUX, symbol_string=FMOHUX, exchange=NMF, issuetype=FMOHUX, sectype=null, isocfi=null]
@@ -3543,8 +3557,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6932: Strategic Incom
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7244: Market Strength Allocation Opportunity Portfolio Series 4, shorname=FMPJUX, symbol=FMPJUX, symbol_string=FMPJUX, exchange=NMF, issuetype=FMPJUX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6952: 75/25 Strategic Allocation Port. 4Q '17 - Term 1/16/19, shorname=FMPKGX, symbol=FMPKGX, symbol_string=FMPKGX, exchange=NMF, issuetype=FMPKGX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Small Cap Growth Opportunities Fund, shorname=FMPUX, symbol=FMPUX, symbol_string=FMPUX, exchange=NMF, issuetype=FMPUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7087: U.S. Energy Independence Portfolio Series 17, shorname=FMQYLX, symbol=FMQYLX, symbol_string=FMQYLX, exchange=NMF, issuetype=FMQYLX, sectype=null, isocfi=null]
  
@@ -3605,8 +3617,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6553: Banking Opportu
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6426: Preferred Income Portfolio Series 87, shorname=FNCDGX, symbol=FNCDGX, symbol_string=FNCDGX, exchange=NMF, issuetype=FNCDGX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7140: 7Twelve Balanced Portfolio Series, shorname=FNCMQX, symbol=FNCMQX, symbol_string=FNCMQX, exchange=NMF, issuetype=FNCMQX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen New Mexico Municipal Bond Fund, shorname=FNCTX, symbol=FNCTX, symbol_string=FNCTX, exchange=NMF, issuetype=FNCTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7304: Global Commodities Opportunity Portfolio Series 34, shorname=FNCUGX, symbol=FNCUGX, symbol_string=FNCUGX, exchange=NMF, issuetype=FNCUGX, sectype=null, isocfi=null]
  
@@ -3710,8 +3720,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7133: Investment Grad
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7169: Richard Bernstein Advisors Quality Income Portfolio Series 28, shorname=FNTGYX, symbol=FNTGYX, symbol_string=FNTGYX, exchange=NMF, issuetype=FNTGYX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Nebraska Municipal Bond Fund, shorname=FNTTX, symbol=FNTTX, symbol_string=FNTTX, exchange=NMF, issuetype=FNTTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6340: Interest Rate Hedge Portfolio Series 106, shorname=FNULBX, symbol=FNULBX, symbol_string=FNULBX, exchange=NMF, issuetype=FNULBX, sectype=null, isocfi=CICXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7162: Municipal Income Closed-End Portfolio Series 73, shorname=FNUYOX, symbol=FNUYOX, symbol_string=FNUYOX, exchange=NMF, issuetype=FNUYOX, sectype=null, isocfi=null]
@@ -3792,8 +3800,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7386: Market Strength
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7391: Energy Select Portfolio Series 68, shorname=FOTRYX, symbol=FOTRYX, symbol_string=FOTRYX, exchange=NMF, issuetype=FOTRYX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Oregon Intermediate Municipal Bond Fund, shorname=FOTTX, symbol=FOTTX, symbol_string=FOTTX, exchange=NMF, issuetype=FOTTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6780: Sabrient Small Cap Growth Portfolio Series 15, shorname=FOTYGX, symbol=FOTYGX, symbol_string=FOTYGX, exchange=NMF, issuetype=FOTYGX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7007: Capital Strength Buy-Write Portfolio Series 35, shorname=FOUBLX, symbol=FOUBLX, symbol_string=FOUBLX, exchange=NMF, issuetype=FOUBLX, sectype=null, isocfi=null]
@@ -3831,8 +3837,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7300: Target Growth 2
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6289: New Jersey Municipal Income Select Closed-End Portfolio Series 51, shorname=FPCETX, symbol=FPCETX, symbol_string=FPCETX, exchange=NMF, issuetype=FPCETX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6905: Strategic Opportunity Portfolio Series II, shorname=FPCRLX, symbol=FPCRLX, symbol_string=FPCRLX, exchange=NMF, issuetype=FPCRLX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Pennsylvania Municipal Bond Fund, shorname=FPCTX, symbol=FPCTX, symbol_string=FPCTX, exchange=NMF, issuetype=FPCTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7095: Stonebridge Preferred Income Portfolio Series 16, shorname=FPCWLX, symbol=FPCWLX, symbol_string=FPCWLX, exchange=NMF, issuetype=FPCWLX, sectype=null, isocfi=null]
  
@@ -4066,8 +4070,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6824: Aerospace & Def
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7359: SMid Biotechnology Portfolio Series 2, shorname=FRBLQX, symbol=FRBLQX, symbol_string=FRBLQX, exchange=NMF, issuetype=FRBLQX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Kansas Municipal Bond Fund, shorname=FRBTX, symbol=FRBTX, symbol_string=FRBTX, exchange=NMF, issuetype=FRBTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7303: Strategic Income Select Closed-End Portfolio Series 34, shorname=FRBVHX, symbol=FRBVHX, symbol_string=FRBVHX, exchange=NMF, issuetype=FRBVHX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6613: Senior Loan Select Closed-End Portfolio Series 25, shorname=FRCKMX, symbol=FRCKMX, symbol_string=FRCKMX, exchange=NMF, issuetype=FRCKMX, sectype=null, isocfi=CICIXX]
@@ -4196,8 +4198,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Fidelity Advisor Strateg
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6565: Sabrient Defensive Equity Portfolio Series 11, shorname=FSEORX, symbol=FSEORX, symbol_string=FSEORX, exchange=NMF, issuetype=FSEORX, sectype=null, isocfi=CICXXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Strategy Aggressive Growth Allocation Fund, shorname=FSETX, symbol=FSETX, symbol_string=FSETX, exchange=NMF, issuetype=FSETX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6836: Nasdaq Dividend Achievers 25 Portfolio Series 10, shorname=FSFEIX, symbol=FSFEIX, symbol_string=FSFEIX, exchange=NMF, issuetype=FSFEIX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=SMALLCAP World Fund Inc. - Class 529-F-3, shorname=FSFWX, symbol=FSFWX, symbol_string=FSFWX, exchange=NMF, issuetype=FSFWX, sectype=null, isocfi=CIOXMX]
@@ -4220,8 +4220,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6313: Strategic Incom
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7252: Senior Loan & Limited Duration Closed-End Portfolio Series 79, shorname=FSJNRX, symbol=FSJNRX, symbol_string=FSJNRX, exchange=NMF, issuetype=FSJNRX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Strategy Conservative Allocation Fund, shorname=FSJTX, symbol=FSJTX, symbol_string=FSJTX, exchange=NMF, issuetype=FSJTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6478: Senior Loan and Dividend Growers Portfolio Series 12, shorname=FSJZEX, symbol=FSJZEX, symbol_string=FSJZEX, exchange=NMF, issuetype=FSJZEX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7013: Municipal Income Select Closed-End Portfolio Series 90, shorname=FSKCLX, symbol=FSKCLX, symbol_string=FSKCLX, exchange=NMF, issuetype=FSKCLX, sectype=null, isocfi=null]
@@ -4233,8 +4231,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7078: Municipal Incom
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7148: Balanced Income Equity and ETF Opportunity Portfolio Series 3, shorname=FSKPJX, symbol=FSKPJX, symbol_string=FSKPJX, exchange=NMF, issuetype=FSKPJX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=The First Trust Combined Series 529: Tax Exempt Municipal Income Trust Series 2, shorname=FSKULX, symbol=FSKULX, symbol_string=FSKULX, exchange=NMF, issuetype=FSKULX, sectype=null, isocfi=CICIXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Strategy Balanced Allocation Fund, shorname=FSKUX, symbol=FSKUX, symbol_string=FSKUX, exchange=NMF, issuetype=FSKUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7345: Diversified Income & Growth Portfolio Summer 2018 Series, shorname=FSKVDX, symbol=FSKVDX, symbol_string=FSKVDX, exchange=NMF, issuetype=FSKVDX, sectype=null, isocfi=null]
  
@@ -4263,8 +4259,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7068: Municipal Advan
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6876: Strategic International Opportunity Portfolio Series, shorname=FSNOIX, symbol=FSNOIX, symbol_string=FSNOIX, exchange=NMF, issuetype=FSNOIX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6993: Sabrient Dividend Portfolio Series 21, shorname=FSNTVX, symbol=FSNTVX, symbol_string=FSNTVX, exchange=NMF, issuetype=FSNTVX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Strategy Growth Allocation Fund, shorname=FSNTX, symbol=FSNTX, symbol_string=FSNTX, exchange=NMF, issuetype=FSNTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7185: Financials Select Portfolio Series 63, shorname=FSNYCX, symbol=FSNYCX, symbol_string=FSNYCX, exchange=NMF, issuetype=FSNYCX, sectype=null, isocfi=null]
  
@@ -4356,8 +4350,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6672: Balanced Income
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=The First Trust Combined Series 539: Investment Grade Multi-Asset Income Portfol, shorname=FTCOGX, symbol=FTCOGX, symbol_string=FTCOGX, exchange=NMF, issuetype=FTCOGX, sectype=null, isocfi=CICIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Louisiana Municipal Bond Fund, shorname=FTCTX, symbol=FTCTX, symbol_string=FTCTX, exchange=NMF, issuetype=FTCTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6500: The Shalom Trust Series, shorname=FTCYGX, symbol=FTCYGX, symbol_string=FTCYGX, exchange=NMF, issuetype=FTCYGX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7239: Sabrient Baker's Dozen Portfolio March 2018 Series, shorname=FTCZBX, symbol=FTCZBX, symbol_string=FTCZBX, exchange=NMF, issuetype=FTCZBX, sectype=null, isocfi=null]
@@ -4401,8 +4393,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6685: Global Bond Inc
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7437: Low Volatility Portfolio Series 12, shorname=FTNJBX, symbol=FTNJBX, symbol_string=FTNJBX, exchange=NMF, issuetype=FTNJBX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6951: Diversified Fixed Income ETF Portfolio Series 32, shorname=FTNQLX, symbol=FTNQLX, symbol_string=FTNQLX, exchange=NMF, issuetype=FTNQLX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Tennessee Municipal Bond Fund, shorname=FTNUX, symbol=FTNUX, symbol_string=FTNUX, exchange=NMF, issuetype=FTNUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6163: New Jersey Municipal Income Select Closed-End Portfolio Series 50, shorname=FTOHGX, symbol=FTOHGX, symbol_string=FTOHGX, exchange=NMF, issuetype=FTOHGX, sectype=null, isocfi=CICIXX]
  
@@ -4480,6 +4470,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6885: High Dividend E
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Pioneer Series Trust X Fundamental Growth Fd Cl T, shorname=FUNTX, symbol=FUNTX, symbol_string=FUNTX, exchange=NMF, issuetype=FUNTX, sectype=null, isocfi=CIOGXX]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6110: Core Three Closed-End Allocation Portfolio Series 24, shorname=FUONTX, symbol=FUONTX, symbol_string=FUONTX, exchange=NMF, issuetype=FUONTX, sectype=null, isocfi=CICXXX]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7004: Utilities Select Portfolio Series 45, shorname=FUOPWX, symbol=FUOPWX, symbol_string=FUOPWX, exchange=NMF, issuetype=FUOPWX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6674: Senior Loan Closed-End and ETF Portfolio Series 17, shorname=FUQAPX, symbol=FUQAPX, symbol_string=FUQAPX, exchange=NMF, issuetype=FUQAPX, sectype=null, isocfi=CICIXX]
@@ -4495,8 +4487,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7099: Global Deep Val
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7219: Cyclical Strength Portfolio Series 21, shorname=FVAILX, symbol=FVAILX, symbol_string=FVAILX, exchange=NMF, issuetype=FVAILX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6988: Dividend Strength Portfolio Series 38, shorname=FVANBX, symbol=FVANBX, symbol_string=FVANBX, exchange=NMF, issuetype=FVANBX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Virginia Municipal Bond Fund, shorname=FVAUX, symbol=FVAUX, symbol_string=FVAUX, exchange=NMF, issuetype=FVAUX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6545: Market Strength Allocation Select Portfolio Series 26, shorname=FVAWBX, symbol=FVAWBX, symbol_string=FVAWBX, exchange=NMF, issuetype=FVAWBX, sectype=null, isocfi=CICXXX]
  
@@ -4634,8 +4624,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6815: Low Volatility 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6127: Senior Loan & Limited Duration Plus Closed-End Portfolio Series 106, shorname=FWILQX, symbol=FWILQX, symbol_string=FWILQX, exchange=NMF, issuetype=FWILQX, sectype=null, isocfi=CICIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Wisconsin Municipal Bond Fund, shorname=FWITX, symbol=FWITX, symbol_string=FWITX, exchange=NMF, issuetype=FWITX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6935: Strategic Income Advantage Select Closed-End Portfolio Series 68, shorname=FWLBMX, symbol=FWLBMX, symbol_string=FWLBMX, exchange=NMF, issuetype=FWLBMX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6823: U.S. Energy Independence Portfolio Series 16, shorname=FWLCJX, symbol=FWLCJX, symbol_string=FWLCJX, exchange=NMF, issuetype=FWLCJX, sectype=null, isocfi=null]
@@ -4722,8 +4710,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7275: E-Commerce Oppo
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6416: Senior Loan Closed-End and ETF Portfolio Series 14, shorname=FYCKRX, symbol=FYCKRX, symbol_string=FYCKRX, exchange=NMF, issuetype=FYCKRX, sectype=null, isocfi=CIOIXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6641: Sabrient Baker's Dozen Portfolio May 2017 Series, shorname=FYCZGX, symbol=FYCZGX, symbol_string=FYCZGX, exchange=NMF, issuetype=FYCZGX, sectype=null, isocfi=CICXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6616: Balanced Income Portfolio Series 56, shorname=FYDCGX, symbol=FYDCGX, symbol_string=FYDCGX, exchange=NMF, issuetype=FYDCGX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7198: Carolinas Leaders Portfolio Series, shorname=FYDRMX, symbol=FYDRMX, symbol_string=FYDRMX, exchange=NMF, issuetype=FYDRMX, sectype=null, isocfi=null]
@@ -4741,8 +4727,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7172: Senior Loan & L
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6891: Preferred Income Opportunity Portfolio Series 6, shorname=FYGPAX, symbol=FYGPAX, symbol_string=FYGPAX, exchange=NMF, issuetype=FYGPAX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6855: Capital Strength Buy-Write Portfolio Series 34, shorname=FYGREX, symbol=FYGREX, symbol_string=FYGREX, exchange=NMF, issuetype=FYGREX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Intermediate Government Bond Fund, shorname=FYGTX, symbol=FYGTX, symbol_string=FYGTX, exchange=NMF, issuetype=FYGTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6675: Low Volatility Portfolio Series 7, shorname=FYHMBX, symbol=FYHMBX, symbol_string=FYHMBX, exchange=NMF, issuetype=FYHMBX, sectype=null, isocfi=CICXMX]
  
@@ -4821,8 +4805,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6394: Diversified Hig
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 6367: New York Municipal Income Select Closed-End Portfolio Series 39, shorname=FZAVMX, symbol=FZAVMX, symbol_string=FZAVMX, exchange=NMF, issuetype=FZAVMX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7115: E-Commerce Opportunity Portfolio Series 2, shorname=FZBTDX, symbol=FZBTDX, symbol_string=FZBTDX, exchange=NMF, issuetype=FZBTDX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Arizona Municipal Bond Fund, shorname=FZCTX, symbol=FZCTX, symbol_string=FZCTX, exchange=NMF, issuetype=FZCTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=FT 7243: International High Dividend Equity Portfolio Series 33, shorname=FZDVRX, symbol=FZDVRX, symbol_string=FZDVRX, exchange=NMF, issuetype=FZDVRX, sectype=null, isocfi=null]
  
@@ -6980,6 +6962,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Legg Mason Global Asset 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AIM Growth Series Invesco Growth Series Invesco Alternative Strategies Fd Cl T, shorname=LQLTX, symbol=LQLTX, symbol_string=LQLTX, exchange=NMF, issuetype=LQLTX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Legg Mason Global Asset Management Trust QS Global Market Neutral Fd Cl C, shorname=LQNCX, symbol=LQNCX, symbol_string=LQNCX, exchange=NMF, issuetype=LQNCX, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Legg Mason Global Asset Management Trust QS Strategic Real Return Fd Cl Fl, shorname=LRFIX, symbol=LRFIX, symbol_string=LRFIX, exchange=NMF, issuetype=LRFIX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Natixis Funds Trust II Loomis Sayles Strategic Alpha Fd Cl T, shorname=LSATX, symbol=LSATX, symbol_string=LSATX, exchange=NMF, issuetype=LSATX, sectype=null, isocfi=CIOXMX]
@@ -7368,41 +7352,21 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Muzinich Low Duration Fu
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Muzinich Low Duration Fund - Shares, shorname=MZLRX, symbol=MZLRX, symbol_string=MZLRX, exchange=NMF, issuetype=MZLRX, sectype=null, isocfi=CIOIMX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ International Value Fund, shorname=NAITX, symbol=NAITX, symbol_string=NAITX, exchange=NMF, issuetype=NAITX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=AIG U.S. Government Securities Fund -, shorname=NASTX, symbol=NASTX, symbol_string=NASTX, exchange=NMF, issuetype=NASTX, sectype=null, isocfi=CIOIXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen International Growth Fund, shorname=NBQTX, symbol=NBQTX, symbol_string=NBQTX, exchange=NMF, issuetype=NBQTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen California Municipal Bond Fund, shorname=NCAUX, symbol=NCAUX, symbol_string=NCAUX, exchange=NMF, issuetype=NCAUX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Concentrated Core Fund, shorname=NCCTX, symbol=NCCTX, symbol_string=NCCTX, exchange=NMF, issuetype=NCCTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Core Dividend Fund, shorname=NCDTX, symbol=NCDTX, symbol_string=NCDTX, exchange=NMF, issuetype=NCDTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen California High Yield Municipal Bond Fund, shorname=NCHTX, symbol=NCHTX, symbol_string=NCHTX, exchange=NMF, issuetype=NCHTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Loomis Sayles Funds II High Income Fd Cl T, shorname=NEHTX, symbol=NEHTX, symbol_string=NEHTX, exchange=NMF, issuetype=NEHTX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Natixis Funds Trust I Vaughan Nelson Small Cap Value Fd Cl T, shorname=NEJTX, symbol=NEJTX, symbol_string=NEJTX, exchange=NMF, issuetype=NEJTX, sectype=null, isocfi=CIOXXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Equity Long/Short Fund, shorname=NELTX, symbol=NELTX, symbol_string=NELTX, exchange=NMF, issuetype=NELTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Investment Trust V Gresham Managed Futures Strategy Fd Cl A, shorname=NGAFX, symbol=NGAFX, symbol_string=NGAFX, exchange=NMF, issuetype=NGAFX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Investment Trust V Gresham Managed Futures Strategy Fd Cl C, shorname=NGCFX, symbol=NGCFX, symbol_string=NGCFX, exchange=NMF, issuetype=NGCFX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Global All-Cap Fund, shorname=NGETX, symbol=NGETX, symbol_string=NGETX, exchange=NMF, issuetype=NGETX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Investment Trust V Gresham Managed Futures Strategy Fd Cl R6, shorname=NGFFX, symbol=NGFFX, symbol_string=NGFFX, exchange=NMF, issuetype=NGFFX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Investment Trust V Gresham Managed Futures Strategy Fd Cl I, shorname=NGIFX, symbol=NGIFX, symbol_string=NGIFX, exchange=NMF, issuetype=NGIFX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Investment Trust V Gresham Managed Futures Strategy Fd Cl T, shorname=NGTFX, symbol=NGTFX, symbol_string=NGTFX, exchange=NMF, issuetype=NGTFX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen High Yield Municipal Bond Fund, shorname=NHMTX, symbol=NHMTX, symbol_string=NHMTX, exchange=NMF, issuetype=NHMTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Minnesota Intermediate Municipal Bond Fund, shorname=NIBTX, symbol=NIBTX, symbol_string=NIBTX, exchange=NMF, issuetype=NIBTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Aquila Narragansett Tax-Free Income Fund, shorname=NIFFX, symbol=NIFFX, symbol_string=NIFFX, exchange=NMF, issuetype=NIFFX, sectype=null, isocfi=CICXMX]
  
@@ -7414,39 +7378,15 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Neuberger Berman Municip
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Natixis Funds Trust I Natixis Oakmark Intl Fd Cl T, shorname=NIOTX, symbol=NIOTX, symbol_string=NIOTX, exchange=NMF, issuetype=NIOTX, sectype=null, isocfi=CIOXXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Inflation Protected Municipal Bond Fund, shorname=NIPTX, symbol=NIPTX, symbol_string=NIPTX, exchange=NMF, issuetype=NIPTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1784 Cohen & Steers New Jersey Municipal Closed-End Portfolio Series 2017-1, shorname=NJCEJX, symbol=NJCEJX, symbol_string=NJCEJX, exchange=NMF, issuetype=NJCEJX, sectype=null, isocfi=CICIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1805 Cohen & Steers New Jersey Municipal Closed-End Portfolio Series 2017-2, shorname=NJCEKX, symbol=NJCEKX, symbol_string=NJCEKX, exchange=NMF, issuetype=NJCEKX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1846 Cohen & Steers New Jersey Municipal Closed-End Portfolio Series 2018-1, shorname=NJCELX, symbol=NJCELX, symbol_string=NJCELX, exchange=NMF, issuetype=NJCELX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Large Cap Growth Fund, shorname=NLATX, symbol=NLATX, symbol_string=NLATX, exchange=NMF, issuetype=NLATX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Large Cap Core Fund, shorname=NLCTX, symbol=NLCTX, symbol_string=NLCTX, exchange=NMF, issuetype=NLCTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Large Cap Core Plus Fund, shorname=NLPTX, symbol=NLPTX, symbol_string=NLPTX, exchange=NMF, issuetype=NLPTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Massachusetts Municipal Bond Fund, shorname=NMAUX, symbol=NMAUX, symbol_string=NMAUX, exchange=NMF, issuetype=NMAUX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Maryland Municipal Bond Fund, shorname=NMDTX, symbol=NMDTX, symbol_string=NMDTX, exchange=NMF, issuetype=NMDTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Equity Market Neutral Fund, shorname=NMETX, symbol=NMETX, symbol_string=NMETX, exchange=NMF, issuetype=NMETX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen New Jersey Municipal Bond Fund, shorname=NNJTX, symbol=NNJTX, symbol_string=NNJTX, exchange=NMF, issuetype=NNJTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Intermediate Duration Municipal Bond Fund, shorname=NNSTX, symbol=NNSTX, symbol_string=NNSTX, exchange=NMF, issuetype=NNSTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen New York Municipal Bond Fund, shorname=NNYTX, symbol=NNYTX, symbol_string=NNYTX, exchange=NMF, issuetype=NNYTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Natixis Funds Trust II Oakmark Fd Cl T, shorname=NOKTX, symbol=NOKTX, symbol_string=NOKTX, exchange=NMF, issuetype=NOKTX, sectype=null, isocfi=CIOXXX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Symphony Low Volatility Equity Fund, shorname=NOPTX, symbol=NOPTX, symbol_string=NOPTX, exchange=NMF, issuetype=NOPTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Deutsche Strategic High Yield Tax-Free Fund -, shorname=NOTUX, symbol=NOTUX, symbol_string=NOTUX, exchange=NMF, issuetype=NOTUX, sectype=null, isocfi=CIOXXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Large-Cap Value Fund, shorname=NQCTX, symbol=NQCTX, symbol_string=NQCTX, exchange=NMF, issuetype=NQCTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1788 NASDAQ Q-50 Index Portfolio Series 2017-2Q, shorname=NQFNMX, symbol=NQFNMX, symbol_string=NQFNMX, exchange=NMF, issuetype=NQFNMX, sectype=null, isocfi=CICXXX]
  
@@ -7458,8 +7398,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1847 NASDAQ Q-50 Ind
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1863 NASDAQ Q-50 Indexsm Portfolio Series 2018-2Q, shorname=NQFNQX, symbol=NQFNQX, symbol_string=NQFNQX, exchange=NMF, issuetype=NQFNQX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Multi-Cap Value Fund, shorname=NQVTX, symbol=NQVTX, symbol_string=NQVTX, exchange=NMF, issuetype=NQVTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Natixis Funds Trust IV AEW Real Estate Fd Cl T, shorname=NRETX, symbol=NRETX, symbol_string=NRETX, exchange=NMF, issuetype=NRETX, sectype=null, isocfi=CIOXRX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Neuberger Berman Equity Funds Intrinsic Value Fd Cl R6, shorname=NRINX, symbol=NRINX, symbol_string=NRINX, exchange=NMF, issuetype=NRINX, sectype=null, isocfi=CIOXXX]
@@ -7468,35 +7406,11 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Neuberger Berman Equity 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nexpoint Real Estate Strategies Fund, shorname=NRSLX, symbol=NRSLX, symbol_string=NRSLX, exchange=NMF, issuetype=NRSLX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Short Term Bond Fund, shorname=NSATX, symbol=NSATX, symbol_string=NSATX, exchange=NMF, issuetype=NSATX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Small Cap Value Fund, shorname=NSCTX, symbol=NSCTX, symbol_string=NSCTX, exchange=NMF, issuetype=NSCTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Growth Fund, shorname=NSRTX, symbol=NSRTX, symbol_string=NSRTX, exchange=NMF, issuetype=NSRTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Symphony Small Cap Core Fund, shorname=NSSTX, symbol=NSSTX, symbol_string=NSSTX, exchange=NMF, issuetype=NSSTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Strategic Municipal Opportunities Fund, shorname=NSTOX, symbol=NSTOX, symbol_string=NSTOX, exchange=NMF, issuetype=NSTOX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Short Term Municipal Bond Fund, shorname=NSVTX, symbol=NSVTX, symbol_string=NSVTX, exchange=NMF, issuetype=NSVTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Symphony Large-Cap Growth Fund, shorname=NTCGX, symbol=NTCGX, symbol_string=NTCGX, exchange=NMF, issuetype=NTCGX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Gresham Diversified Commodity Strategy Fund, shorname=NTGVX, symbol=NTGVX, symbol_string=NTGVX, exchange=NMF, issuetype=NTGVX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Japan Fund, shorname=NTJTX, symbol=NTJTX, symbol_string=NTJTX, exchange=NMF, issuetype=NTJTX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=NorthStar/Townsend Institutional Real Estate Fund Inc., shorname=NTRAX, symbol=NTRAX, symbol_string=NTRAX, exchange=NMF, issuetype=NTRAX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=NorthStar/Townsend Institutional Real Estate Fund Inc., shorname=NTRCX, symbol=NTRCX, symbol_string=NTRCX, exchange=NMF, issuetype=NTRCX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=NorthStar/Townsend Institutional Real Estate Fund Inc., shorname=NTRIX, symbol=NTRIX, symbol_string=NTRIX, exchange=NMF, issuetype=NTRIX, sectype=null, isocfi=CIOIXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen California Intermediate Municipal Bond Fund, shorname=NUCTX, symbol=NUCTX, symbol_string=NUCTX, exchange=NMF, issuetype=NUCTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Santa Barbara Global Dividend Growth Fund, shorname=NUGTX, symbol=NUGTX, symbol_string=NUGTX, exchange=NMF, issuetype=NUGTX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Santa Barbara International Dividend Growth Fund, shorname=NUITX, symbol=NUITX, symbol_string=NUITX, exchange=NMF, issuetype=NUITX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Natixis Funds Trust I Natixis US Equity Opportunities Fd Cl T, shorname=NUSTX, symbol=NUSTX, symbol_string=NUSTX, exchange=NMF, issuetype=NUSTX, sectype=null, isocfi=CIOXMX]
  
@@ -7514,6 +7428,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Balance Sheet Str
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Balance Sheet Strength Portfolio 1Q 2017 Cash, shorname=NVBSCX, symbol=NVBSCX, symbol_string=NVBSCX, exchange=NMF, issuetype=NVBSCX, sectype=null, isocfi=CICXMX]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Balance Sheet Strength Portfolio 2Q 2016 Cash, shorname=NVBSSX, symbol=NVBSSX, symbol_string=NVBSSX, exchange=NMF, issuetype=NVBSSX, sectype=null, isocfi=CIOXXX]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Dynamic Allocation 60/40 Portfolio 1Q 2017 Cash, shorname=NVDAAX, symbol=NVDAAX, symbol_string=NVDAAX, exchange=NMF, issuetype=NVDAAX, sectype=null, isocfi=CICXXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Diversified Income Portfolio 4Q 2016 Cash, shorname=NVDIAX, symbol=NVDIAX, symbol_string=NVDIAX, exchange=NMF, issuetype=NVDIAX, sectype=null, isocfi=CICIXX]
@@ -7525,8 +7441,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Diversified I
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Formula Global 50 S&P Portfolio 4Q 2016 Cash, shorname=NVFOTX, symbol=NVFOTX, symbol_string=NVFOTX, exchange=NMF, issuetype=NVFOTX, sectype=null, isocfi=CICXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Formula Global 50 S&P Portfolio 1Q 2017 Cash, shorname=NVFOUX, symbol=NVFOUX, symbol_string=NVFOUX, exchange=NMF, issuetype=NVFOUX, sectype=null, isocfi=CICXXX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Short Duration High Yield Municipal Bond Fund, shorname=NVHTX, symbol=NVHTX, symbol_string=NVHTX, exchange=NMF, issuetype=NVHTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Argus International Dividend Seeker Portfolio 4Q 2016 Cash, shorname=NVIDUX, symbol=NVIDUX, symbol_string=NVIDUX, exchange=NMF, issuetype=NVIDUX, sectype=null, isocfi=CICXXX]
  
@@ -7578,6 +7492,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Symphony Low Vola
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Symphony Low Volatility Equity Portfolio 1Q 2017 Cash, shorname=NVNSCX, symbol=NVNSCX, symbol_string=NVNSCX, exchange=NMF, issuetype=NVNSCX, sectype=null, isocfi=CICXMX]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Prospect Cyclical Momentum Portfolio 2Q 2016 Cash, shorname=NVPCMX, symbol=NVPCMX, symbol_string=NVPCMX, exchange=NMF, issuetype=NVPCMX, sectype=null, isocfi=CICXXX]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Prospect Energy and Power Income Portfolio 3Q 2016 Cash, shorname=NVPEAX, symbol=NVPEAX, symbol_string=NVPEAX, exchange=NMF, issuetype=NVPEAX, sectype=null, isocfi=CICXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Prospect Energy and Power Income Portfolio 4Q 2016 Cash, shorname=NVPEBX, symbol=NVPEBX, symbol_string=NVPEBX, exchange=NMF, issuetype=NVPEBX, sectype=null, isocfi=CICXMX]
@@ -7602,10 +7518,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Zacks Select Equi
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nationwide Loomis All Cap Growth Fund Eagle Class, shorname=NWADX, symbol=NWADX, symbol_string=NWADX, exchange=NMF, issuetype=NWADX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen NWQ Small/Mid Cap Value Fund, shorname=NWQUX, symbol=NWQUX, symbol_string=NWQUX, exchange=NMF, issuetype=NWQUX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Winslow International Small Cap Fund, shorname=NWSTX, symbol=NWSTX, symbol_string=NWSTX, exchange=NMF, issuetype=NWSTX, sectype=null, isocfi=CIOXXX]
- 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nationwide International Small Cap Fund, shorname=NWXTX, symbol=NWXTX, symbol_string=NWXTX, exchange=NMF, issuetype=NWXTX, sectype=null, isocfi=CIOXXX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nexpoint Healthcare Opportunities Fund-, shorname=NXHAX, symbol=NXHAX, symbol_string=NXHAX, exchange=NMF, issuetype=NXHAX, sectype=null, isocfi=CICJLS]
@@ -7623,8 +7535,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Nexpoint Latin American 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nexpoint Latin American Opportunities Fund, shorname=NXLLX, symbol=NXLLX, symbol_string=NXLLX, exchange=NMF, issuetype=NXLLX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Nexpoint Latin American Opportunities Fund, shorname=NXLZX, symbol=NXLZX, symbol_string=NXLZX, exchange=NMF, issuetype=NXLZX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Nuveen Ohio Municipal Bond Fund, shorname=NXOTX, symbol=NXOTX, symbol_string=NXOTX, exchange=NMF, issuetype=NXOTX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Oakhurst Strategic Defined Risk Fund Advisor Class, shorname=OASRX, symbol=OASRX, symbol_string=OASRX, exchange=NMF, issuetype=OASRX, sectype=null, isocfi=CIOXXX]
  
@@ -7648,7 +7558,7 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Putnam AMT-Free Municipa
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=PIMCO Funds All Asset All Authority Fd Cl T, shorname=PAUTX, symbol=PAUTX, symbol_string=PAUTX, exchange=NMF, issuetype=PAUTX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Pax World Funds Series Trust I Global Opptys Fd Inv Cl, shorname=PAXGX, symbol=PAXGX, symbol_string=PAXGX, exchange=NMF, issuetype=PAXGX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Pax Global Opportunities Fund Investor Class, shorname=PAXGX, symbol=PAXGX, symbol_string=PAXGX, exchange=NMF, issuetype=PAXGX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=PIMCO Funds Invt Grade Corp Bd Fd Cl T, shorname=PBBTX, symbol=PBBTX, symbol_string=PBBTX, exchange=NMF, issuetype=PBBTX, sectype=null, isocfi=CIOIMX]
  
@@ -7818,6 +7728,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=PIMCO Funds Trends Manag
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Probabilities Sector Rotation Fund, shorname=PRCSX, symbol=PRCSX, symbol_string=PRCSX, exchange=NMF, issuetype=PRCSX, sectype=null, isocfi=CIOXMX]
  
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Sharespost 100 Fund -, shorname=PRIVX, symbol=PRIVX, symbol_string=PRIVX, exchange=NMF, issuetype=PRIVX, sectype=MF, isocfi=CICGXX]
+ 
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Probabilities Sector Rotation Fund, shorname=PROSX, symbol=PROSX, symbol_string=PROSX, exchange=NMF, issuetype=PROSX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=PIMCO Funds Rae Fundamental Advantage Plus Fd Cl T, shorname=PRSTX, symbol=PRSTX, symbol_string=PRSTX, exchange=NMF, issuetype=PRSTX, sectype=null, isocfi=CIOIMX]
@@ -7870,7 +7782,7 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Penn Capital Enterprise 
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=PREDEX -, shorname=PWDEX, symbol=PWDEX, symbol_string=PWDEX, exchange=NMF, issuetype=PWDEX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=mutual fund, longname=Pax World Funds Series Trust I Global Opptys Instl Cl, shorname=PXGOX, symbol=PXGOX, symbol_string=PXGOX, exchange=NMF, issuetype=PXGOX, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=mutual fund, longname=Pax Global Opportunities Fund Institutional Class, shorname=PXGOX, symbol=PXGOX, symbol_string=PXGOX, exchange=NMF, issuetype=PXGOX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=PIMCO Funds Rae Fundamentals Plus Fd Cl T, shorname=PXTTX, symbol=PXTTX, symbol_string=PXTTX, exchange=NMF, issuetype=PXTTX, sectype=null, isocfi=CIOIMX]
  
@@ -8135,6 +8047,8 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Russell Investment Co Ta
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Russell Investment Co Tax-Exempt High Yield Bd Fd Cl A3, shorname=RHYMX, symbol=RHYMX, symbol_string=RHYMX, exchange=NMF, issuetype=RHYMX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Russell Investment Co Tax-Exempt High Yield Bd Fd Cl A2, shorname=RHYSX, symbol=RHYSX, symbol_string=RHYSX, exchange=NMF, issuetype=RHYSX, sectype=null, isocfi=CIOXMX]
+ 
+CompanyTickerInfo [instrumenttype=mutual fund, longname=ADT 1891 Cohen & Steers Real Estate Income Strategy Portfolio Series 2018-2Q, shorname=RISAAX, symbol=RISAAX, symbol_string=RISAAX, exchange=NMF, issuetype=RISAAX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=Russell Investment Co Invt Grade Bd Fd Cl A1, shorname=RIWAX, symbol=RIWAX, symbol_string=RIWAX, exchange=NMF, issuetype=RIWAX, sectype=null, isocfi=CIOXMX]
  
@@ -9982,8 +9896,6 @@ CompanyTickerInfo [instrumenttype=mutual fund, longname=Hines Global Income Trus
  
 CompanyTickerInfo [instrumenttype=mutual fund, longname=USA Mutuals Navigator Fund, shorname=ZNAVX, symbol=ZNAVX, symbol_string=ZNAVX, exchange=NMF, issuetype=ZNAVX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FXRXX, symbol=FXRXX, symbol_string=FXRXX, exchange=NMF, issuetype=FXRXX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Morgan Stanley U.S. Government Money Market Trust - S Class, shorname=DGEXX, symbol=DGEXX, symbol_string=DGEXX, exchange=NMF, issuetype=DGEXX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FYRXX, symbol=FYRXX, symbol_string=FYRXX, exchange=NMF, issuetype=FYRXX, sectype=null, isocfi=CIOIMX]
@@ -10002,61 +9914,55 @@ CompanyTickerInfo [instrumenttype=money market fund, longname=JPMorgan Municipal
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Government Money Market Fund:6, shorname=FNBXX, symbol=FNBXX, symbol_string=FNBXX, exchange=NMF, issuetype=FNBXX, sectype=null, isocfi=CIOILS]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Prime Private Liquidity Fund - Founders Shares, shorname=FNDXX, symbol=FNDXX, symbol_string=FNDXX, exchange=NMF, issuetype=FNDXX, sectype=null, isocfi=CIOIMX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Invesco Government Money Market Fund6, shorname=INVXX, symbol=INVXX, symbol_string=INVXX, exchange=NMF, issuetype=INVXX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Schwab Retirement Government Money Fund, shorname=SNRXX, symbol=SNRXX, symbol_string=SNRXX, exchange=NMF, issuetype=SNRXX, sectype=null, isocfi=CIOIMX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Prime Private Liquidity Fund - Founders Shares, shorname=FNDXX, symbol=FNDXX, symbol_string=FNDXX, exchange=NMF, issuetype=FNDXX, sectype=null, isocfi=CIOIMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Schwab U.S. Treasury Money Fund Investor Shares, shorname=SNSXX, symbol=SNSXX, symbol_string=SNSXX, exchange=NMF, issuetype=SNSXX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Columbia Government Money Market Fund3, shorname=CGMXX, symbol=CGMXX, symbol_string=CGMXX, exchange=NMF, issuetype=CGMXX, sectype=null, isocfi=CIOIXX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=Invesco Government Money Market Fund6, shorname=INVXX, symbol=INVXX, symbol_string=INVXX, exchange=NMF, issuetype=INVXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds TempCash - Capital, shorname=TPCXX, symbol=TPCXX, symbol_string=TPCXX, exchange=NMF, issuetype=TPCXX, sectype=null, isocfi=CIOXMX]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=State Street Institutional Treasury Plus Money Market  Fund - Trust Class, shorname=TPLXX, symbol=TPLXX, symbol_string=TPLXX, exchange=NMF, issuetype=TPLXX, sectype=null, isocfi=CIOIXX]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Massachusetts Municipal Cash Trust - WS Shares, shorname=MAWXX, symbol=MAWXX, symbol_string=MAWXX, exchange=NMF, issuetype=MAWXX, sectype=null, isocfi=CIOJMS]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=State Street Institutional Treasury Plus Money Market  Fund - Trust Class, shorname=TPLXX, symbol=TPLXX, symbol_string=TPLXX, exchange=NMF, issuetype=TPLXX, sectype=null, isocfi=CIOIXX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=Columbia Government Money Market Fund3, shorname=CGMXX, symbol=CGMXX, symbol_string=CGMXX, exchange=NMF, issuetype=CGMXX, sectype=null, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=U.S. Treasury Money Fund - I Class, shorname=TRGXX, symbol=TRGXX, symbol_string=TRGXX, exchange=NMF, issuetype=TRGXX, sectype=null, isocfi=CIOIMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Premier Portfolio Private Invt Cl Shs, shorname=IPTXX, symbol=IPTXX, symbol_string=IPTXX, exchange=NMF, issuetype=IPTXX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Premier Portfolio Personal Invt Cl Shs, shorname=IPVXX, symbol=IPVXX, symbol_string=IPVXX, exchange=NMF, issuetype=IPVXX, sectype=null, isocfi=CIOIXX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds Federal Trust Fund - Capital, shorname=BECXX, symbol=BECXX, symbol_string=BECXX, exchange=NMF, issuetype=BECXX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=U.S. Treasury Money Fund - I Class, shorname=TRGXX, symbol=TRGXX, symbol_string=TRGXX, exchange=NMF, issuetype=TRGXX, sectype=null, isocfi=CIOIMX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Summit Cash Reserves Fund -, shorname=MCBXX, symbol=MCBXX, symbol_string=MCBXX, exchange=NMF, issuetype=MCBXX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Prime Private Liquidity Fund - Premier Shares, shorname=PRMXX, symbol=PRMXX, symbol_string=PRMXX, exchange=NMF, issuetype=PRMXX, sectype=null, isocfi=CIOIMX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds FedFund - Capital, shorname=BFCXX, symbol=BFCXX, symbol_string=BFCXX, exchange=NMF, issuetype=BFCXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=New York Tax-Free Money Fund - I Class, shorname=TRNXX, symbol=TRNXX, symbol_string=TRNXX, exchange=NMF, issuetype=TRNXX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Summit Cash Reserves Fund -, shorname=MCBXX, symbol=MCBXX, symbol_string=MCBXX, exchange=NMF, issuetype=MCBXX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds Federal Trust Fund - Capital, shorname=BECXX, symbol=BECXX, symbol_string=BECXX, exchange=NMF, issuetype=BECXX, sectype=null, isocfi=CIOXMX]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Premier Portfolio Resource Cl Shs, shorname=IRCXX, symbol=IRCXX, symbol_string=IRCXX, exchange=NMF, issuetype=IRCXX, sectype=null, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds FedFund - Capital, shorname=BFCXX, symbol=BFCXX, symbol_string=BFCXX, exchange=NMF, issuetype=BFCXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Investments Money Market Prime Reserves Portfolio:, shorname=FDPXX, symbol=FDPXX, symbol_string=FDPXX, exchange=NMF, issuetype=FDPXX, sectype=null, isocfi=CIOXXX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds MuniCash - Capital, shorname=MCPXX, symbol=MCPXX, symbol_string=MCPXX, exchange=NMF, issuetype=MCPXX, sectype=null, isocfi=CIOXMX]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Pioneer U.S. Government Money Market Fund -, shorname=PRXXX, symbol=PRXXX, symbol_string=PRXXX, exchange=NMF, issuetype=PRXXX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds MuniCash - Capital, shorname=MCPXX, symbol=MCPXX, symbol_string=MCPXX, exchange=NMF, issuetype=MCPXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Premier Portfolio Reserve Cl Shs, shorname=IRVXX, symbol=IRVXX, symbol_string=IRVXX, exchange=NMF, issuetype=IRVXX, sectype=null, isocfi=CIOIXX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Dreyfus Treasury and Agency Liquidity Money Market Fund, shorname=DTLXX, symbol=DTLXX, symbol_string=DTLXX, exchange=NMF, issuetype=DTLXX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=American Funds U.S. Government Money Market Fund - Class 529-T, shorname=TSIXX, symbol=TSIXX, symbol_string=TSIXX, exchange=NMF, issuetype=TSIXX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FEIXX, symbol=FEIXX, symbol_string=FEIXX, exchange=NMF, issuetype=FEIXX, sectype=null, isocfi=CIOIMX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=Dreyfus Treasury and Agency Liquidity Money Market Fund, shorname=DTLXX, symbol=DTLXX, symbol_string=DTLXX, exchange=NMF, issuetype=DTLXX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Invesco Tax-Exempt Cash Fund6, shorname=TSSXX, symbol=TSSXX, symbol_string=TSSXX, exchange=NMF, issuetype=TSSXX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Government Obligations Fund, shorname=FPPXX, symbol=FPPXX, symbol_string=FPPXX, exchange=NMF, issuetype=FPPXX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Institutional Prime 60 Day Fund - SS Shares, shorname=FPSXX, symbol=FPSXX, symbol_string=FPSXX, exchange=NMF, issuetype=FPSXX, sectype=null, isocfi=CIOXXX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FPUXX, symbol=FPUXX, symbol_string=FPUXX, exchange=NMF, issuetype=FPUXX, sectype=null, isocfi=CIOIMX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FEIXX, symbol=FEIXX, symbol_string=FEIXX, exchange=NMF, issuetype=FEIXX, sectype=null, isocfi=CIOIMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=T. Rowe Price Government Money Fund - I Class, shorname=TTGXX, symbol=TTGXX, symbol_string=TTGXX, exchange=NMF, issuetype=TTGXX, sectype=null, isocfi=CIOIMX]
  
@@ -10064,57 +9970,65 @@ CompanyTickerInfo [instrumenttype=money market fund, longname=Pacific Capital U.
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=American Funds U.S. Government Money Market Fund -, shorname=TTMXX, symbol=TTMXX, symbol_string=TTMXX, exchange=NMF, issuetype=TTMXX, sectype=null, isocfi=CIOXMX]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=Government Obligations Fund, shorname=FPPXX, symbol=FPPXX, symbol_string=FPPXX, exchange=NMF, issuetype=FPPXX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Institutional Prime 60 Day Fund - SS Shares, shorname=FPSXX, symbol=FPSXX, symbol_string=FPSXX, exchange=NMF, issuetype=FPSXX, sectype=null, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FPUXX, symbol=FPUXX, symbol_string=FPUXX, exchange=NMF, issuetype=FPUXX, sectype=null, isocfi=CIOIMX]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Prime Private Liquidity Fund - Institutional Shares, shorname=ISSXX, symbol=ISSXX, symbol_string=ISSXX, exchange=NMF, issuetype=ISSXX, sectype=null, isocfi=CIOIMX]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=Pacific Capital U.S. Government Money Market Fund Investor Class, shorname=PCUXX, symbol=PCUXX, symbol_string=PCUXX, exchange=NMF, issuetype=PCUXX, sectype=null, isocfi=CIOGLS]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=U.S. Government Money Market Fund - G Class, shorname=AGGXX, symbol=AGGXX, symbol_string=AGGXX, exchange=NMF, issuetype=AGGXX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Maryland Tax-Free Money Fund - I  Class, shorname=TWNXX, symbol=TWNXX, symbol_string=TWNXX, exchange=NMF, issuetype=TWNXX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=AB Government Money Market Portfolio - AB, shorname=MYMXX, symbol=MYMXX, symbol_string=MYMXX, exchange=NMF, issuetype=MYMXX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=American Funds U.S. Government Money Market Fund - Class 529-F-2, shorname=FFFXX, symbol=FFFXX, symbol_string=FFFXX, exchange=NMF, issuetype=FFFXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Prime Private Liquidity Fund - Builders Shares, shorname=BLDXX, symbol=BLDXX, symbol_string=BLDXX, exchange=NMF, issuetype=BLDXX, sectype=null, isocfi=CIOIMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Pacific Capital U.S. Government Money Market Fund Investor Class, shorname=PCUXX, symbol=PCUXX, symbol_string=PCUXX, exchange=NMF, issuetype=PCUXX, sectype=null, isocfi=CIOGLS]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=AB Government Money Market Portfolio - AB, shorname=MYMXX, symbol=MYMXX, symbol_string=MYMXX, exchange=NMF, issuetype=MYMXX, sectype=null, isocfi=CIOIXX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Maryland Tax-Free Money Fund - I  Class, shorname=TWNXX, symbol=TWNXX, symbol_string=TWNXX, exchange=NMF, issuetype=TWNXX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Investments Money Market Prime Reserves Portfolio:II, shorname=FFPXX, symbol=FFPXX, symbol_string=FFPXX, exchange=NMF, issuetype=FFPXX, sectype=null, isocfi=CIOXXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds New York Money Fund - Capital, shorname=BNCXX, symbol=BNCXX, symbol_string=BNCXX, exchange=NMF, issuetype=BNCXX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=JPMorgan U.S. Government Money Market Fund- Eagle Private Wealth, shorname=AIKXX, symbol=AIKXX, symbol_string=AIKXX, exchange=NMF, issuetype=AIKXX, sectype=null, isocfi=CIOILS]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Ivy Cash Management Fund, shorname=IAAXX, symbol=IAAXX, symbol_string=IAAXX, exchange=NMF, issuetype=IAAXX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Ivy Cash Management Fund, shorname=IABXX, symbol=IABXX, symbol_string=IABXX, exchange=NMF, issuetype=IABXX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Institutional Funds MuniFund - Capital, shorname=BPCXX, symbol=BPCXX, symbol_string=BPCXX, exchange=NMF, issuetype=BPCXX, sectype=null, isocfi=CIOXMX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=JPMorgan U.S. Government Money Market Fund- Eagle Private Wealth, shorname=AIKXX, symbol=AIKXX, symbol_string=AIKXX, exchange=NMF, issuetype=AIKXX, sectype=null, isocfi=CIOILS]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Ivy Cash Management Fund, shorname=IACXX, symbol=IACXX, symbol_string=IACXX, exchange=NMF, issuetype=IACXX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Institutional Funds MuniFund - Capital, shorname=BPCXX, symbol=BPCXX, symbol_string=BPCXX, exchange=NMF, issuetype=BPCXX, sectype=null, isocfi=CIOXMX]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=BMO Institutional Prime Money Market Fund - Premier Class, shorname=BPFXX, symbol=BPFXX, symbol_string=BPFXX, exchange=NMF, issuetype=BPFXX, sectype=null, isocfi=CIOIXX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock California Money Fund - Capital, shorname=BPMXX, symbol=BPMXX, symbol_string=BPMXX, exchange=NMF, issuetype=BPMXX, sectype=null, isocfi=CIOXMX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Investments Money Market Prime Reserves Portfolio: Select Class, shorname=FGPXX, symbol=FGPXX, symbol_string=FGPXX, exchange=NMF, issuetype=FGPXX, sectype=null, isocfi=CIOXXX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=AB Government Money Market Portfolio Institutional, shorname=GMOXX, symbol=GMOXX, symbol_string=GMOXX, exchange=NMF, issuetype=GMOXX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=American Funds U.S. Government Money Market Fund --3, shorname=USGXX, symbol=USGXX, symbol_string=USGXX, exchange=NMF, issuetype=USGXX, sectype=null, isocfi=CICXMX]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock California Money Fund - Capital, shorname=BPMXX, symbol=BPMXX, symbol_string=BPMXX, exchange=NMF, issuetype=BPMXX, sectype=null, isocfi=CIOXMX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=AB Government Money Market Portfolio Institutional, shorname=GMOXX, symbol=GMOXX, symbol_string=GMOXX, exchange=NMF, issuetype=GMOXX, sectype=null, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Investments Money Market Prime Reserves Portfolio: Select Class, shorname=FGPXX, symbol=FGPXX, symbol_string=FGPXX, exchange=NMF, issuetype=FGPXX, sectype=null, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Ivy Government Money Market, shorname=WRNXX, symbol=WRNXX, symbol_string=WRNXX, exchange=NMF, issuetype=WRNXX, sectype=null, isocfi=CIOILS]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Government Obligations Fund, shorname=FGUXX, symbol=FGUXX, symbol_string=FGUXX, exchange=NMF, issuetype=FGUXX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=State Street Treasury Obligations Money Market Fund, shorname=TAQXX, symbol=TAQXX, symbol_string=TAQXX, exchange=NMF, issuetype=TAQXX, sectype=null, isocfi=CIOILS]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Government Obligations Fund - ADM Shares, shorname=GOEXX, symbol=GOEXX, symbol_string=GOEXX, exchange=NMF, issuetype=GOEXX, sectype=null, isocfi=CIOILS]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=State Street Institutional U.S. Government Money Market Fund, shorname=GOMXX, symbol=GOMXX, symbol_string=GOMXX, exchange=NMF, issuetype=GOMXX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Ivy Government Money Market, shorname=WRNXX, symbol=WRNXX, symbol_string=WRNXX, exchange=NMF, issuetype=WRNXX, sectype=null, isocfi=CIOILS]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=State Street Treasury Obligations Money Market Fund, shorname=TAQXX, symbol=TAQXX, symbol_string=TAQXX, exchange=NMF, issuetype=TAQXX, sectype=null, isocfi=CIOILS]
+CompanyTickerInfo [instrumenttype=money market fund, longname=T. Rowe Price Institutional Cash Reserves Fund, shorname=ICFXX, symbol=ICFXX, symbol_string=ICFXX, exchange=NMF, issuetype=ICFXX, sectype=null, isocfi=CIOIMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Goldman Sachs Investor Money Market Fundash Management, shorname=FHMXX, symbol=FHMXX, symbol_string=FHMXX, exchange=NMF, issuetype=FHMXX, sectype=null, isocfi=CIOIMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=T. Rowe Price Institutional Cash Reserves Fund, shorname=ICFXX, symbol=ICFXX, symbol_string=ICFXX, exchange=NMF, issuetype=ICFXX, sectype=null, isocfi=CIOIMX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=California Tax-Free Money Fund - I Class, shorname=TCBXX, symbol=TCBXX, symbol_string=TCBXX, exchange=NMF, issuetype=TCBXX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Investments Money Market Prime Reserves Portfolio: Institutional Class, shorname=FHPXX, symbol=FHPXX, symbol_string=FHPXX, exchange=NMF, issuetype=FHPXX, sectype=null, isocfi=CIOXXX]
  
@@ -10122,27 +10036,25 @@ CompanyTickerInfo [instrumenttype=money market fund, longname=Goldman Sachs Inve
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds Treasury Trust - Cash Reserve, shorname=BTFXX, symbol=BTFXX, symbol_string=BTFXX, exchange=NMF, issuetype=BTFXX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=California Tax-Free Money Fund - I Class, shorname=TCBXX, symbol=TCBXX, symbol_string=TCBXX, exchange=NMF, issuetype=TCBXX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds Treasury Trust - Capital, shorname=BUCXX, symbol=BUCXX, symbol_string=BUCXX, exchange=NMF, issuetype=BUCXX, sectype=null, isocfi=CIOXMX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=PIMCO Government Money Market Funds Administrative, shorname=PGOXX, symbol=PGOXX, symbol_string=PGOXX, exchange=NMF, issuetype=PGOXX, sectype=null, isocfi=CIOXXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=JPMorgan California Municipal Money Market Fund - Eagle, shorname=JCYXX, symbol=JCYXX, symbol_string=JCYXX, exchange=NMF, issuetype=JCYXX, sectype=null, isocfi=CIOIMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=PIMCO Government Money Market Funds Administrative, shorname=PGOXX, symbol=PGOXX, symbol_string=PGOXX, exchange=NMF, issuetype=PGOXX, sectype=null, isocfi=CIOXXX]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Institutional Prime 60 Day Fund - IS Shares, shorname=FIIXX, symbol=FIIXX, symbol_string=FIIXX, exchange=NMF, issuetype=FIIXX, sectype=null, isocfi=CIOXXX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=BlackRock Liquidity Funds Treasury Trust - Capital, shorname=BUCXX, symbol=BUCXX, symbol_string=BUCXX, exchange=NMF, issuetype=BUCXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Government Money Market Fund Institutional Class, shorname=PGVXX, symbol=PGVXX, symbol_string=PGVXX, exchange=NMF, issuetype=PGVXX, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=money market fund, longname=PIMCO Government Money Market Funds Institutional, shorname=PGYXX, symbol=PGYXX, symbol_string=PGYXX, exchange=NMF, issuetype=PGYXX, sectype=null, isocfi=CIOXXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Federated Institutional Prime 60 Day Fund - IS Shares, shorname=FIIXX, symbol=FIIXX, symbol_string=FIIXX, exchange=NMF, issuetype=FIIXX, sectype=null, isocfi=CIOXXX]
+ 
 CompanyTickerInfo [instrumenttype=money market fund, longname=BMO Institutional Prime Money Market Fund -, shorname=BYFXX, symbol=BYFXX, symbol_string=BYFXX, exchange=NMF, issuetype=BYFXX, sectype=null, isocfi=CIOIXX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=PIMCO Government Money Market Funds Institutional, shorname=PGYXX, symbol=PGYXX, symbol_string=PGYXX, exchange=NMF, issuetype=PGYXX, sectype=null, isocfi=CIOXXX]
+CompanyTickerInfo [instrumenttype=money market fund, longname=Semper U.S. Treasury Money Market Fund, shorname=SEMXX, symbol=SEMXX, symbol_string=SEMXX, exchange=NMF, issuetype=SEMXX, sectype=null, isocfi=CIOILS]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Cavanal Hill U.S. Treasury Select Share Class, shorname=APNXX, symbol=APNXX, symbol_string=APNXX, exchange=NMF, issuetype=APNXX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Cavanal Hill Government Securities Money Market Fund - Select Shares, shorname=APSXX, symbol=APSXX, symbol_string=APSXX, exchange=NMF, issuetype=APSXX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=money market fund, longname=Semper U.S. Treasury Money Market Fund, shorname=SEMXX, symbol=SEMXX, symbol_string=SEMXX, exchange=NMF, issuetype=SEMXX, sectype=null, isocfi=CIOILS]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=T. Rowe Price Tax-Exempt Money Fund - I Class, shorname=TERXX, symbol=TERXX, symbol_string=TERXX, exchange=NMF, issuetype=TERXX, sectype=null, isocfi=null]
  
@@ -10156,11 +10068,11 @@ CompanyTickerInfo [instrumenttype=money market fund, longname=Transamerica Gover
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Money Market Portfolio F, shorname=JHFXX, symbol=JHFXX, symbol_string=JHFXX, exchange=NMF, issuetype=JHFXX, sectype=null, isocfi=CIOXMX]
  
-CompanyTickerInfo [instrumenttype=money market fund, longname=Treasury Obligations Fund, shorname=FUPXX, symbol=FUPXX, symbol_string=FUPXX, exchange=NMF, issuetype=FUPXX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=money market fund, longname=Transamerica Government Money Market2, shorname=TGRXX, symbol=TGRXX, symbol_string=TGRXX, exchange=NMF, issuetype=TGRXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Transamerica Government Money Market3, shorname=TGTXX, symbol=TGTXX, symbol_string=TGTXX, exchange=NMF, issuetype=TGTXX, sectype=null, isocfi=CIOXMX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Treasury Obligations Fund, shorname=FUPXX, symbol=FUPXX, symbol_string=FUPXX, exchange=NMF, issuetype=FUPXX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FAPXX, symbol=FAPXX, symbol_string=FAPXX, exchange=NMF, issuetype=FAPXX, sectype=null, isocfi=CIOIMX]
  
@@ -10169,6 +10081,8 @@ CompanyTickerInfo [instrumenttype=money market fund, longname=Fidelity Flex Gove
 CompanyTickerInfo [instrumenttype=money market fund, longname=State Street Institutional Liquid Reserves Fund - Trust Class, shorname=TILXX, symbol=TILXX, symbol_string=TILXX, exchange=NMF, issuetype=TILXX, sectype=null, isocfi=CIOIXX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Morgan Stanley Tax-Free Daily Income Trust - S Class, shorname=DFRXX, symbol=DFRXX, symbol_string=DFRXX, exchange=NMF, issuetype=DFRXX, sectype=null, isocfi=CIOIXX]
+ 
+CompanyTickerInfo [instrumenttype=money market fund, longname=Retail Prime Obligations Fund, shorname=FXRXX, symbol=FXRXX, symbol_string=FXRXX, exchange=NMF, issuetype=FXRXX, sectype=null, isocfi=CIOXMX]
  
 CompanyTickerInfo [instrumenttype=money market fund, longname=Morgan Stanley California Tax-Free Daily Income Trust - S Class, shorname=DFSXX, symbol=DFSXX, symbol_string=DFSXX, exchange=NMF, issuetype=DFSXX, sectype=null, isocfi=CIOIXX]
  
@@ -10188,13 +10102,15 @@ CompanyTickerInfo [instrumenttype=equity, longname=Autolus Therapeutics plc, sho
  
 CompanyTickerInfo [instrumenttype=equity, longname=AVROBIO Inc., shorname=AVRO, symbol=AVRO, symbol_string=AVRO, exchange=NGS, issuetype=AVRO, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=BrightView Holdings Inc - Ordinary Shares, shorname=BV(EXP20180212), symbol=BV(EXP20180212), symbol_string=BV(EXP20180212), exchange=NGS, issuetype=BV(EXP20180212), sectype=EQS, isocfi=ESVUFR]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=CLPS Incorporation, shorname=CLPS, symbol=CLPS, symbol_string=CLPS, exchange=NSC, issuetype=CLPS, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Correvio Pharma Corp., shorname=CORV, symbol=CORV, symbol_string=CORV, exchange=NSC, issuetype=CORV, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Cowen Inc. 7.75% Senior Notes due 2033, shorname=COWNL, symbol=COWNL, symbol_string=COWNL, exchange=NGS, issuetype=COWNL, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Chicken Soup for the Soul Entertainment Inc - 9.75% PRF PERPETUAL USD 25 - Ser A, shorname=CSSEP, symbol=CSSEP, symbol_string=CSSEP, exchange=NSD, issuetype=CSSEP, sectype=null, isocfi=EPNCCR]
+CompanyTickerInfo [instrumenttype=equity, longname=Chicken Soup for the Soul Entertainment Inc. 9.75% Series A Cumulative Redeemable Perpetual Preferred Stock, shorname=CSSEP, symbol=CSSEP, symbol_string=CSSEP, exchange=NSD, issuetype=CSSEP, sectype=null, isocfi=EPNCCR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=First Trust Indxx Global Natural Resources Income, shorname=CU, symbol=CU, symbol_string=CU, exchange=NSD, issuetype=CU, sectype=null, isocfi=null]
  
@@ -10202,19 +10118,27 @@ CompanyTickerInfo [instrumenttype=equity, longname=Cytori Therapeutics Inc. Seri
  
 CompanyTickerInfo [instrumenttype=equity, longname=DERMAdoctor Inc - Ordinary Shares, shorname=DDOC, symbol=DDOC, symbol_string=DDOC, exchange=NSC, issuetype=DDOC, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Domo Inc, shorname=DOMO, symbol=DOMO, symbol_string=DOMO, exchange=NSD, issuetype=DOMO, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=electroCore Inc., shorname=ECOR, symbol=ECOR, symbol_string=ECOR, exchange=NGS, issuetype=ECOR, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=EuroDry Ltd., shorname=EDRY, symbol=EDRY, symbol_string=EDRY, exchange=NSC, issuetype=EDRY, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Eidos Therapeutics Inc., shorname=EIDX, symbol=EIDX, symbol_string=EIDX, exchange=NGS, issuetype=EIDX, sectype=null, isocfi=ESVUFR]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Entera Bio Ltd - Ordinary Shares, shorname=ENTX, symbol=ENTX, symbol_string=ENTX, exchange=NSC, issuetype=ENTX, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Entera Bio Ltd - Warrants (27/06/2023), shorname=ENTXW, symbol=ENTXW, symbol_string=ENTXW, exchange=NSC, issuetype=ENTXW, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=ESSA Pharma Inc., shorname=EPIX, symbol=EPIX, symbol_string=EPIX, exchange=NSC, issuetype=EPIX, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=EVER, shorname=EVER, symbol=EVER, symbol_string=EVER, exchange=NSD, issuetype=EVER, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=EVO Payments Inc., shorname=EVOP, symbol=EVOP, symbol_string=EVOP, exchange=NSD, issuetype=EVOP, sectype=null, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Forty Seven Inc - Ordinary Shares, shorname=FTSV, symbol=FTSV, symbol_string=FTSV, exchange=NGS, issuetype=FTSV, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=GoodBulk Ltd, shorname=GBLK, symbol=GBLK, symbol_string=GBLK, exchange=NSD, issuetype=GBLK, sectype=EQS, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=GoodBulk Ltd - Ordinary Shares, shorname=GBLK, symbol=GBLK, symbol_string=GBLK, exchange=NGS, issuetype=GBLK, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Grindrod Shipping Holdings Ltd., shorname=GRIN, symbol=GRIN, symbol_string=GRIN, exchange=NGS, issuetype=GRIN, sectype=EQS, isocfi=ESVUFR]
  
@@ -10230,7 +10154,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Hancock Whitney Corporation, 
  
 CompanyTickerInfo [instrumenttype=equity, longname=Hancock Whitney Corporation 5.95% Subordinated Notes due 2045, shorname=HWCPL, symbol=HWCPL, symbol_string=HWCPL, exchange=NGS, issuetype=HWCPL, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=HyreCar Inc - Ordinary Shares, shorname=HYRE, symbol=HYRE, symbol_string=HYRE, exchange=NSC, issuetype=HYRE, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=HyreCar Inc., shorname=HYRE, symbol=HYRE, symbol_string=HYRE, exchange=NSC, issuetype=HYRE, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=i3 Verticals Inc., shorname=IIIV, symbol=IIIV, symbol_string=IIIV, exchange=NGS, issuetype=IIIV, sectype=null, isocfi=ESVUFR]
  
@@ -10244,21 +10168,21 @@ CompanyTickerInfo [instrumenttype=equity, longname=Kiniksa Pharmaceuticals Ltd.,
  
 CompanyTickerInfo [instrumenttype=equity, longname=Kezar Life Sciences Inc., shorname=KZR, symbol=KZR, symbol_string=KZR, exchange=NGS, issuetype=KZR, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=LF Capital Acquisition Corp, shorname=LFAC, symbol=LFAC, symbol_string=LFAC, exchange=NSC, issuetype=LFAC, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=LF Capital Acquisition Corp - Ordinary Shares - Class A, shorname=LFAC, symbol=LFAC, symbol_string=LFAC, exchange=NSC, issuetype=LFAC, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=LF Capital Acquistion Corp. Unit, shorname=LFACU, symbol=LFACU, symbol_string=LFACU, exchange=NSC, issuetype=LFACU, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=LF Capital Acquisition Corp Wt Exp 2023, shorname=LFACW, symbol=LFACW, symbol_string=LFACW, exchange=NSC, issuetype=LFACW, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=LF Capital Acquisition Corp - Warrants (22/06/2025), shorname=LFACW, symbol=LFACW, symbol_string=LFACW, exchange=NSC, issuetype=LFACW, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Limestone Bancorp Inc., shorname=LMST, symbol=LMST, symbol_string=LMST, exchange=NSC, issuetype=LMST, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Lovesac Company - Ordinary Shares, shorname=LOVE, symbol=LOVE, symbol_string=LOVE, exchange=NSD, issuetype=LOVE, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=The Lovesac Company, shorname=LOVE, symbol=LOVE, symbol_string=LOVE, exchange=NSD, issuetype=LOVE, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Magenta Therapeutics Inc., shorname=MGTA, symbol=MGTA, symbol_string=MGTA, exchange=NSD, issuetype=MGTA, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=MeiraGTx Holdings plc, shorname=MGTX, symbol=MGTX, symbol_string=MGTX, exchange=NGS, issuetype=MGTX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Neon Therapeutics Inc - Ordinary Shares, shorname=NTGN, symbol=NTGN, symbol_string=NTGN, exchange=NGS, issuetype=NTGN, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Neon Therapeutics Inc., shorname=NTGN, symbol=NTGN, symbol_string=NTGN, exchange=NGS, issuetype=NTGN, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Oncolytics Biotech Inc., shorname=ONCY, symbol=ONCY, symbol_string=ONCY, exchange=NSC, issuetype=ONCY, sectype=EQS, isocfi=ESVUFR]
  
@@ -10276,9 +10200,11 @@ CompanyTickerInfo [instrumenttype=equity, longname=Sesen Bio Inc., shorname=SESN
  
 CompanyTickerInfo [instrumenttype=equity, longname=Scholar Rock Holding Corporation, shorname=SRRK, symbol=SRRK, symbol_string=SRRK, exchange=NGS, issuetype=SRRK, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Neuronetics Inc - Ordinary Shares, shorname=STIM, symbol=STIM, symbol_string=STIM, exchange=NSD, issuetype=STIM, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Taoping Inc., shorname=TAOP, symbol=TAOP, symbol_string=TAOP, exchange=NSC, issuetype=TAOP, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Translate Bio Inc - Ordinary Shares, shorname=TBIO, symbol=TBIO, symbol_string=TBIO, exchange=NSD, issuetype=TBIO, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Translate Bio Inc - Ordinary Shares, shorname=TBIO, symbol=TBIO, symbol_string=TBIO, exchange=NGS, issuetype=TBIO, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Thunder Bridge Acquisition Ltd. Unit, shorname=TBRGU, symbol=TBRGU, symbol_string=TBRGU, exchange=NSC, issuetype=TBRGU, sectype=null, isocfi=null]
  
@@ -10294,11 +10220,11 @@ CompanyTickerInfo [instrumenttype=equity, longname=Trinity Merger Corp., shornam
  
 CompanyTickerInfo [instrumenttype=equity, longname=Trinity Merger Corp. Warrant, shorname=TMCXW, symbol=TMCXW, symbol_string=TMCXW, exchange=NSC, issuetype=TMCXW, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Titan Medical Inc - Ordinary Shares, shorname=TMDI, symbol=TMDI, symbol_string=TMDI, exchange=NSC, issuetype=TMDI, sectype=EQS, isocfi=ESVUFR]
+CompanyTickerInfo [instrumenttype=equity, longname=Titan Medical Inc., shorname=TMDI, symbol=TMDI, symbol_string=TMDI, exchange=NSC, issuetype=TMDI, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Twelve Seas Investment Company Units, shorname=TWLVU, symbol=TWLVU, symbol_string=TWLVU, exchange=NSC, issuetype=TWLVU, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Uxin Ltd ADS, shorname=UXIN, symbol=UXIN, symbol_string=UXIN, exchange=NGS, issuetype=UXIN, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Uxin Limited, shorname=UXIN, symbol=UXIN, symbol_string=UXIN, exchange=NGS, issuetype=UXIN, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Verrica Pharmaceuticals Inc., shorname=VRCA, symbol=VRCA, symbol_string=VRCA, exchange=NSD, issuetype=VRCA, sectype=null, isocfi=null]
  
@@ -10323,8 +10249,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Advisors Disciplined Trust Un
 CompanyTickerInfo [instrumenttype=equity, longname=Advisors Disciplined Trust Unit 1881 Bric Advantage Ptf Ser 2018-2 Fee Based Reinvest, shorname=BRCAIX, symbol=BRCAIX, symbol_string=BRCAIX, exchange=NMF, issuetype=BRCAIX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Guggenheim Defined Portfolios Unit 1781 S&P Divid Aristocrats Select 25 Strategy Ptf Ser 12 Monthly Cash, shorname=CACTLX, symbol=CACTLX, symbol_string=CACTLX, exchange=NMF, issuetype=CACTLX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=Guggenheim Defined Portfolios Unit 1765 Advisory Ser Guggenheim Invt Grade Corp Tr 3-7 Yr Ser 2 Monthly Fee Cash, shorname=CAGIBX, symbol=CAGIBX, symbol_string=CAGIBX, exchange=NMF, issuetype=CAGIBX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Guggenheim Defined Portfolios Unit 1776 Alerian MLP Infrastructure & Income Ptf Ser 3 Monthly Cash, shorname=CAMICX, symbol=CAMICX, symbol_string=CAMICX, exchange=NMF, issuetype=CAMICX, sectype=null, isocfi=null]
  
@@ -10368,8 +10292,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7455 75/25 Strategic 
  
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 6983 Precious Metals Select Ptf Ser 41 Monthly Cash, shorname=FCHELX, symbol=FCHELX, symbol_string=FCHELX, exchange=NMF, issuetype=FCHELX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7438 Dow Jones Titans Ptf Ser 25 Semi Annual Cash, shorname=FDRYMX, symbol=FDRYMX, symbol_string=FDRYMX, exchange=NMF, issuetype=FDRYMX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7508 AI Robotics & Technology Opportunity Ptf Ser 4 Semi Annual Cash, shorname=FESWAX, symbol=FESWAX, symbol_string=FESWAX, exchange=NMF, issuetype=FESWAX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7457 Sr Ln & Divid Growers Ptf Ser 19 Monthly Cash, shorname=FGMTEX, symbol=FGMTEX, symbol_string=FGMTEX, exchange=NMF, issuetype=FGMTEX, sectype=null, isocfi=null]
@@ -10380,13 +10302,9 @@ CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7456 Balanced Income 
  
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7455 60/40 Strategic Allocation Ptf 3Q 18 Term 10/16/19 Monthly Cash, shorname=FHSKBX, symbol=FHSKBX, symbol_string=FHSKBX, exchange=NMF, issuetype=FHSKBX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7486 Global Bd Income Closed End Ptf Ser 29 Monthly Cash, shorname=FIQBRX, symbol=FIQBRX, symbol_string=FIQBRX, exchange=NMF, issuetype=FIQBRX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7448 Value Line Target Safety 30 3Q 18 Term 10/09/19 Semi-Annual Cash, shorname=FJITYX, symbol=FJITYX, symbol_string=FJITYX, exchange=NMF, issuetype=FJITYX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7419 Diversified Fixed Income ETF Ptf Ser 35 Monthly Cash, shorname=FJRTVX, symbol=FJRTVX, symbol_string=FJRTVX, exchange=NMF, issuetype=FJRTVX, sectype=null, isocfi=null]
- 
-CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7418 Sabrient Forward Looking Value Ptf Ser 6 Semi Annual Cash, shorname=FJVLQX, symbol=FJVLQX, symbol_string=FJVLQX, exchange=NMF, issuetype=FJVLQX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=FT Unit 7522 Mun Income Select Closed End Ptf Ser 96 Monthly Cash, shorname=FKLDPX, symbol=FKLDPX, symbol_string=FKLDPX, exchange=NMF, issuetype=FKLDPX, sectype=null, isocfi=null]
  
@@ -10486,8 +10404,6 @@ CompanyTickerInfo [instrumenttype=equity, longname=Advisors Disciplined Trust Un
  
 CompanyTickerInfo [instrumenttype=equity, longname=PIMCO Flexible Municipal Income Fund Com Shs Instl Cl, shorname=PMFLX, symbol=PMFLX, symbol_string=PMFLX, exchange=NMF, issuetype=PMFLX, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Advisors Disciplined Trust Unit 1891 Cohen & Steers Real Estate Income Strategy Ptf Ser 2018-2Q Cash, shorname=RISAAX, symbol=RISAAX, symbol_string=RISAAX, exchange=NMF, issuetype=RISAAX, sectype=null, isocfi=null]
- 
 CompanyTickerInfo [instrumenttype=equity, longname=Advisors Disciplined Trust Unit 1884 60/40 Asset Allocation Ptf Ser 2018-3Q Cash, shorname=SFAACX, symbol=SFAACX, symbol_string=SFAACX, exchange=NMF, issuetype=SFAACX, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Smart Trust Argus Dividend Growers Total Return Trust Series 17 Unit Cash, shorname=SMARQX, symbol=SMARQX, symbol_string=SMARQX, exchange=NMF, issuetype=SMARQX, sectype=null, isocfi=null]
@@ -10523,6 +10439,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=Advisors Disciplined Trust Un
 CompanyTickerInfo [instrumenttype=equity, longname=OTC108582, shorname=OTC108582, symbol=OTC108582, symbol_string=OTC108582, exchange=OBB, issuetype=OTC108582, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=OTC120304, shorname=OTC120304, symbol=OTC120304, symbol_string=OTC120304, exchange=OBB, issuetype=OTC120304, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=OTC95814, shorname=OTC95814, symbol=OTC95814, symbol_string=OTC95814, exchange=OBB, issuetype=OTC95814, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Test Mutual Fund 4 - PICE, shorname=TESTX, symbol=TESTX, symbol_string=TESTX, exchange=OBB, issuetype=TESTX, sectype=null, isocfi=null]
  
@@ -10714,6 +10632,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=Barclays PLC iPath EUR/USD Ex
  
 CompanyTickerInfo [instrumenttype=equity, longname=Essex Bio-Technology - Ordinary Shares, shorname=ESXBF, symbol=ESXBF, symbol_string=ESXBF, exchange=GREY, issuetype=ESXBF, sectype=EQS, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Easy Software AG (Germany), shorname=ESYYF, symbol=ESYYF, symbol_string=ESYYF, exchange=OTO, issuetype=ESYYF, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=European Investment Trust PLC, shorname=EUITF, symbol=EUITF, symbol_string=EUITF, exchange=OTO, issuetype=EUITF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Evolve Funds Group Inc - Evolve Marijuana ETF (Units), shorname=EVVLF, symbol=EVVLF, symbol_string=EVVLF, exchange=OTO, issuetype=EVVLF, sectype=null, isocfi=null]
@@ -10726,6 +10646,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=FDM Group (Holdings) Plc - Or
  
 CompanyTickerInfo [instrumenttype=equity, longname=Wolseley Plc Jersey ADR (Sponsored) 2013, shorname=FERGD, symbol=FERGD, symbol_string=FERGD, exchange=OTCQX, issuetype=FERGD, sectype=DR, isocfi=EDXXFR]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Firesteel Res Inc, shorname=FIEIF, symbol=FIEIF, symbol_string=FIEIF, exchange=GREY, issuetype=FIEIF, sectype=EQS, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Formosa International Hotels Corp., shorname=FILHF, symbol=FILHF, symbol_string=FILHF, exchange=GREY, issuetype=FILHF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Fission 3.0 Corp, shorname=FISOF, symbol=FISOF, symbol_string=FISOF, exchange=OTO, issuetype=FISOF, sectype=EQS, isocfi=ESVUFR]
@@ -10734,11 +10656,15 @@ CompanyTickerInfo [instrumenttype=equity, longname=Fintech Group AG - Registered
  
 CompanyTickerInfo [instrumenttype=equity, longname=Freedom Foods Group Ltd, shorname=FRDZF, symbol=FRDZF, symbol_string=FRDZF, exchange=GREY, issuetype=FRDZF, sectype=EQS, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Frontier Developments PLC, shorname=FRRDF, symbol=FRRDF, symbol_string=FRRDF, exchange=GREY, issuetype=FRRDF, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=FSD Pharma Inc - Ordinary Shares - Class B (Sub Voting), shorname=FSDDF, symbol=FSDDF, symbol_string=FSDDF, exchange=OTO, issuetype=FSDDF, sectype=null, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=First St Bancshares Inc - Ordinary Shares, shorname=FSTB, symbol=FSTB, symbol_string=FSTB, exchange=GREY, issuetype=FSTB, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Fortive Corp Pfd Conv Ser A, shorname=FTVVP, symbol=FTVVP, symbol_string=FTVVP, exchange=OTO, issuetype=FTVVP, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Forty Seven Inc - Ordinary Shares, shorname=FTSV(EXP20100603), symbol=FTSV(EXP20100603), symbol_string=FTSV(EXP20100603), exchange=OTO, issuetype=FTSV(EXP20100603), sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Fortive Corp Pfd Conv Ser A, shorname=FTVVP, symbol=FTVVP, symbol_string=FTVVP, exchange=OTO, issuetype=FTVVP, sectype=null, isocfi=EFNXCR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=iPath Bloomberg Natural Gas Subindeex Total Return ETN, shorname=GAZZF, symbol=GAZZF, symbol_string=GAZZF, exchange=GREY, issuetype=GAZZF, sectype=null, isocfi=EMXXXR]
  
@@ -10754,9 +10680,13 @@ CompanyTickerInfo [instrumenttype=equity, longname=Giga-Byte Technology Co. Ltd.
  
 CompanyTickerInfo [instrumenttype=equity, longname=Genocea Biosciences Inc - Warrants - Class A (09/01/2023), shorname=GGNNW, symbol=GGNNW, symbol_string=GGNNW, exchange=OTO, issuetype=GGNNW, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=GGTTF, shorname=GGTTF, symbol=GGTTF, symbol_string=GGTTF, exchange=OTO, issuetype=GGTTF, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=GIXED, shorname=GIXED, symbol=GIXED, symbol_string=GIXED, exchange=OTO, issuetype=GIXED, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Goldplay Exploration Ltd - Ordinary Shares, shorname=GLYXF, symbol=GLYXF, symbol_string=GLYXF, exchange=OTCQB, issuetype=GLYXF, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Grand Mountain Bancshares Inc, shorname=GMBB, symbol=GMBB, symbol_string=GMBB, exchange=GREY, issuetype=GMBB, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Grand Mountain Bancshares Inc, shorname=GMBB, symbol=GMBB, symbol_string=GMBB, exchange=OTO, issuetype=GMBB, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=VetaNova Inc, shorname=GMVID, symbol=GMVID, symbol_string=GMVID, exchange=OTO, issuetype=GMVID, sectype=EQS, isocfi=ESVTFR]
  
@@ -10813,6 +10743,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=HQDA Elderly Life Network Cor
 CompanyTickerInfo [instrumenttype=equity, longname=Health-Right Discoveries Inc - Ordinary Shares, shorname=HRDV, symbol=HRDV, symbol_string=HRDV, exchange=GREY, issuetype=HRDV, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Hut 8 Mining Corp - Ordinary Shares, shorname=HUTMF, symbol=HUTMF, symbol_string=HUTMF, exchange=OTCQX, issuetype=HUTMF, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Heyu Biological Technology Corp, shorname=HYBT, symbol=HYBT, symbol_string=HYBT, exchange=OTO, issuetype=HYBT, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Hyundai Elevator Co.Ltd. (South Korea), shorname=HYEVF, symbol=HYEVF, symbol_string=HYEVF, exchange=OTO, issuetype=HYEVF, sectype=null, isocfi=null]
  
@@ -10890,15 +10822,19 @@ CompanyTickerInfo [instrumenttype=equity, longname=Katipult Technology Corp - Or
  
 CompanyTickerInfo [instrumenttype=equity, longname=KT High-Tech Marketing Inc, shorname=KUTG, symbol=KUTG, symbol_string=KUTG, exchange=OTO, issuetype=KUTG, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=KVLQD, shorname=KVLQD, symbol=KVLQD, symbol_string=KVLQD, exchange=GREY, issuetype=KVLQD, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Kyocera Corporation, shorname=KYOCY, symbol=KYOCY, symbol_string=KYOCY, exchange=OTO, issuetype=KYOCY, sectype=DR, isocfi=EDXXXX]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Liberty Holdings Ltd., shorname=LBBTF, symbol=LBBTF, symbol_string=LBBTF, exchange=GREY, issuetype=LBBTF, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Liberty Holdings Ltd., shorname=LBBTF, symbol=LBBTF, symbol_string=LBBTF, exchange=GREY, issuetype=LBBTF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Lee Chang Yung Chemical Industrial Corp., shorname=LCYGF, symbol=LCYGF, symbol_string=LCYGF, exchange=GREY, issuetype=LCYGF, sectype=null, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Lindab International AB, shorname=LDINF, symbol=LDINF, symbol_string=LDINF, exchange=GREY, issuetype=LDINF, sectype=EQS, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Lite-On Japan Ltd, shorname=LTJPF, symbol=LTJPF, symbol_string=LTJPF, exchange=OTO, issuetype=LTJPF, sectype=null, isocfi=null]
  
-CompanyTickerInfo [instrumenttype=equity, longname=Leviathan Cannabis Group Inc, shorname=LVCNF, symbol=LVCNF, symbol_string=LVCNF, exchange=GREY, issuetype=LVCNF, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Leviathan Cannabis Group Inc, shorname=LVCNF, symbol=LVCNF, symbol_string=LVCNF, exchange=GREY, issuetype=LVCNF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Globalive Technology Inc. - Ordinary Shares, shorname=LVVEF, symbol=LVVEF, symbol_string=LVVEF, exchange=OTO, issuetype=LVVEF, sectype=EQS, isocfi=ESVXFR]
  
@@ -10968,6 +10904,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=Nuvera Communications Inc - O
  
 CompanyTickerInfo [instrumenttype=equity, longname=Noble Vici Group Inc, shorname=NVGID, symbol=NVGID, symbol_string=NVGID, exchange=OTO, issuetype=NVGID, sectype=EQS, isocfi=ESVUFR]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Nexeon MedSystems Inc, shorname=NXNND, symbol=NXNND, symbol_string=NXNND, exchange=OTCQB, issuetype=NXNND, sectype=EQS, isocfi=ESVUFR]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Oakley Capital Investments Ltd - Ordinary Shares, shorname=OCIVF, symbol=OCIVF, symbol_string=OCIVF, exchange=GREY, issuetype=OCIVF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Optium Cyber Systems Inc, shorname=OCSY, symbol=OCSY, symbol_string=OCSY, exchange=OTO, issuetype=OCSY, sectype=EQS, isocfi=ESVUFR]
@@ -10975,6 +10913,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=Optium Cyber Systems Inc, sho
 CompanyTickerInfo [instrumenttype=equity, longname=Ocean Outdoor Ltd, shorname=OCTPF, symbol=OCTPF, symbol_string=OCTPF, exchange=GREY, issuetype=OCTPF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Oracle Energy Corp, shorname=OECCF, symbol=OECCF, symbol_string=OECCF, exchange=GREY, issuetype=OECCF, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Origin Property Public Company Ltd, shorname=OGGPF, symbol=OGGPF, symbol_string=OGGPF, exchange=GREY, issuetype=OGGPF, sectype=EQS, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Barclays Bank Plc iPath Exchange Traded Notes Linked to Goldman Sachs Crude Oil Total Return, shorname=OILNF, symbol=OILNF, symbol_string=OILNF, exchange=OTO, issuetype=OILNF, sectype=ETF, isocfi=EYXXXX]
  
@@ -10986,11 +10926,23 @@ CompanyTickerInfo [instrumenttype=equity, longname=Opawica Explorations Inc, sho
  
 CompanyTickerInfo [instrumenttype=equity, longname=Osprey Medical Inc - Chess Depository Interest, shorname=OSPMZ, symbol=OSPMZ, symbol_string=OSPMZ, exchange=GREY, issuetype=OSPMZ, sectype=DR, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=OTC127537, shorname=OTC127537, symbol=OTC127537, symbol_string=OTC127537, exchange=OTCQB, issuetype=OTC127537, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=OTC132267, shorname=OTC132267, symbol=OTC132267, symbol_string=OTC132267, exchange=GREY, issuetype=OTC132267, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=OTC244389, shorname=OTC244389, symbol=OTC244389, symbol_string=OTC244389, exchange=GREY, issuetype=OTC244389, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=OTC254097, shorname=OTC254097, symbol=OTC254097, symbol_string=OTC254097, exchange=OTO, issuetype=OTC254097, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=OTC268600, shorname=OTC268600, symbol=OTC268600, symbol_string=OTC268600, exchange=GREY, issuetype=OTC268600, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=OTC315509, shorname=OTC315509, symbol=OTC315509, symbol_string=OTC315509, exchange=OTO, issuetype=OTC315509, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=OTC315555, shorname=OTC315555, symbol=OTC315555, symbol_string=OTC315555, exchange=GREY, issuetype=OTC315555, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=OTC315559, shorname=OTC315559, symbol=OTC315559, symbol_string=OTC315559, exchange=GREY, issuetype=OTC315559, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=OTC315560, shorname=OTC315560, symbol=OTC315560, symbol_string=OTC315560, exchange=GREY, issuetype=OTC315560, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=OTC66592, shorname=OTC66592, symbol=OTC66592, symbol_string=OTC66592, exchange=GREY, issuetype=OTC66592, sectype=null, isocfi=null]
  
@@ -11016,7 +10968,11 @@ CompanyTickerInfo [instrumenttype=equity, longname=Ping An Healthcare And Techno
  
 CompanyTickerInfo [instrumenttype=equity, longname=Pierrel SpA (Napoli), shorname=PIELF, symbol=PIELF, symbol_string=PIELF, exchange=GREY, issuetype=PIELF, sectype=EQS, isocfi=null]
  
+CompanyTickerInfo [instrumenttype=equity, longname=Priority Income Fund Inc Term Pfd Ser A, shorname=PIFNP, symbol=PIFNP, symbol_string=PIFNP, exchange=GREY, issuetype=PIFNP, sectype=null, isocfi=null]
+ 
 CompanyTickerInfo [instrumenttype=equity, longname=Piksel Inc. - Ordinary Shares - Class A-2, shorname=PIKL, symbol=PIKL, symbol_string=PIKL, exchange=GREY, issuetype=PIKL, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Polarean Imaging PLC, shorname=PLLWF, symbol=PLLWF, symbol_string=PLLWF, exchange=OTO, issuetype=PLLWF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Plenus Co Ltd, shorname=PLNNF, symbol=PLNNF, symbol_string=PLNNF, exchange=GREY, issuetype=PLNNF, sectype=EQS, isocfi=null]
  
@@ -11034,7 +10990,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Location Sciences Group PLC, 
  
 CompanyTickerInfo [instrumenttype=equity, longname=Quantum Numbers Corp - Ordinary Shares, shorname=QNCCF, symbol=QNCCF, symbol_string=QNCCF, exchange=OTO, issuetype=QNCCF, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=QTS Realty Trust Inc Cum Perp Pfd Conv Ser B, shorname=QTTTP, symbol=QTTTP, symbol_string=QTTTP, exchange=OTO, issuetype=QTTTP, sectype=null, isocfi=EPNNFR]
+CompanyTickerInfo [instrumenttype=equity, longname=QTTTP, shorname=QTTTP, symbol=QTTTP, symbol_string=QTTTP, exchange=OTO, issuetype=QTTTP, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Quartz Mountain Res Ltd, shorname=QZMRF, symbol=QZMRF, symbol_string=QZMRF, exchange=GREY, issuetype=QZMRF, sectype=EQS, isocfi=ESVUFR]
  
@@ -11067,6 +11023,8 @@ CompanyTickerInfo [instrumenttype=equity, longname=RMR Science Technologies Inc 
 CompanyTickerInfo [instrumenttype=equity, longname=RNREF, shorname=RNREF, symbol=RNREF, symbol_string=RNREF, exchange=OTO, issuetype=RNREF, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Rokk3r Inc, shorname=ROKK, symbol=ROKK, symbol_string=ROKK, exchange=OTO, issuetype=ROKK, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=True Blue Holdings Inc, shorname=ROKRD, symbol=ROKRD, symbol_string=ROKRD, exchange=OTO, issuetype=ROKRD, sectype=EQS, isocfi=ESVUFN]
  
 CompanyTickerInfo [instrumenttype=equity, longname=iPath Long Extended Russell 1000 TR Index ETN, shorname=ROLAF, symbol=ROLAF, symbol_string=ROLAF, exchange=OTO, issuetype=ROLAF, sectype=null, isocfi=EYXXXX]
  
@@ -11116,7 +11074,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Silver Grant International In
  
 CompanyTickerInfo [instrumenttype=equity, longname=Horrison Resources Inc, shorname=SLPC, symbol=SLPC, symbol_string=SLPC, exchange=OTO, issuetype=SLPC, sectype=null, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=SLRFF, shorname=SLRFF, symbol=SLRFF, symbol_string=SLRFF, exchange=GREY, issuetype=SLRFF, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=SLRFF, shorname=SLRFF, symbol=SLRFF, symbol_string=SLRFF, exchange=GREY, issuetype=SLRFF, sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=Smx Corp, shorname=SMXP, symbol=SMXP, symbol_string=SMXP, exchange=CVEM, issuetype=SMXP, sectype=EQS, isocfi=ESVUFR]
  
@@ -11150,7 +11108,7 @@ CompanyTickerInfo [instrumenttype=equity, longname=Sydbank A/S, shorname=SYANF, 
  
 CompanyTickerInfo [instrumenttype=equity, longname=Global Atomic, shorname=SYIFD, symbol=SYIFD, symbol_string=SYIFD, exchange=OTO, issuetype=SYIFD, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=SYNVP, shorname=SYNVP, symbol=SYNVP, symbol_string=SYNVP, exchange=OTO, issuetype=SYNVP, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=Synovus Financial, shorname=SYNVP, symbol=SYNVP, symbol_string=SYNVP, exchange=OTO, issuetype=SYNVP, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=TBC Bank Group Plc. - Ordinary Shares, shorname=TBCCF, symbol=TBCCF, symbol_string=TBCCF, exchange=OTO, issuetype=TBCCF, sectype=EQS, isocfi=null]
  
@@ -11264,11 +11222,13 @@ CompanyTickerInfo [instrumenttype=equity, longname=Biglari Holdings Inc. Class A
  
 CompanyTickerInfo [instrumenttype=equity, longname=BlackRock Virginia Municipal Bond Trust, shorname=BHV, symbol=BHV, symbol_string=BHV, exchange=NYE, issuetype=BHV, sectype=EQS, isocfi=CICIXX]
  
-CompanyTickerInfo [instrumenttype=equity, longname=BJ's Wholesale Club Holdings Inc, shorname=BJ, symbol=BJ, symbol_string=BJ, exchange=NYE, issuetype=BJ, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=BJ's Wholesale Club Holdings Inc., shorname=BJ, symbol=BJ, symbol_string=BJ, exchange=NYE, issuetype=BJ, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=BJ`s Wholesale Club Holdings Inc - Ordinary Shares, shorname=BJ(EXP20111130), symbol=BJ(EXP20111130), symbol_string=BJ(EXP20111130), exchange=NYE, issuetype=BJ(EXP20111130), sectype=EQS, isocfi=ESVUFR]
  
 CompanyTickerInfo [instrumenttype=equity, longname=BlackRock Municipal Income Trust II, shorname=BLE, symbol=BLE, symbol_string=BLE, exchange=NYE, issuetype=BLE, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerInfo [instrumenttype=equity, longname=BrightView Holdings Inc, shorname=BV, symbol=BV, symbol_string=BV, exchange=NYE, issuetype=BV, sectype=null, isocfi=null]
+CompanyTickerInfo [instrumenttype=equity, longname=BrightView Holdings Inc., shorname=BV, symbol=BV, symbol_string=BV, exchange=NYE, issuetype=BV, sectype=null, isocfi=null]
  
 CompanyTickerInfo [instrumenttype=equity, longname=BlackRock Maryland Municipal Bond Trust of beneficial interest, shorname=BZM, symbol=BZM, symbol_string=BZM, exchange=NYE, issuetype=BZM, sectype=EQS, isocfi=CICIXX]
  
@@ -11278,4 +11238,42 @@ CompanyTickerInfo [instrumenttype=equity, longname=Chubb INA Holdings Inc 2.500%
  
 CompanyTickerInfo [instrumenttype=equity, longname=Canopy Growth Corporation, shorname=CGC, symbol=CGC, symbol_string=CGC, exchange=NYE, issuetype=CGC, sectype=EQS, isocfi=ESVUFR]
  
-CompanyTickerI
+CompanyTickerInfo [instrumenttype=equity, longname=Charah Solutions Inc., shorname=CHRA, symbol=CHRA, symbol_string=CHRA, exchange=NYE, issuetype=CHRA, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony NorthStar Inc. 8.5% Series D cumulative redeemable perpetual preferred stock, shorname=CLNS.P.D.CL, symbol=CLNS.P.D.CL, symbol_string=CLNS.P.D.CL, exchange=NYE, issuetype=CLNS.P.D.CL, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc., shorname=CLNY, symbol=CLNY, symbol_string=CLNY, exchange=NYE, issuetype=CLNY, sectype=EQS, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 8.25% Series B cumulative redeemable perpetual preferred stock, shorname=CLNY.P.B, symbol=CLNY.P.B, symbol_string=CLNY.P.B, exchange=NYE, issuetype=CLNY.P.B, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 8.75% Series E cumulative redeemable perpetual preferred stock, shorname=CLNY.P.E, symbol=CLNY.P.E, symbol_string=CLNY.P.E, exchange=NYE, issuetype=CLNY.P.E, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.50% Series G cumulative redeemable perpetual preferred stock, shorname=CLNY.P.G, symbol=CLNY.P.G, symbol_string=CLNY.P.G, exchange=NYE, issuetype=CLNY.P.G, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.125% Series H cumulative redeemable perpetual preferred stock, shorname=CLNY.P.H, symbol=CLNY.P.H, symbol_string=CLNY.P.H, exchange=NYE, issuetype=CLNY.P.H, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.15% Series I Cumulative Redeemable Perpetual Preferred Stock, shorname=CLNY.P.I, symbol=CLNY.P.I, symbol_string=CLNY.P.I, exchange=NYE, issuetype=CLNY.P.I, sectype=PRF, isocfi=EPNRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Colony Capital Inc. 7.125% Series J Cumulative Redeemable Perpetual Preferred Stock, shorname=CLNY.P.J, symbol=CLNY.P.J, symbol_string=CLNY.P.J, exchange=NYE, issuetype=CLNY.P.J, sectype=PRF, isocfi=EPVRCR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=CorePoint Lodging Inc., shorname=CPLG, symbol=CPLG, symbol_string=CPLG, exchange=NYE, issuetype=CPLG, sectype=null, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Covia Holdings Corporation, shorname=CVIA, symbol=CVIA, symbol_string=CVIA, exchange=NYE, issuetype=CVIA, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=DCP Midstream LP 7.875% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units, shorname=DCP.P.B, symbol=DCP.P.B, symbol_string=DCP.P.B, exchange=NYE, issuetype=DCP.P.B, sectype=null, isocfi=EPVRAR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=DDR Corp. Ex-Distribution When Issued, shorname=DDR.W, symbol=DDR.W, symbol_string=DDR.W, exchange=NYE, issuetype=DDR.W, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Essential Properties Realty Trust Inc., shorname=EPRT, symbol=EPRT, symbol_string=EPRT, exchange=NYE, issuetype=EPRT, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Equinor ASA, shorname=EQNR, symbol=EQNR, symbol_string=EQNR, exchange=NYE, issuetype=EQNR, sectype=DR, isocfi=EDSXFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=EverQuote Inc - Ordinary Shares - Class A, shorname=EVER(EXP20170619), symbol=EVER(EXP20170619), symbol_string=EVER(EXP20170619), exchange=NYE, issuetype=EVER(EXP20170619), sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Evergy Inc., shorname=EVRG, symbol=EVRG, symbol_string=EVRG, exchange=NYE, issuetype=EVRG, sectype=null, isocfi=ESVUFR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Far Point Acquisition Corporation Class A, shorname=FPAC, symbol=FPAC, symbol_string=FPAC, exchange=NYE, issuetype=FPAC, sectype=null, isocfi=null]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Far Point Acquisition Corporation Units each consisting of one share of Class A common stock $0.0001 par value and one-third of one redeemable warrant, shorname=FPAC.U, symbol=FPAC.U, symbol_string=FPAC.U, exchange=NYE, issuetype=FPAC.U, sectype=null, isocfi=MCAUXR]
+ 
+CompanyTickerInfo [instrumenttype=equity, longname=Far Point Acquisition Corporation Warrants exercisable for one share of Class A Common Sto

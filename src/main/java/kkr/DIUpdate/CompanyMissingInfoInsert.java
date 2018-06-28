@@ -82,7 +82,7 @@ public class CompanyMissingInfoInsert {
 		return null;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		try {
 			Connection cLocal = DataBaseUtils.connectkkrDev();
 			createSectorMap();
@@ -226,7 +226,7 @@ public class CompanyMissingInfoInsert {
 
 			}
 
-		} catch (ClassNotFoundException | SQLException e1) {
+		} catch (ClassNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		} catch (IOException e2) {
