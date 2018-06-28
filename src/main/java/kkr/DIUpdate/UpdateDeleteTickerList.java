@@ -49,6 +49,20 @@ public class UpdateDeleteTickerList {
 		con.setAutoCommit(true);
 		return con;
 	}
+	
+	public static Connection connectkkrDev() throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.jdbc.Driver");
+		/*
+		 * Connection string for kkrdev
+		 * "jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true"
+		 * ,"kkr_app","kkr123"
+		 */
+		Connection con = (Connection) DriverManager
+				.getConnection("jdbc:mysql://kkrdev.craeiofbogb9.us-west-2.rds.amazonaws.com:3306/kkrdb?rewriteBatchedStatements=true","kkr_app","kkr123");
+		con.setAutoCommit(true);
+		return con;
+	}
+	
 
 	public static void typeMapCreation(Connection con) throws SQLException {
 		String sql = "SELECT DISTINCT Type FROM `kkr_company`";
@@ -237,9 +251,21 @@ public class UpdateDeleteTickerList {
 
 	public static void main(String[] args) throws SQLException, IOException, ClassNotFoundException {
 		Connection cLocal = null;
+
 		PreparedStatement pSLocal = null;
 		cLocal = connectLocal();
 		pSLocal = cLocal.prepareStatement(iStatement);
+
+	//	PreparedStatement pSLocal = null;
+		try {
+			cLocal = connectkkrDev();
+			//pSLocal = cLocal.prepareStatement(iStatement);
+		} catch (ClassNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+			System.exit(1);
+		}
+
 		// TODO Auto-generated method stub
 		createAllListnMaps(cLocal);
 		CreateAddDeleteList(cLocal);
